@@ -115,22 +115,22 @@ public:
         pchMessageStart[2] = 0xd9;
         pchMessageStart[3] = 0x0c;
         vAlertPubKey = ParseHex("047e0ecd1d96c6c02e18f702d4b19006ead8639f26dc0a606a673a68cd0731e0d5e754a374ed7fdf0029331c8842c9720a1ed2a3f557e4c6a69b8421a3a2c50cf1");
-        nDefaultPort = 37817;
+        nDefaultPort = 20123;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // TF starting difficulty is 1 / 2^12
-        nSubsidyHalvingInterval = 0;
+        nSubsidyHalvingInterval = 250000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60;
-        nTargetSpacing = 2 * 60;  // TF: 2 minute
+        nTargetSpacing =  90;  // TF: 2 minute
         nMaturity = 60;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 10000000000 * COIN;
+        nMaxMoneyOut = 15000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 400;
+        nLastPOWBlock = 300;
         nModifierUpdateBlock = 200;
         nZerocoinStartHeight = 15000000;
         nZerocoinStartTime = 4070908800;
@@ -173,21 +173,11 @@ public:
         assert(hashGenesisBlock == uint256("0x000005be66f923b87a837a9061007c9bbf1a09cad2ee598439b14bdd8310e85f"));
         assert(genesis.hashMerkleRoot == uint256("0x50edf3fb7e86c96b6167d30af1ae150d409e8ddb8fad7fee026c5db25b8d8b25"));
 
-        vSeeds.push_back(CDNSSeedData("18.228.216.158", "18.228.216.158")); //Brazil
-        vSeeds.push_back(CDNSSeedData("13.210.111.12", "13.210.111.12"));   //Australia
-        vSeeds.push_back(CDNSSeedData("46.19.210.197", "46.19.210.197"));   //Germany
-        vSeeds.push_back(CDNSSeedData("46.19.214.68", "46.19.214.68"));     //Singapore
-        vSeeds.push_back(CDNSSeedData("142.93.145.197", "142.93.145.197")); //Toronto
-        vSeeds.push_back(CDNSSeedData("159.65.84.118", "159.65.84.118"));   //London
-        vSeeds.push_back(CDNSSeedData("167.99.223.138", "167.99.223.138")); //Amsterdam
-        vSeeds.push_back(CDNSSeedData("68.183.161.44", "68.183.161.44"));   //San Fransisco
-        vSeeds.push_back(CDNSSeedData("46.19.212.68", "46.19.212.68"));     //LA
-        vSeeds.push_back(CDNSSeedData("46.19.213.68", "46.19.213.68"));     //Miami
-        vSeeds.push_back(CDNSSeedData("46.19.209.68", "46.19.209.68"));     //New York
+        vSeeds.push_back(CDNSSeedData("80.211.97.48", "80.211.97.48")); //Brazil
+        vSeeds.push_back(CDNSSeedData("35.228.223.14", "35.228.223.14"));
+        devAddress = "";
 
-        devAddress = "WmXhHCV6PjXjxJdSXPeC8e4PrY8qTQMBFg";
-
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 73);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 83);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 66);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
