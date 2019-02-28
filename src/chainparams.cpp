@@ -54,11 +54,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0000071cf2d95aec5ba4818418756c93cb12cd627191710e8969f2f35c3530de")) // genesis
-    (2000, uint256("70362c3e307213d37dcc57d89f64d9bdeb7779e368f1c34c9b24af0dce72a6ae"));
+    (0, uint256("000005be66f923b87a837a9061007c9bbf1a09cad2ee598439b14bdd8310e85f")); // genesis
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1546790318, // * UNIX timestamp of last checkpoint block
+    1537120201, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     0           // * estimated number of transactions per day after checkpoint
@@ -110,10 +110,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x2f;
-        pchMessageStart[1] = 0x1c;
-        pchMessageStart[2] = 0xd3;
-        pchMessageStart[3] = 0x0a;
+        pchMessageStart[0] = 0x5f;
+        pchMessageStart[1] = 0x1d;
+        pchMessageStart[2] = 0xd9;
+        pchMessageStart[3] = 0x0c;
         vAlertPubKey = ParseHex("047e0ecd1d96c6c02e18f702d4b19006ead8639f26dc0a606a673a68cd0731e0d5e754a374ed7fdf0029331c8842c9720a1ed2a3f557e4c6a69b8421a3a2c50cf1");
         nDefaultPort = 37817;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // TF starting difficulty is 1 / 2^12
@@ -154,7 +154,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "BBC 2018/12/31 Global markets in worst year since 2008";
+        const char* pszTimestamp = "Trump-Kim summit: North Korea says it will not change stance";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -165,13 +165,13 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1546790318;
+        genesis.nTime = 1551384879;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 348223;
+        genesis.nNonce = 999996;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000071cf2d95aec5ba4818418756c93cb12cd627191710e8969f2f35c3530de"));
-        assert(genesis.hashMerkleRoot == uint256("0x4271a3d993d6157f960de646ce8dfad07989dfd0703064f8056d1a7287283d06"));
+        assert(hashGenesisBlock == uint256("0x000005be66f923b87a837a9061007c9bbf1a09cad2ee598439b14bdd8310e85f"));
+        assert(genesis.hashMerkleRoot == uint256("0x50edf3fb7e86c96b6167d30af1ae150d409e8ddb8fad7fee026c5db25b8d8b25"));
 
         vSeeds.push_back(CDNSSeedData("18.228.216.158", "18.228.216.158")); //Brazil
         vSeeds.push_back(CDNSSeedData("13.210.111.12", "13.210.111.12"));   //Australia
