@@ -1864,11 +1864,8 @@ int64_t GetBlockValue(int nHeight)
     if (nHeight == 1) {
         nSubsidy = 100000 * COIN;
 
-    // Release 15220.70 TF as a reward for each block
-    // until max supply of 100 000 000 000 TF will
-    // be mathematically reachet at block 659605.
-    } else if (nHeight < 6569605)  {
-        nSubsidy = 15220.70 * COIN;
+    } else if (nHeight < 6569605)  {    // TODO: calculate when max supply reached
+        nSubsidy = 13.9 * COIN;
 
     } else {
         nSubsidy = 0;
