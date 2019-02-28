@@ -2880,6 +2880,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     }
 
     // <TF
+    /*
     if (pindex->pprev->nHeight >= 2) {
       CAmount devReward = nExpectedMint * .10;
       if (devReward > 0) {
@@ -2898,6 +2899,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         }
       }
     }
+    */
     // TF>
 
     // Ensure that accumulator checkpoints are valid and in the same state as this instance of the chain
