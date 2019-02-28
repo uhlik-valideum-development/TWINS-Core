@@ -21,7 +21,7 @@ bool fTestNet = false; //Params().NetworkID() == CBaseChainParams::TESTNET;
 // Modifier interval: time to elapse before new modifier is computed
 // Set to 3-hour for production network and 20-minute for test network
 unsigned int nModifierInterval;
-int nStakeTargetSpacing = 200; 
+int nStakeTargetSpacing = 120; 
 unsigned int getIntervalVersion(bool fTestNet)
 {
     if (fTestNet)
@@ -171,6 +171,9 @@ bool ComputeNextStakeModifier(const CBlockIndex* pindexPrev, uint64_t& nStakeMod
         nStakeTargetSpacing = 120;
     }
     */
+    nStakeTargetSpacing = (pindexPrev->nHeight >= Params().LastBootBlock())
+        ? Params().TargetSpacing() : Params().BootTargetSpacing();
+   
 
     // First find current stake modifier and its generation block time
     // if it's not old enough, return the same stake modifier
