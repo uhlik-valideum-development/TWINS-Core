@@ -92,6 +92,9 @@ public:
     virtual const Checkpoints::CCheckpointData& Checkpoints() const = 0;
     int PoolMaxTransactions() const { return nPoolMaxTransactions; }
 
+    /* Valideum extras */
+    CAmount MasternodeCollateral() const { return nMasternodeCollateral; }
+
     /** Spork key and Masternode Handling **/
     std::string SporkKey() const { return strSporkKey; }
     std::string SporkKeyOld() const { return strSporkKeyOld; }
@@ -186,6 +189,8 @@ protected:
     int nZerocoinStartHeight;
     int nZerocoinStartTime;
     int nZerocoinRequiredStakeDepth;
+    // Valideum add
+    CAmount nMasternodeCollateral;
 
     int nBlockEnforceSerialRange;
     int nBlockRecalculateAccumulators;
