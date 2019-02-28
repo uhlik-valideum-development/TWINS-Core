@@ -1862,7 +1862,7 @@ int64_t GetBlockValue(int nHeight)
 
     // First block with initial pre-mine
     if (nHeight == 1) {
-        nSubsidy = 6000000 * COIN;
+        nSubsidy = 100000 * COIN;
 
     // Release 15220.70 TF as a reward for each block
     // until max supply of 100 000 000 000 TF will
