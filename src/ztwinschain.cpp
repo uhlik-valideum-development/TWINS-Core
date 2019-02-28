@@ -1,9 +1,9 @@
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "ztwinschain.h"
+#include "zvalideumchain.h"
 #include "invalid.h"
 #include "main.h"
 #include "txdb.h"

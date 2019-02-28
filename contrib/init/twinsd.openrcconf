@@ -1,25 +1,25 @@
-# /etc/conf.d/twinsd: config file for /etc/init.d/twinsd
+# /etc/conf.d/valideumd: config file for /etc/init.d/valideumd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/twins/twins.conf"
+#BITCOIND_CONFIGFILE="/etc/valideum/valideum.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/twinsd"
+#BITCOIND_PIDDIR="/var/run/valideumd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/twinsd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/valideumd.pid"
 
-# Where to write twinsd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/twinsd"
+# Where to write valideumd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/valideumd"
 
-# User and group to own twinsd process
-#BITCOIND_USER="twins"
-#BITCOIND_GROUP="twins"
+# User and group to own valideumd process
+#BITCOIND_USER="valideum"
+#BITCOIND_GROUP="valideum"
 
-# Path to twinsd executable
-#BITCOIND_BIN="/usr/bin/twinsd"
+# Path to valideumd executable
+#BITCOIND_BIN="/usr/bin/valideumd"
 
-# Nice value to run twinsd under
+# Nice value to run valideumd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

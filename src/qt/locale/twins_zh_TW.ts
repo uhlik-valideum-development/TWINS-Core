@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出TWINS幣的位址</translation>
+        <translation>選擇要匯出TF幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收TWINS幣的位址</translation>
+        <translation>選擇要接收TF幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 TWINS 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 TF 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 TWINS 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 TF 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 TWINS 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 TF 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(TWINS)&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(TF)&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -557,16 +557,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>送出錢幣到 TWINS 地址</translation>
+        <source>Send coins to a TF address</source>
+        <translation>送出錢幣到 TF 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 twins 位址)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 valideum 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -577,24 +577,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>&amp;關於 TWINS Core</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>&amp;關於 VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>顯示 TWINS Core 相關資訊</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>顯示 VALIDEUM Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>修改 TWINS 設定</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>修改 TF 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>使用你的 TWINS 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>使用你的 TF 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>驗證訊息簽章與 TWINS 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>驗證訊息簽章與 TF 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -625,8 +625,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>打開TWINS: 位址或付款請求 </translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>打開TF: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -637,12 +637,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>顯示 TWINS Core 幫助訊息以取得 TWINS 命令列表選項</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>顯示 VALIDEUM Core 幫助訊息以取得 TF 命令列表選項</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINS Core 客戶端</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>VALIDEUM Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -671,15 +671,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
@@ -822,8 +822,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>對訊息簽名的 TWINS 位址</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>對訊息簽名的 TF 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -846,16 +846,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>使用簽章來證明你是該  TWINS 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>使用簽章來證明你是該  TF 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>此訊息之 TWINS 位址已簽章於</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>此訊息之 TF 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>驗證訊息以確保該  TWINS 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>驗證訊息以確保該  TF 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -893,8 +893,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
@@ -957,9 +957,9 @@
     </message>
     </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     </context>
 </TS>

@@ -1,6 +1,6 @@
 [Protocol]
-exec=twins-qt '%u'
-protocol=twins
+exec=valideum-qt '%u'
+protocol=valideum
 input=none
 output=none
 helper=true

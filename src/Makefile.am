@@ -66,15 +66,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += twinsd
+  bin_PROGRAMS += valideumd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += twins-cli twins-tx
+  bin_PROGRAMS += valideum-cli valideum-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# twins core #
+# valideum core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -181,9 +181,9 @@ BITCOIN_CORE_H = \
   wallet.h \
   wallet_ismine.h \
   walletdb.h \
-  ztwinschain.h \
-  ztwinstracker.h \
-  ztwinswallet.h \
+  zvalideumchain.h \
+  zvalideumtracker.h \
+  zvalideumwallet.h \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
@@ -195,7 +195,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between twinsd and twins-qt
+# server: shared between valideumd and valideum-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -231,7 +231,7 @@ libbitcoin_server_a_SOURCES = \
   txdb.cpp \
   txmempool.cpp \
   validationinterface.cpp \
-  ztwinschain.cpp \
+  zvalideumchain.cpp \
   $(BITCOIN_CORE_H)
 
 if ENABLE_ZMQ
@@ -243,7 +243,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between twinsd and twins-qt, but only linked
+# wallet: shared between valideumd and valideum-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -271,8 +271,8 @@ libbitcoin_wallet_a_SOURCES = \
   wallet.cpp \
   wallet_ismine.cpp \
   walletdb.cpp \
-  ztwinswallet.cpp \
-  ztwinstracker.cpp \
+  zvalideumwallet.cpp \
+  zvalideumtracker.cpp \
   stakeinput.cpp \
   $(BITCOIN_CORE_H)
 
@@ -338,7 +338,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between twinsd, and twins-qt and non-server tools
+# common: shared between valideumd, and valideum-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -403,7 +403,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between twins-cli and twins-qt
+# cli: shared between valideum-cli and valideum-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -413,16 +413,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# twinsd binary #
-twinsd_SOURCES = twinsd.cpp
-twinsd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-twinsd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-twinsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# valideumd binary #
+valideumd_SOURCES = valideumd.cpp
+valideumd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+valideumd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+valideumd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-twinsd_SOURCES += twinsd-res.rc
+valideumd_SOURCES += valideumd-res.rc
 endif
-twinsd_LDADD = \
+valideumd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -436,38 +436,38 @@ twinsd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-twinsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+valideumd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# twins-cli binary #
-twins_cli_SOURCES = twins-cli.cpp
-twins_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-twins_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-twins_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# valideum-cli binary #
+valideum_cli_SOURCES = valideum-cli.cpp
+valideum_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+valideum_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+valideum_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-twins_cli_SOURCES += twins-cli-res.rc
+valideum_cli_SOURCES += valideum-cli-res.rc
 endif
 
-twins_cli_LDADD = \
+valideum_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-twins_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+valideum_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# twins-tx binary #
-twins_tx_SOURCES = twins-tx.cpp
-twins_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-twins_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-twins_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# valideum-tx binary #
+valideum_tx_SOURCES = valideum-tx.cpp
+valideum_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+valideum_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+valideum_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-twins_tx_SOURCES += twins-tx-res.rc
+valideum_tx_SOURCES += valideum-tx-res.rc
 endif
 
-twins_tx_LDADD = \
+valideum_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -475,7 +475,7 @@ twins_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-twins_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+valideum_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -524,12 +524,12 @@ CLEANFILES += obj/build.h
 EXTRA_DIST =
 
 
-config/twins-config.h: config/stamp-h1
+config/valideum-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/twins-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/valideum-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/twins-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/twins-config.h.in
+$(top_srcdir)/$(subdir)/config/valideum-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/valideum-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

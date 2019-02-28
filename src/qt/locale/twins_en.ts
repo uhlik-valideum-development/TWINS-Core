@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -326,12 +326,12 @@
     </message>
     <message>
         <location line="-424"/>
-        <source>Enter a TWINS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a TF Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>The TWINS address to encrypt</source>
+        <source>The TF address to encrypt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>Encrypt the private key for this TWINS address</source>
+        <source>Encrypt the private key for this TF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -557,7 +557,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zTWINS</source>
+        <source>Privacy Actions for zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -831,17 +831,17 @@
     <message>
         <location line="-436"/>
         <location line="+918"/>
-        <source>TWINS Core</source>
+        <source>VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-722"/>
-        <source>Send coins to a TWINS address</source>
+        <source>Send coins to a TF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -861,27 +861,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About TWINS Core</source>
+        <source>&amp;About VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about TWINS Core</source>
+        <source>Show information about VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Modify configuration options for TWINS</source>
+        <source>Modify configuration options for TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
+        <source>Sign messages with your TF addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -921,7 +921,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a TWINS: URI or payment request</source>
+        <source>Open a TF: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -936,17 +936,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+233"/>
-        <source>TWINS Core client</source>
+        <source>VALIDEUM Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to TWINS network</source>
+        <source>%n active connection(s) to TF network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1152,7 +1152,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+480"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (twins.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valideum.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1452,7 +1452,7 @@ Address: %4
     </message>
     <message>
         <location line="+8"/>
-        <source>Can vary +/- %1 utwins per input.</source>
+        <source>Can vary +/- %1 uvalideum per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1521,7 +1521,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid TWINS address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid TF address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1577,7 +1577,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>TWINS Core</source>
+        <source>VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1588,7 +1588,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About TWINS Core</source>
+        <source>About VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1646,17 +1646,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to TWINS Core.</source>
+        <source>Welcome to VALIDEUM Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where TWINS Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where VALIDEUM Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>TWINS Core will download and store a copy of the TWINS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>VALIDEUM Core will download and store a copy of the TF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1671,7 +1671,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>TWINS Core</source>
+        <source>VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1847,8 +1847,8 @@ Address: %4
     </message>
     <message>
         <location line="-106"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TWINS addresses after it matures.
-To Add: enter percentage to give and TWINS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TF addresses after it matures.
+To Add: enter percentage to give and TF address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2169,7 +2169,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send TWINS to</source>
+        <source>Add destinations to send TF to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2292,12 +2292,12 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TWINS</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TWINS</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2307,12 +2307,12 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 TWINS to anonymize 10000 TWINS</source>
+        <source>This option is the quickest and will cost about ~0.025 TF to anonymize 10000 TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 TWINS to anonymize 10000 TWINS</source>
+        <source>This option is moderately fast and will cost about 0.05 TF to anonymize 10000 TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2322,7 +2322,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 TWINS per 10000 TWINS you anonymize.</source>
+        <source>0.1 TF per 10000 TF you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2334,17 +2334,17 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TWINS&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TF&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TWINS&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TF&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TWINS&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TF&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2420,7 +2420,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the TWINS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the TF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2445,12 +2445,12 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="-210"/>
-        <source>Automatically start TWINS after logging in to the system.</source>
+        <source>Automatically start TF after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start TWINS on system login</source>
+        <source>&amp;Start TF on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2485,13 +2485,13 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting TWINS.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting TF.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/twins-project/twins-project-translations</source>
+https://www.transifex.com/valideum-project/valideum-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2501,33 +2501,33 @@ https://www.transifex.com/twins-project/twins-project-translations</source>
     </message>
     <message>
         <location line="-169"/>
-        <source>Enable automatic minting of TWINS units to zTWINS</source>
+        <source>Enable automatic minting of TF units to zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zTWINS Automint</source>
+        <source>Enable zTF Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Percentage of incoming TWINS which get automatically converted to zTWINS via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming TF which get automatically converted to zTF via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zTWINS</source>
+        <source>Percentage of autominted zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough TWINS for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough TF for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zTWINS Denomination</source>
+        <source>Preferred Automint zTF Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2537,7 +2537,7 @@ https://www.transifex.com/twins-project/twins-project-translations</source>
     </message>
     <message>
         <location line="+98"/>
-        <source>Connect to the TWINS network through a SOCKS5 proxy.</source>
+        <source>Connect to the TF network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2746,7 +2746,7 @@ https://www.transifex.com/twins-project/twins-project-translations</source>
     </message>
     <message>
         <location line="+71"/>
-        <source>TWINS Balance</source>
+        <source>TF Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2778,19 +2778,19 @@ https://www.transifex.com/twins-project/twins-project-translations</source>
     <message>
         <location line="+16"/>
         <location line="+19"/>
-        <source>Your current TWINS balance, unconfirmed and immature transactions included</source>
+        <source>Your current TF balance, unconfirmed and immature transactions included</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+96"/>
-        <source>zTWINS Balance</source>
+        <source>zTF Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+53"/>
         <location line="+17"/>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTWINS are spendable.</source>
+These zTF are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2805,7 +2805,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="-725"/>
         <location line="+852"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2863,7 +2863,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+191"/>
         <location line="+19"/>
-        <source>Locked TWINS or Masternode collaterals. These are excluded from zTWINS minting.</source>
+        <source>Locked TF or Masternode collaterals. These are excluded from zTF minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2879,7 +2879,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+58"/>
         <location line="+19"/>
-        <source>Your current zTWINS balance, unconfirmed and immature zTWINS included.</source>
+        <source>Your current zTF balance, unconfirmed and immature zTF included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2895,7 +2895,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+111"/>
-        <source>Current percentage of zTWINS.
+        <source>Current percentage of zTF.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2907,13 +2907,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in twins.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in valideum.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in twins.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in valideum.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2953,12 +2953,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-104"/>
-        <source>Cannot start twins: click-to-pay handler</source>
+        <source>Cannot start valideum: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+110"/>
-        <source>URI cannot be parsed! This can be caused by an invalid TWINS address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid TF address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3066,7 +3066,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+10"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3086,7 +3086,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-371"/>
         <location line="+651"/>
-        <source>zTWINS</source>
+        <source>zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3101,7 +3101,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+19"/>
-        <source>0.000 000 00 TWINS</source>
+        <source>0.000 000 00 TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3152,17 +3152,17 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+308"/>
         <location line="+52"/>
-        <source>Enter an amount of TWINS to convert to zTWINS</source>
+        <source>Enter an amount of TF to convert to zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+301"/>
-        <source>zTWINS Control</source>
+        <source>zTF Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zTWINS Selected:</source>
+        <source>zTF Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3190,7 +3190,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zTWINS for spending</source>
+        <source>Available (mature and spendable) zTF for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3200,9 +3200,9 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zTWINS for spending
+        <source>Available (mature and spendable) zTF for spending
 
-zTWINS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zTF are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3219,7 +3219,7 @@ zTWINS are mature when they have more than 20 confirmations AND more than 2 mint
         <location line="+31"/>
         <location line="+31"/>
         <location line="+31"/>
-        <source>0 zTWINS</source>
+        <source>0 zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3244,7 +3244,7 @@ zTWINS are mature when they have more than 20 confirmations AND more than 2 mint
     </message>
     <message>
         <location line="+27"/>
-        <source>The TWINS address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The TF address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3312,7 +3312,7 @@ zTWINS are mature when they have more than 20 confirmations AND more than 2 mint
         <location line="+25"/>
         <location line="+936"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zTWINS</source>
+        <source>Total Balance including unconfirmed and immature zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3346,14 +3346,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+40"/>
-        <source>Show the current status of automatic zTWINS minting.
+        <source>Show the current status of automatic zTF minting.
 
 To change the status (restart required):
-- enable: add &apos;enablezeromint=1&apos; to twins.conf
-- disable: add &apos;enablezeromint=0&apos; to twins.conf
+- enable: add &apos;enablezeromint=1&apos; to valideum.conf
+- disable: add &apos;enablezeromint=0&apos; to valideum.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTWINS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zTF
 
 </source>
         <translation type="unfinished"></translation>
@@ -3622,12 +3622,12 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+34"/>
-        <source>zTWINS Spend #: </source>
+        <source>zTF Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>zTWINS Mint</source>
+        <source>zTF Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3648,13 +3648,13 @@ Maximum allowed: </source>
     <message>
         <location line="+12"/>
         <location line="+4"/>
-        <source>zTWINS is currently disabled due to maintenance.</source>
+        <source>zTF is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-666"/>
         <location line="+112"/>
-        <source>zTWINS is currently undergoing maintenance.</source>
+        <source>zTF is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3765,7 +3765,7 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+0"/>
-        <source> zTWINS in </source>
+        <source> zTF in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3801,7 +3801,7 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid TWINS Address</source>
+        <source>Invalid TF Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3842,13 +3842,13 @@ Maximum allowed: </source>
     <message>
         <location line="+24"/>
         <location line="+32"/>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-31"/>
         <location line="+32"/>
-        <source>Failed to spend zTWINS</source>
+        <source>Failed to spend zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3876,7 +3876,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message numerus="yes">
         <location line="+362"/>
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of TWINS to convert to zTWINS</comment>
+        <comment>Enter an amount of TF to convert to zTF</comment>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -3932,7 +3932,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+105"/>
-        <source>Enter a TWINS address (e.g. %1)</source>
+        <source>Enter a TF address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4135,7 +4135,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the TWINS debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the TF debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4307,7 +4307,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zTWINS Backup Path:</source>
+        <source>Custom zTF Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4407,7 +4407,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-39"/>
-        <source>Welcome to the TWINS RPC console.</source>
+        <source>Welcome to the TF RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4602,7 +4602,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+191"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TWINS network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TF network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4900,7 +4900,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 TWINS</source>
+        <source>0 TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4975,18 +4975,18 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1062"/>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uTWINS in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uTF in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uTWINS in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uTF in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TWINS transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TF transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5046,7 +5046,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized TWINS</source>
+        <source>Anonymized TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5106,7 +5106,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+653"/>
-        <source>Warning: Invalid TWINS address</source>
+        <source>Warning: Invalid TF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5245,7 +5245,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The TWINS address to send the payment to</source>
+        <source>The TF address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5299,7 +5299,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the TWINS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TWINS network.</source>
+        <source>A message that was attached to the TF: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TF network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5334,7 +5334,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>TWINS Core is shutting down...</source>
+        <source>VALIDEUM Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5362,7 +5362,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>The TWINS address to sign the message with</source>
+        <source>The TF address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5404,17 +5404,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>Sign the message to prove you own this TWINS address</source>
+        <source>Sign the message to prove you own this TF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+103"/>
-        <source>The TWINS address the message was signed with</source>
+        <source>The TF address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5529,7 +5529,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>TWINS Core</source>
+        <source>VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5549,7 +5549,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>The TWINS Core developers</source>
+        <source>The VALIDEUM Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5926,12 +5926,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>TWINS Stake</source>
+        <source>TF Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>zTWINS Stake</source>
+        <source>zTF Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5956,37 +5956,37 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>Converted TWINS to zTWINS</source>
+        <source>Converted TF to zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zTWINS</source>
+        <source>Spent zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received TWINS from zTWINS</source>
+        <source>Received TF from zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zTWINS from zTWINS Spend</source>
+        <source>Minted Change as zTF from zTF Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zTWINS to TWINS</source>
+        <source>Converted zTF to TF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Anonymous (zTWINS Transaction)</source>
+        <source>Anonymous (zTF Transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Anonymous (zTWINS Stake)</source>
+        <source>Anonymous (zTF Stake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6255,12 +6255,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-310"/>
-        <source>Received TWINS from zTWINS</source>
+        <source>Received TF from zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Zerocoin Spend, Change in zTWINS</source>
+        <source>Zerocoin Spend, Change in zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6307,7 +6307,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 TWINS.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 TF.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6345,10 +6345,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
-        <location filename="../forms/ztwinscontroldialog.ui" line="+20"/>
-        <source>Select zTWINS to Spend</source>
+        <location filename="../forms/zvalideumcontroldialog.ui" line="+20"/>
+        <source>Select zTF to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6364,7 +6364,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zTWINS</source>
+        <source>zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6379,9 +6379,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
-        <location filename="../twinsstrings.cpp" line="+15"/>
+        <location filename="../valideumstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -6412,7 +6412,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. TWINS Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. VALIDEUM Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6447,17 +6447,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+5"/>
-        <source>Enable automatic wallet backups triggered after each zTWINS minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zTF minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable or disable staking functionality for TWINS inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for TF inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable or disable staking functionality for zTWINS inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for zTF inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6502,12 +6502,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+8"/>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6637,7 +6637,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. TWINS Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. VALIDEUM Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6647,12 +6647,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TWINS.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TF.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TWINS.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 TF.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6672,7 +6672,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong TWINS Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong VALIDEUM Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6872,7 +6872,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 	<message>
         <location line="+1"/>
-        <source>Copyright (C) 2018-%i The TWINS Core Developers</source>
+        <source>Copyright (C) 2018-%i The VALIDEUM Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6982,7 +6982,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of TWINS Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of VALIDEUM Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7062,7 +7062,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>Fee (in TWINS/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in TF/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7137,7 +7137,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. TWINS Core is shutting down.</source>
+        <source>Initialization sanity check failed. VALIDEUM Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7227,7 +7227,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+9"/>
-        <source>Reindex the TWINS and zTWINS money supply statistics</source>
+        <source>Reindex the TF and zTF money supply statistics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7274,7 +7274,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all TWINS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all TF specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7319,7 +7319,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify custom backup path to add a copy of any automatic zTWINS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <source>Specify custom backup path to add a copy of any automatic zTF backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7944,7 +7944,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zTWINS wallet...</source>
+        <source>Syncing zTF wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8134,7 +8134,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Value is below the smallest available denomination (= 1) of zTWINS</source>
+        <source>Value is below the smallest available denomination (= 1) of zTF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8154,7 +8154,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8169,7 +8169,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart TWINS Core to complete</source>
+        <source>Wallet needed to be rewritten: restart VALIDEUM Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

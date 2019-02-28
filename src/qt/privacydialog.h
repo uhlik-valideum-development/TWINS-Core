@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -47,7 +47,7 @@ public:
 
     void setModel(WalletModel* model);
     void showOutOfSyncWarning(bool fShow);
-    void setZTWINSControlLabels(int64_t nAmount, int nQuantity);
+    void setZTFControlLabels(int64_t nAmount, int nQuantity);
 
 public slots:
     void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
@@ -78,7 +78,7 @@ private:
 
     int nDisplayUnit;
     bool updateLabel(const QString& address);
-    void sendzTWINS();
+    void sendzTF();
 
 private slots:
     void on_payTo_textChanged(const QString& address);
@@ -98,11 +98,11 @@ private slots:
 //    void coinControlClipboardLowOutput();
 //    void coinControlClipboardChange();
 
-    void on_pushButtonMintzTWINS_clicked();
+    void on_pushButtonMintzVALIDEUM_clicked();
     void on_pushButtonMintReset_clicked();
     void on_pushButtonSpentReset_clicked();
-    void on_pushButtonSpendzTWINS_clicked();
-    void on_pushButtonZTWINSControl_clicked();
+    void on_pushButtonSpendzVALIDEUM_clicked();
+    void on_pushButtonZTFControl_clicked();
     void on_pushButtonHideDenoms_clicked();
     void on_pushButtonShowDenoms_clicked();
     void on_pasteButton_clicked();

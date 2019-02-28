@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi TWINS per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi TF per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi TWINS per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi TF per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi TWINS dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi TF dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI TWINS&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI TF&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a TWINS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo TWINS da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a TF Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo TF da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The TWINS address to encrypt</source>
-        <translation>Indirizzo TWINS da crittografare</translation>
+        <source>The TF address to encrypt</source>
+        <translation>Indirizzo TF da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TWINS address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo TWINS</translation>
+        <source>Encrypt the private key for this TF address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo TF</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTWINS</source>
-        <translation>Operazioni di privacy per zTWINS</translation>
+        <source>Privacy Actions for zTF</source>
+        <translation>Operazioni di privacy per zTF</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Invia valuta all'indirizzo TWINS</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Invia valuta all'indirizzo TF</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e twins: URIs)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e valideum: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>&amp;Informazioni TWINS Core</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>&amp;Informazioni VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Visualizza informazioni su TWINS Core</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Visualizza informazioni su VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Modifica le opzioni di configurazione per TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Modifica le opzioni di configurazione per TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi TWINS per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi TF per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi TWINS specifici</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi TF specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Apri un TWINS: URI o richiesta di pagamento</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Apri un TF: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Mostra il messaggio di aiuto TWINS Core per ottenere un elenco con le possibili opzioni di riga di comando TWINS</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Mostra il messaggio di aiuto VALIDEUM Core per ottenere un elenco con le possibili opzioni di riga di comando TF</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to TWINS network</source>
-        <translation><numerusform>%n connessione attiva alla rete TWINSIX</numerusform><numerusform>%n connessioni attive alla rete TWINSIX</numerusform></translation>
+        <source>%n active connection(s) to TF network</source>
+        <translation><numerusform>%n connessione attiva alla rete TFIX</numerusform><numerusform>%n connessioni attive alla rete TFIX</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>Etichetta</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (twins.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (twins.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valideum.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (valideum.conf)</translation>
     </message>
 </context>
 <context>
@@ -1126,8 +1126,8 @@ MultiSend: %1</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 utwins per input.</source>
-        <translation>Può variare di +/- %1 uTWINS per input.</translation>
+        <source>Can vary +/- %1 uvalideum per input.</source>
+        <translation>Può variare di +/- %1 uTF per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1173,8 +1173,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TWINS address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo TWINS valido.</translation>
+        <source>The entered address "%1" is not a valid TF address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo TF valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TWINS Core</source>
-        <translation>Informazioni su TWINS Core</translation>
+        <source>About VALIDEUM Core</source>
+        <translation>Informazioni su VALIDEUM Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to TWINS Core.</source>
-        <translation>Benvenuto in TWINSIX Core.</translation>
+        <source>Welcome to VALIDEUM Core.</source>
+        <translation>Benvenuto in TFIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TWINS Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove TWINS Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where VALIDEUM Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove VALIDEUM Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>TWINS Core will download and store a copy of the TWINS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TWINS Core scaricherà e salverà una copia della blockchain TWINS. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>VALIDEUM Core will download and store a copy of the TF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VALIDEUM Core scaricherà e salverà una copia della blockchain TF. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TWINS addresses after it matures.
-To Add: enter percentage to give and TWINS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TF addresses after it matures.
+To Add: enter percentage to give and TF address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi TWINS fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo TWINS da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi TF fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo TF da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1671,12 +1671,12 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Configura Offuscamento</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 TWINS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 TF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Usa 8 masternodi diversi per mixare fino a 10000 TWINS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Usa 8 masternodi diversi per mixare fino a 10000 TF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1713,24 +1713,24 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of TWINS units to zTWINS</source>
-        <translation>Attiva il conio automatico di unità TWINS in zTWINS</translation>
+        <source>Enable automatic minting of TF units to zTF</source>
+        <translation>Attiva il conio automatico di unità TF in zTF</translation>
     </message>
     <message>
-        <source>Enable zTWINS Automint</source>
-        <translation>Attiva Conio automatico zTWINS</translation>
+        <source>Enable zTF Automint</source>
+        <translation>Attiva Conio automatico zTF</translation>
     </message>
     <message>
-        <source>Percentage of incoming TWINS which get automatically converted to zTWINS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di TWINS in entrata che viene automaticamente convertita in zTWINS attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming TF which get automatically converted to zTF via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di TF in entrata che viene automaticamente convertita in zTF attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTWINS</source>
-        <translation>Percentuale di zTWINS Percentuale di zTWINS da coniare automaticamente</translation>
+        <source>Percentage of autominted zTF</source>
+        <translation>Percentuale di zTF Percentuale di zTF da coniare automaticamente</translation>
     </message>
     <message>
-        <source>Preferred Automint zTWINS Denomination</source>
-        <translation>Denominazione preferita conio automatico zTWINS</translation>
+        <source>Preferred Automint zTF Denomination</source>
+        <translation>Denominazione preferita conio automatico zTF</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1792,8 +1792,8 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>TWINS Balance</source>
-        <translation>Bilancio TWINS</translation>
+        <source>TF Balance</source>
+        <translation>Bilancio TF</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1804,18 +1804,18 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current TWINS balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo TWINS corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current TF balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo TF corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
-        <source>zTWINS Balance</source>
-        <translation>Bilancio zTWINS</translation>
+        <source>zTF Balance</source>
+        <translation>Bilancio zTF</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTWINS are spendable.</source>
+These zTF are spendable.</source>
         <translation>Maturi: più di 20 conferme e più di 1 conio della stessa denominazione dopo il conio.
-Questi zTWINS sono spendibili.</translation>
+Questi zTF sono spendibili.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1846,8 +1846,8 @@ Questi zTWINS sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked TWINS or Masternode collaterals. These are excluded from zTWINS minting.</source>
-        <translation>TWINS bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zTWINS.</translation>
+        <source>Locked TF or Masternode collaterals. These are excluded from zTF minting.</source>
+        <translation>TF bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zTF.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1858,18 +1858,18 @@ Questi zTWINS sono spendibili.</translation>
         <translation>Non confermati:</translation>
     </message>
     <message>
-        <source>Your current zTWINS balance, unconfirmed and immature zTWINS included.</source>
-        <translation>Il tuo saldo zTWINS corrente, inclusi zTWINS non confermati e non maturi</translation>
+        <source>Your current zTF balance, unconfirmed and immature zTF included.</source>
+        <translation>Il tuo saldo zTF corrente, inclusi zTF non confermati e non maturi</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transazioni recenti</translation>
     </message>
     <message>
-        <source>Current percentage of zTWINS.
+        <source>Current percentage of zTF.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Percentuale corrente di zTWINS.
+        <translation>Percentuale corrente di zTF.
 Se il conio automatico è attivato questa percentuale si stabilizzerà all'incirca sulla percentuale stabilita per il conio automatico (percentuale prestabilita = 10%).
 </translation>
     </message>
@@ -1878,14 +1878,14 @@ Se il conio automatico è attivato questa percentuale si stabilizzerà all'incir
         <translation>AutoMint è attivo e impostato su</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in twins.conf.</source>
-        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in twins.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in valideum.conf.</source>
+        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in valideum.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in valideum.conf</source>
         <translation>Conio automatico è correntemente disattivato.
-Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in twins.conf</translation>
+Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in valideum.conf</translation>
     </message>
 </context>
 <context>
@@ -1933,12 +1933,12 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
-        <source>0.000 000 00 TWINS</source>
-        <translation>0.000 000 00 TWINS</translation>
+        <source>0.000 000 00 TF</source>
+        <translation>0.000 000 00 TF</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1961,16 +1961,16 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of TWINS to convert to zTWINS</source>
-        <translation>Immetti un importo di TWINS da convertire in zTWINS</translation>
+        <source>Enter an amount of TF to convert to zTF</source>
+        <translation>Immetti un importo di TF da convertire in zTF</translation>
     </message>
     <message>
-        <source>zTWINS Control</source>
-        <translation>Controllo zTWINS</translation>
+        <source>zTF Control</source>
+        <translation>Controllo zTF</translation>
     </message>
     <message>
-        <source>zTWINS Selected:</source>
-        <translation>zTWINS selezionati:</translation>
+        <source>zTF Selected:</source>
+        <translation>zTF selezionati:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1981,23 +1981,23 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>Spendi Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending</source>
-        <translation>zTWINS disponibili disponibili per essere spesi (maturi e spendibili)</translation>
+        <source>Available (mature and spendable) zTF for spending</source>
+        <translation>zTF disponibili disponibili per essere spesi (maturi e spendibili)</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending
+        <source>Available (mature and spendable) zTF for spending
 
-zTWINS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zTWINS disponibili disponibili per essere spesi (maturi e spendibili)
-Gli zTWINS sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
+zTF are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zTF disponibili disponibili per essere spesi (maturi e spendibili)
+Gli zTF sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
     </message>
     <message>
-        <source>0 zTWINS</source>
-        <translation>0 zTWINS</translation>
+        <source>0 zTF</source>
+        <translation>0 zTF</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2040,31 +2040,31 @@ Gli zTWINS sono maturi quando hanno più di 20 conferme E più di 2 conii della 
         <translation>Statistiche Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTWINS</source>
-        <translation>Saldo totale inclusi zTWINS non confermati e non maturi</translation>
+        <source>Total Balance including unconfirmed and immature zTF</source>
+        <translation>Saldo totale inclusi zTF non confermati e non maturi</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
         <translation>Saldo totale Zerocoin:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTWINS minting.
+        <source>Show the current status of automatic zTF minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to twins.conf
-- disable: add 'enablezeromint=0' to twins.conf
+- enable: add 'enablezeromint=1' to valideum.conf
+- disable: add 'enablezeromint=0' to valideum.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTWINS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zTF
 
 </source>
-        <translation>Mostra lo stato corrente del conio automatico zTWINS.
+        <translation>Mostra lo stato corrente del conio automatico zTF.
 Per cambiare lo stato (riavvio necessario):
-- attivato: aggiungi 'enablezeromint=1' a twins.conf
-- disattivato: aggiungi 'enablezeromint=0' a twins.conf
+- attivato: aggiungi 'enablezeromint=1' a valideum.conf
+- disattivato: aggiungi 'enablezeromint=0' a valideum.conf
 
 Per cambiare la percentuale (riavvio non necessario):
-- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zTWINS da coniare automaticamente
+- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zTF da coniare automaticamente
 
 </translation>
     </message>
@@ -2209,8 +2209,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>zTWINS Mint</source>
-        <translation>Conio zTWINS</translation>
+        <source>zTF Mint</source>
+        <translation>Conio zTF</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2483,8 +2483,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>L'indirizzo TWINS per firmare il messaggio con</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>L'indirizzo TF per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2507,16 +2507,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo TWINS</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo TF</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>L'indirizzo TWINS con cui è stato firmato il messaggio</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>L'indirizzo TF con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo TWINS specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo TF specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2554,8 +2554,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
@@ -2666,18 +2666,18 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

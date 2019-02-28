@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_STAKEINPUT_H
-#define TWINS_STAKEINPUT_H
+#ifndef VALIDEUM_STAKEINPUT_H
+#define VALIDEUM_STAKEINPUT_H
 
 class CKeyStore;
 class CWallet;
@@ -23,15 +23,15 @@ public:
     virtual CAmount GetValue() = 0;
     virtual bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) = 0;
     virtual bool GetModifier(uint64_t& nStakeModifier) = 0;
-    virtual bool IsZTWINS() = 0;
+    virtual bool IsZTF() = 0;
     virtual CDataStream GetUniqueness() = 0;
 };
 
 
-// zTWINSStake can take two forms
+// zTFStake can take two forms
 // 1) the stake candidate, which is a zcmint that is attempted to be staked
-// 2) a staked ztwins, which is a zcspend that has successfully staked
-class CZTWINSStake : public CStakeInput
+// 2) a staked zvalideum, which is a zcspend that has successfully staked
+class CZTFStake : public CStakeInput
 {
 private:
     uint32_t nChecksum;
@@ -40,7 +40,7 @@ private:
     uint256 hashSerial;
 
 public:
-    explicit CZTWINSStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
+    explicit CZTFStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
     {
         this->denom = denom;
         this->hashSerial = hashSerial;
@@ -48,7 +48,7 @@ public:
         fMint = true;
     }
 
-    explicit CZTWINSStake(const libzerocoin::CoinSpend& spend);
+    explicit CZTFStake(const libzerocoin::CoinSpend& spend);
 
     CBlockIndex* GetIndexFrom() override;
     bool GetTxFrom(CTransaction& tx) override;
@@ -58,19 +58,19 @@ public:
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
     bool MarkSpent(CWallet* pwallet, const uint256& txid);
-    bool IsZTWINS() override { return true; }
+    bool IsZTF() override { return true; }
     int GetChecksumHeightFromMint();
     int GetChecksumHeightFromSpend();
     uint32_t GetChecksum();
 };
 
-class CTWINSStake : public CStakeInput
+class CTFStake : public CStakeInput
 {
 private:
     CTransaction txFrom;
     unsigned int nPosition;
 public:
-    CTWINSStake()
+    CTFStake()
     {
         this->pindexFrom = nullptr;
     }
@@ -84,8 +84,8 @@ public:
     CDataStream GetUniqueness() override;
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
-    bool IsZTWINS() override { return false; }
+    bool IsZTF() override { return false; }
 };
 
 
-#endif //TWINS_STAKEINPUT_H
+#endif //VALIDEUM_STAKEINPUT_H

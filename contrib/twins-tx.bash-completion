@@ -1,15 +1,15 @@
-# bash programmable completion for twins-tx(1)
+# bash programmable completion for valideum-tx(1)
 # Copyright (c) 2016 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-_twins_tx() {
+_valideum_tx() {
     local cur prev words=() cword
-    local twins_tx
+    local valideum_tx
 
-    # save and use original argument to invoke twins-tx for -help
+    # save and use original argument to invoke valideum-tx for -help
     # it might not be in $PATH
-    twins_tx="$1"
+    valideum_tx="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n =: cur prev words cword
@@ -27,15 +27,15 @@ _twins_tx() {
 
     if [[ "$cword" == 1 || ( "$prev" != "-create" && "$prev" == -* ) ]]; then
         # only options (or an uncompletable hex-string) allowed
-        # parse twins-tx -help for options
+        # parse valideum-tx -help for options
         local helpopts
-        helpopts=$($twins_tx -help | sed -e '/^  -/ p' -e d )
+        helpopts=$($valideum_tx -help | sed -e '/^  -/ p' -e d )
         COMPREPLY=( $( compgen -W "$helpopts" -- "$cur" ) )
     else
         # only commands are allowed
         # parse -help for commands
         local helpcmds
-        helpcmds=$($twins_tx -help | sed -e '1,/Commands:/d' -e 's/=.*/=/' -e '/^  [a-z]/ p' -e d )
+        helpcmds=$($valideum_tx -help | sed -e '1,/Commands:/d' -e 's/=.*/=/' -e '/^  [a-z]/ p' -e d )
         COMPREPLY=( $( compgen -W "$helpcmds" -- "$cur" ) )
     fi
 
@@ -46,7 +46,7 @@ _twins_tx() {
 
     return 0
 } &&
-complete -F _twins_tx twins-tx
+complete -F _valideum_tx valideum-tx
 
 # Local variables:
 # mode: shell-script

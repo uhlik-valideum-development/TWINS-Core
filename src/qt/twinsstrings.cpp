@@ -8,525 +8,525 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *twins_strings[] = {
-QT_TRANSLATE_NOOP("twins-core", " mints deleted\n"),
-QT_TRANSLATE_NOOP("twins-core", " mints updated, "),
-QT_TRANSLATE_NOOP("twins-core", " unconfirmed transactions removed\n"),
-QT_TRANSLATE_NOOP("twins-core", ""
+static const char UNUSED *valideum_strings[] = {
+QT_TRANSLATE_NOOP("valideum-core", " mints deleted\n"),
+QT_TRANSLATE_NOOP("valideum-core", " mints updated, "),
+QT_TRANSLATE_NOOP("valideum-core", " unconfirmed transactions removed\n"),
+QT_TRANSLATE_NOOP("valideum-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Allow JSON-RPC connections from specified source. Valid for <ip> are a "
 "single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or "
 "a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Bind to given address and whitelist peers connecting to it. Use [host]:port "
 "notation for IPv6"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Bind to given address to listen for JSON-RPC connections. Use [host]:port "
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Calculated accumulator checkpoint is not what is recorded by block index"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Cannot obtain a lock on data directory %s. TWINS Core is probably already "
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Cannot obtain a lock on data directory %s. VALIDEUM Core is probably already "
 "running."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
 "exact finalized budget match to my generated budget. (string, default: auto)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
 "(default:%u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
 "effective with disabled wallet functionality)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Delete all zerocoin spends and mints that have been recorded to the "
 "blockchain database and reindex them (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Disable all TWINS specific functionality (Masternodes, Zerocoin, SwiftX, "
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Disable all TF specific functionality (Masternodes, Zerocoin, SwiftX, "
 "Budgeting) (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Enable SwiftX, show confirmations for locked transactions (bool, default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Enable automatic wallet backups triggered after each zTWINS minting (0-1, "
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Enable automatic wallet backups triggered after each zTF minting (0-1, "
 "default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Enable or disable staking functionality for TWINS inputs (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Enable or disable staking functionality for zTWINS inputs (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Enable or disable staking functionality for TF inputs (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Enable or disable staking functionality for zTF inputs (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Enable spork administration functionality with the appropriate private key."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
 "be solved instantly."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Error: Listening for incoming connections failed (listen returned error %s)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Error: The transaction is larger than the maximum allowed transaction size!"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Error: The transaction was rejected! This might happen if some of the coins "
 "in your wallet were already spent, such as if you used a copy of wallet.dat "
 "and coins were spent in the copy but not marked as spent here."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Error: This transaction requires a transaction fee of at least %s because of "
 "its amount, complexity, or use of recently received funds!"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Error: Unsupported argument -checklevel found. Checklevel must be level 4."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Error: Unsupported argument -socks found. Setting SOCKS version isn't "
 "possible anymore, only SOCKS5 proxies are supported."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Execute command when a relevant alert is received or we see a really long "
 "fork (%s in cmd is replaced by message)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Execute command when a wallet transaction changes (%s in cmd is replaced by "
 "TxID)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Execute command when the best block changes and its size is over (%s in cmd "
 "is replaced by block hash, %d with the block size)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Fees (in TWINS/Kb) smaller than this are considered zero fee for relaying "
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Fees (in TF/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Fees (in TWINS/Kb) smaller than this are considered zero fee for transaction "
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Fees (in TF/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Found unconfirmed denominated outputs, will wait till they confirm to "
 "continue."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "If paytxfee is not set, include enough fee so transactions begin "
 "confirmation on average within n blocks (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "In rare cases, a spend with 7 coins exceeds our maximum allowable "
 "transaction size, please retry spend using 6 or less coins"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "In this mode -genproclimit controls how many blocks are generated "
 "immediately."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Insufficient or insufficient confirmed funds, you might need to wait a few "
 "minutes and try again."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Invalid amount for -maxtxfee=<amount>: '%s' (must be at least the minrelay "
 "fee of %s to prevent stuck transactions)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Keep the specified amount available for spending at all times (default: 0)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Log transaction priority and fee per kB when mining blocks (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Maintain a full transaction index, used by the getrawtransaction rpc call "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Maximum size of data in data carrier transactions we relay and mine "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Maximum total fees to use in a single wallet transaction, setting too low "
 "may abort large transactions (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Obfuscation uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Preferred Denomination for automatically minted Zerocoin  "
 "(1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
 "unless -connect)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Randomize credentials for every proxy connection. This enables Tor stream "
 "isolation (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Require high priority for relaying free or low-fee transactions (default:%u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Send trace/debug info to console instead of debug.log file (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Set maximum size of high-priority/low-fee transactions in bytes (default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Set the number of script verification threads (%u to %d, 0 = auto, <0 = "
 "leave that many cores free, default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Set the number of threads for coin generation if enabled (-1 = all cores, "
 "default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Specify custom backup path to add a copy of any automatic zTWINS backup. If "
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Specify custom backup path to add a copy of any automatic zTF backup. If "
 "set as dir, every backup generates a timestamped file. If set as file, will "
 "rewrite to that file every backup. If backuppath is set as well, 4 backups "
 "will happen"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Specify custom backup path to add a copy of any wallet backup. If set as "
 "dir, every backup generates a timestamped file. If set as file, will rewrite "
 "to that file every backup."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Support filtering of blocks and transaction with bloom filters (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "SwiftX requires inputs with at least 6 confirmations, you might need to wait "
 "a few minutes and try again."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "staking or merchant applications!"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "This product includes software developed by the OpenSSL Project for use in "
 "the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software "
 "written by Eric Young and UPnP software written by Thomas Bernard."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Total length of network version string (%i) exceeds maximum length (%i). "
 "Reduce the number or size of uacomments."),
-QT_TRANSLATE_NOOP("twins-core", ""
-"Unable to bind to %s on this computer. TWINS Core is probably already running."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
+"Unable to bind to %s on this computer. VALIDEUM Core is probably already running."),
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 TWINS."),
-QT_TRANSLATE_NOOP("twins-core", ""
+"transaction that are not equal 10000 TF."),
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"TWINS."),
-QT_TRANSLATE_NOOP("twins-core", ""
+"TF."),
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: -maxtxfee is set very high! Fees this large could be paid on a "
 "single transaction."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong TWINS Core will not work properly."),
-QT_TRANSLATE_NOOP("twins-core", ""
+"your clock is wrong VALIDEUM Core will not work properly."),
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: We do not appear to fully agree with our peers! You may need to "
 "upgrade, or other nodes may need to upgrade."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as "
 "wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect "
 "you should restore from a backup."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Whitelist peers connecting from the given netmask or IP address. Can be "
 "specified multiple times."),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "Whitelisted peers cannot be DoS banned and their transactions are always "
 "relayed, even if they are already in the mempool, useful e.g. for a gateway"),
-QT_TRANSLATE_NOOP("twins-core", ""
+QT_TRANSLATE_NOOP("valideum-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("twins-core", "(37817 could be used only on mainnet)"),
-QT_TRANSLATE_NOOP("twins-core", "(default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("twins-core", "(must be 37817 for mainnet)"),
-QT_TRANSLATE_NOOP("twins-core", "<category> can be:"),
-QT_TRANSLATE_NOOP("twins-core", "Accept command line and JSON-RPC commands"),
-QT_TRANSLATE_NOOP("twins-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
-QT_TRANSLATE_NOOP("twins-core", "Accept public REST requests (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Add a node to connect to and attempt to keep the connection open"),
-QT_TRANSLATE_NOOP("twins-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
-QT_TRANSLATE_NOOP("twins-core", "Already have that input."),
-QT_TRANSLATE_NOOP("twins-core", "Always query for peer addresses via DNS lookup (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Append comment to the user agent string"),
-QT_TRANSLATE_NOOP("twins-core", "Attempt to force blockchain corruption recovery"),
-QT_TRANSLATE_NOOP("twins-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("twins-core", "Automatically create Tor hidden service (default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", "Block creation options:"),
-QT_TRANSLATE_NOOP("twins-core", "Calculating missing accumulators..."),
-QT_TRANSLATE_NOOP("twins-core", "Can't denominate: no compatible inputs left."),
-QT_TRANSLATE_NOOP("twins-core", "Can't find random Masternode."),
-QT_TRANSLATE_NOOP("twins-core", "Can't mix while sync in progress."),
-QT_TRANSLATE_NOOP("twins-core", "Cannot downgrade wallet"),
-QT_TRANSLATE_NOOP("twins-core", "Cannot resolve -bind address: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Cannot resolve -externalip address: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Cannot resolve -whitebind address: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Cannot write default address"),
-QT_TRANSLATE_NOOP("twins-core", "CoinSpend: Accumulator witness does not verify"),
-QT_TRANSLATE_NOOP("twins-core", "Collateral not valid."),
-QT_TRANSLATE_NOOP("twins-core", "Connect only to the specified node(s)"),
-QT_TRANSLATE_NOOP("twins-core", "Connect through SOCKS5 proxy"),
-QT_TRANSLATE_NOOP("twins-core", "Connect to a node to retrieve peer addresses, and disconnect"),
-QT_TRANSLATE_NOOP("twins-core", "Connection options:"),
-QT_TRANSLATE_NOOP("twins-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("twins-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("twins-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
-QT_TRANSLATE_NOOP("twins-core", "Corrupted block database detected"),
-QT_TRANSLATE_NOOP("twins-core", "Could not parse masternode.conf"),
-QT_TRANSLATE_NOOP("twins-core", "Debugging/Testing options:"),
-QT_TRANSLATE_NOOP("twins-core", "Delete blockchain folders and resync from scratch"),
-QT_TRANSLATE_NOOP("twins-core", "Disable OS notifications for incoming transactions (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Disable safemode, override a real safe mode event (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
-QT_TRANSLATE_NOOP("twins-core", "Display the stake modifier calculations in the debug.log file."),
-QT_TRANSLATE_NOOP("twins-core", "Display verbose coin stake messages in the debug.log file."),
-QT_TRANSLATE_NOOP("twins-core", "Do not load the wallet and disable wallet RPC calls"),
-QT_TRANSLATE_NOOP("twins-core", "Do you want to rebuild the block database now?"),
-QT_TRANSLATE_NOOP("twins-core", "Done loading"),
-QT_TRANSLATE_NOOP("twins-core", "Enable automatic Zerocoin minting (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Enable publish hash block in <address>"),
-QT_TRANSLATE_NOOP("twins-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
-QT_TRANSLATE_NOOP("twins-core", "Enable publish hash transaction in <address>"),
-QT_TRANSLATE_NOOP("twins-core", "Enable publish raw block in <address>"),
-QT_TRANSLATE_NOOP("twins-core", "Enable publish raw transaction (locked via SwiftX) in <address>"),
-QT_TRANSLATE_NOOP("twins-core", "Enable publish raw transaction in <address>"),
-QT_TRANSLATE_NOOP("twins-core", "Enable staking functionality (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Enable the client to act as a masternode (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Entries are full."),
-QT_TRANSLATE_NOOP("twins-core", "Error connecting to Masternode."),
-QT_TRANSLATE_NOOP("twins-core", "Error initializing block database"),
-QT_TRANSLATE_NOOP("twins-core", "Error initializing wallet database environment %s!"),
-QT_TRANSLATE_NOOP("twins-core", "Error loading block database"),
-QT_TRANSLATE_NOOP("twins-core", "Error loading wallet.dat"),
-QT_TRANSLATE_NOOP("twins-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("twins-core", "Error loading wallet.dat: Wallet requires newer version of TWINS Core"),
-QT_TRANSLATE_NOOP("twins-core", "Error opening block database"),
-QT_TRANSLATE_NOOP("twins-core", "Error reading from database, shutting down."),
-QT_TRANSLATE_NOOP("twins-core", "Error recovering public key."),
-QT_TRANSLATE_NOOP("twins-core", "Error writing zerocoinDB to disk"),
-QT_TRANSLATE_NOOP("twins-core", "Error"),
-QT_TRANSLATE_NOOP("twins-core", "Error: A fatal internal error occured, see debug.log for details"),
-QT_TRANSLATE_NOOP("twins-core", "Error: A fatal internal error occurred, see debug.log for details"),
-QT_TRANSLATE_NOOP("twins-core", "Error: Can't select current denominated inputs"),
-QT_TRANSLATE_NOOP("twins-core", "Error: Disk space is low!"),
-QT_TRANSLATE_NOOP("twins-core", "Error: No valid utxo!"),
-QT_TRANSLATE_NOOP("twins-core", "Error: Unsupported argument -tor found, use -onion."),
-QT_TRANSLATE_NOOP("twins-core", "Error: Wallet locked, unable to create transaction!"),
-QT_TRANSLATE_NOOP("twins-core", "Error: You already have pending entries in the Obfuscation pool"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to calculate accumulator checkpoint"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to create mint"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to deserialize"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to find Zerocoins in wallet.dat"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to listen on any port. Use -listen=0 if you want this."),
-QT_TRANSLATE_NOOP("twins-core", "Failed to parse host:port string"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to select a zerocoin"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to wipe zerocoinDB"),
-QT_TRANSLATE_NOOP("twins-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("twins-core", "Fee (in TWINS/kB) to add to transactions you send (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Finalizing transaction."),
-QT_TRANSLATE_NOOP("twins-core", "Force safe mode (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Found enough users, signing ( waiting %s )"),
-QT_TRANSLATE_NOOP("twins-core", "Found enough users, signing ..."),
-QT_TRANSLATE_NOOP("twins-core", "Generate coins (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "How many blocks to check at startup (default: %u, 0 = all)"),
-QT_TRANSLATE_NOOP("twins-core", "If <category> is not supplied, output all debugging information."),
-QT_TRANSLATE_NOOP("twins-core", "Importing..."),
-QT_TRANSLATE_NOOP("twins-core", "Imports blocks from external blk000??.dat file"),
-QT_TRANSLATE_NOOP("twins-core", "Include IP addresses in debug output (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Incompatible mode."),
-QT_TRANSLATE_NOOP("twins-core", "Incompatible version."),
-QT_TRANSLATE_NOOP("twins-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
-QT_TRANSLATE_NOOP("twins-core", "Information"),
-QT_TRANSLATE_NOOP("twins-core", "Initialization sanity check failed. TWINS Core is shutting down."),
-QT_TRANSLATE_NOOP("twins-core", "Input is not valid."),
-QT_TRANSLATE_NOOP("twins-core", "Insufficient funds"),
-QT_TRANSLATE_NOOP("twins-core", "Insufficient funds."),
-QT_TRANSLATE_NOOP("twins-core", "Invalid -onion address or hostname: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount for -maxtxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount for -minrelaytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount for -mintxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount for -reservebalance=<amount>"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid amount"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid masternodeprivkey. Please see documenation."),
-QT_TRANSLATE_NOOP("twins-core", "Invalid netmask specified in -whitelist: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid port detected in masternode.conf"),
-QT_TRANSLATE_NOOP("twins-core", "Invalid private key."),
-QT_TRANSLATE_NOOP("twins-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("twins-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Last Obfuscation was too recent."),
-QT_TRANSLATE_NOOP("twins-core", "Last successful Obfuscation action was too recent."),
-QT_TRANSLATE_NOOP("twins-core", "Limit size of signature cache to <n> entries (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Line: %d"),
-QT_TRANSLATE_NOOP("twins-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Loading addresses..."),
-QT_TRANSLATE_NOOP("twins-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("twins-core", "Loading budget cache..."),
-QT_TRANSLATE_NOOP("twins-core", "Loading masternode cache..."),
-QT_TRANSLATE_NOOP("twins-core", "Loading masternode payment cache..."),
-QT_TRANSLATE_NOOP("twins-core", "Loading sporks..."),
-QT_TRANSLATE_NOOP("twins-core", "Loading wallet... (%3.2f %%)"),
-QT_TRANSLATE_NOOP("twins-core", "Loading wallet..."),
-QT_TRANSLATE_NOOP("twins-core", "Location of the auth cookie (default: data dir)"),
-QT_TRANSLATE_NOOP("twins-core", "Lock is already in place."),
-QT_TRANSLATE_NOOP("twins-core", "Lock masternodes from masternode configuration file (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Lookup(): Invalid -proxy address or hostname: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Maintain at most <n> connections to peers (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Masternode options:"),
-QT_TRANSLATE_NOOP("twins-core", "Masternode queue is full."),
-QT_TRANSLATE_NOOP("twins-core", "Masternode:"),
-QT_TRANSLATE_NOOP("twins-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Mint did not make it into blockchain"),
-QT_TRANSLATE_NOOP("twins-core", "Missing input transaction information."),
-QT_TRANSLATE_NOOP("twins-core", "Mixing in progress..."),
-QT_TRANSLATE_NOOP("twins-core", "Need address because change is not exact"),
-QT_TRANSLATE_NOOP("twins-core", "Need to specify a port with -whitebind: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "No Masternodes detected."),
-QT_TRANSLATE_NOOP("twins-core", "No compatible Masternode found."),
-QT_TRANSLATE_NOOP("twins-core", "No funds detected in need of denominating."),
-QT_TRANSLATE_NOOP("twins-core", "No matching denominations found for mixing."),
-QT_TRANSLATE_NOOP("twins-core", "Node relay options:"),
-QT_TRANSLATE_NOOP("twins-core", "Non-standard public key detected."),
-QT_TRANSLATE_NOOP("twins-core", "Not compatible with existing transactions."),
-QT_TRANSLATE_NOOP("twins-core", "Not enough file descriptors available."),
-QT_TRANSLATE_NOOP("twins-core", "Not in the Masternode list."),
-QT_TRANSLATE_NOOP("twins-core", "Number of automatic wallet backups (default: 10)"),
-QT_TRANSLATE_NOOP("twins-core", "Number of custom location backups to retain (default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", "Obfuscation is idle."),
-QT_TRANSLATE_NOOP("twins-core", "Obfuscation request complete:"),
-QT_TRANSLATE_NOOP("twins-core", "Obfuscation request incomplete:"),
-QT_TRANSLATE_NOOP("twins-core", "Only accept block chain matching built-in checkpoints (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
-QT_TRANSLATE_NOOP("twins-core", "Options:"),
-QT_TRANSLATE_NOOP("twins-core", "Password for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("twins-core", "Percentage of automatically minted Zerocoin  (1-100, default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Preparing for resync..."),
-QT_TRANSLATE_NOOP("twins-core", "Prepend debug output with timestamp (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Print version and exit"),
-QT_TRANSLATE_NOOP("twins-core", "RPC server options:"),
-QT_TRANSLATE_NOOP("twins-core", "Randomly drop 1 of every <n> network messages"),
-QT_TRANSLATE_NOOP("twins-core", "Randomly fuzz 1 of every <n> network messages"),
-QT_TRANSLATE_NOOP("twins-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("twins-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Reindex the TWINS and zTWINS money supply statistics"),
-QT_TRANSLATE_NOOP("twins-core", "Reindex the accumulator database"),
-QT_TRANSLATE_NOOP("twins-core", "Reindexing zerocoin database..."),
-QT_TRANSLATE_NOOP("twins-core", "Reindexing zerocoin failed"),
-QT_TRANSLATE_NOOP("twins-core", "Relay and mine data carrier transactions (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Relay non-P2SH multisig (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Rescan the block chain for missing wallet transactions"),
-QT_TRANSLATE_NOOP("twins-core", "Rescanning..."),
-QT_TRANSLATE_NOOP("twins-core", "ResetMintZerocoin finished: "),
-QT_TRANSLATE_NOOP("twins-core", "ResetSpentZerocoin finished: "),
-QT_TRANSLATE_NOOP("twins-core", "Run a thread to flush wallet periodically (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("twins-core", "Selected coins value is less than payment target"),
-QT_TRANSLATE_NOOP("twins-core", "Send transactions as zero-fee transactions if possible (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Session not complete!"),
-QT_TRANSLATE_NOOP("twins-core", "Session timed out."),
-QT_TRANSLATE_NOOP("twins-core", "Set database cache size in megabytes (%d to %d, default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", "Set external address:port to get to this masternode (example: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Set key pool size to <n> (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Set maximum block size in bytes (default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", "Set minimum block size in bytes (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Set the Maximum reorg depth (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Set the masternode private key"),
-QT_TRANSLATE_NOOP("twins-core", "Set the number of threads to service RPC calls (default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Show all debugging options (usage: --help -help-debug)"),
-QT_TRANSLATE_NOOP("twins-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
-QT_TRANSLATE_NOOP("twins-core", "Signing failed."),
-QT_TRANSLATE_NOOP("twins-core", "Signing timed out."),
-QT_TRANSLATE_NOOP("twins-core", "Signing transaction failed"),
-QT_TRANSLATE_NOOP("twins-core", "Specify configuration file (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Specify connection timeout in milliseconds (minimum: 1, default: %d)"),
-QT_TRANSLATE_NOOP("twins-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("twins-core", "Specify masternode configuration file (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Specify pid file (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Specify wallet file (within data directory)"),
-QT_TRANSLATE_NOOP("twins-core", "Specify your own public address"),
-QT_TRANSLATE_NOOP("twins-core", "Spend Valid"),
-QT_TRANSLATE_NOOP("twins-core", "Spend unconfirmed change when sending transactions (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Staking options:"),
-QT_TRANSLATE_NOOP("twins-core", "Stop running after importing blocks from disk (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Submitted following entries to masternode: %u / %d"),
-QT_TRANSLATE_NOOP("twins-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
-QT_TRANSLATE_NOOP("twins-core", "Submitted to masternode, waiting in queue %s"),
-QT_TRANSLATE_NOOP("twins-core", "SwiftX options:"),
-QT_TRANSLATE_NOOP("twins-core", "Synchronization failed"),
-QT_TRANSLATE_NOOP("twins-core", "Synchronization finished"),
-QT_TRANSLATE_NOOP("twins-core", "Synchronization pending..."),
-QT_TRANSLATE_NOOP("twins-core", "Synchronizing budgets..."),
-QT_TRANSLATE_NOOP("twins-core", "Synchronizing masternode winners..."),
-QT_TRANSLATE_NOOP("twins-core", "Synchronizing masternodes..."),
-QT_TRANSLATE_NOOP("twins-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("twins-core", "Syncing zTWINS wallet..."),
-QT_TRANSLATE_NOOP("twins-core", "The coin spend has been used"),
-QT_TRANSLATE_NOOP("twins-core", "The new spend coin transaction did not verify"),
-QT_TRANSLATE_NOOP("twins-core", "The selected mint coin is an invalid coin"),
-QT_TRANSLATE_NOOP("twins-core", "The transaction did not verify"),
-QT_TRANSLATE_NOOP("twins-core", "This help message"),
-QT_TRANSLATE_NOOP("twins-core", "This is experimental software."),
-QT_TRANSLATE_NOOP("twins-core", "This is intended for regression testing tools and app development."),
-QT_TRANSLATE_NOOP("twins-core", "This is not a Masternode."),
-QT_TRANSLATE_NOOP("twins-core", "Threshold for disconnecting misbehaving peers (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Too many spends needed"),
-QT_TRANSLATE_NOOP("twins-core", "Tor control port password (default: empty)"),
-QT_TRANSLATE_NOOP("twins-core", "Tor control port to use if onion listening enabled (default: %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Transaction Created"),
-QT_TRANSLATE_NOOP("twins-core", "Transaction Mint Started"),
-QT_TRANSLATE_NOOP("twins-core", "Transaction amount too small"),
-QT_TRANSLATE_NOOP("twins-core", "Transaction amounts must be positive"),
-QT_TRANSLATE_NOOP("twins-core", "Transaction created successfully."),
-QT_TRANSLATE_NOOP("twins-core", "Transaction fees are too high."),
-QT_TRANSLATE_NOOP("twins-core", "Transaction not valid."),
-QT_TRANSLATE_NOOP("twins-core", "Transaction too large for fee policy"),
-QT_TRANSLATE_NOOP("twins-core", "Transaction too large"),
-QT_TRANSLATE_NOOP("twins-core", "Transmitting final transaction."),
-QT_TRANSLATE_NOOP("twins-core", "Try to spend with a higher security level to include more coins"),
-QT_TRANSLATE_NOOP("twins-core", "Trying to spend an already spent serial #, try again."),
-QT_TRANSLATE_NOOP("twins-core", "Unable to bind to %s on this computer (bind returned error %s)"),
-QT_TRANSLATE_NOOP("twins-core", "Unable to find transaction containing mint"),
-QT_TRANSLATE_NOOP("twins-core", "Unable to sign spork message, wrong key?"),
-QT_TRANSLATE_NOOP("twins-core", "Unable to start HTTP server. See debug log for details."),
-QT_TRANSLATE_NOOP("twins-core", "Unknown network specified in -onlynet: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "Unknown state: id = %u"),
-QT_TRANSLATE_NOOP("twins-core", "Upgrade wallet to latest format"),
-QT_TRANSLATE_NOOP("twins-core", "Use UPnP to map the listening port (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Use UPnP to map the listening port (default: 1 when listening)"),
-QT_TRANSLATE_NOOP("twins-core", "Use a custom max chain reorganization depth (default: %u)"),
-QT_TRANSLATE_NOOP("twins-core", "Use the test network"),
-QT_TRANSLATE_NOOP("twins-core", "User Agent comment (%s) contains unsafe characters."),
-QT_TRANSLATE_NOOP("twins-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("twins-core", "Value is below the smallest available denomination (= 1) of zTWINS"),
-QT_TRANSLATE_NOOP("twins-core", "Value more than Obfuscation pool maximum allows."),
-QT_TRANSLATE_NOOP("twins-core", "Verifying blocks..."),
-QT_TRANSLATE_NOOP("twins-core", "Verifying wallet..."),
-QT_TRANSLATE_NOOP("twins-core", "Version 1 zTWINS require a security level of 100 to successfully spend."),
-QT_TRANSLATE_NOOP("twins-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("twins-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("twins-core", "Wallet needed to be rewritten: restart TWINS Core to complete"),
-QT_TRANSLATE_NOOP("twins-core", "Wallet options:"),
-QT_TRANSLATE_NOOP("twins-core", "Wallet window title"),
-QT_TRANSLATE_NOOP("twins-core", "Warning"),
-QT_TRANSLATE_NOOP("twins-core", "Warning: This version is obsolete, upgrade required!"),
-QT_TRANSLATE_NOOP("twins-core", "Warning: Unsupported argument -benchmark ignored, use -debug=bench."),
-QT_TRANSLATE_NOOP("twins-core", "Warning: Unsupported argument -debugnet ignored, use -debug=net."),
-QT_TRANSLATE_NOOP("twins-core", "Will retry..."),
-QT_TRANSLATE_NOOP("twins-core", "You don't have enough Zerocoins in your wallet"),
-QT_TRANSLATE_NOOP("twins-core", "You need to rebuild the database using -reindex to change -txindex"),
-QT_TRANSLATE_NOOP("twins-core", "Your entries added successfully."),
-QT_TRANSLATE_NOOP("twins-core", "Your transaction was accepted into the pool!"),
-QT_TRANSLATE_NOOP("twins-core", "Zapping all transactions from wallet..."),
-QT_TRANSLATE_NOOP("twins-core", "ZeroMQ notification options:"),
-QT_TRANSLATE_NOOP("twins-core", "Zerocoin options:"),
-QT_TRANSLATE_NOOP("twins-core", "isValid(): Invalid -proxy address or hostname: '%s'"),
-QT_TRANSLATE_NOOP("twins-core", "on startup"),
-QT_TRANSLATE_NOOP("twins-core", "wallet.dat corrupt, salvage failed"),
+QT_TRANSLATE_NOOP("valideum-core", "(37817 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("valideum-core", "(default: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "(default: 1)"),
+QT_TRANSLATE_NOOP("valideum-core", "(must be 37817 for mainnet)"),
+QT_TRANSLATE_NOOP("valideum-core", "<category> can be:"),
+QT_TRANSLATE_NOOP("valideum-core", "Accept command line and JSON-RPC commands"),
+QT_TRANSLATE_NOOP("valideum-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
+QT_TRANSLATE_NOOP("valideum-core", "Accept public REST requests (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Add a node to connect to and attempt to keep the connection open"),
+QT_TRANSLATE_NOOP("valideum-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
+QT_TRANSLATE_NOOP("valideum-core", "Already have that input."),
+QT_TRANSLATE_NOOP("valideum-core", "Always query for peer addresses via DNS lookup (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Append comment to the user agent string"),
+QT_TRANSLATE_NOOP("valideum-core", "Attempt to force blockchain corruption recovery"),
+QT_TRANSLATE_NOOP("valideum-core", "Attempt to recover private keys from a corrupt wallet.dat"),
+QT_TRANSLATE_NOOP("valideum-core", "Automatically create Tor hidden service (default: %d)"),
+QT_TRANSLATE_NOOP("valideum-core", "Block creation options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Calculating missing accumulators..."),
+QT_TRANSLATE_NOOP("valideum-core", "Can't denominate: no compatible inputs left."),
+QT_TRANSLATE_NOOP("valideum-core", "Can't find random Masternode."),
+QT_TRANSLATE_NOOP("valideum-core", "Can't mix while sync in progress."),
+QT_TRANSLATE_NOOP("valideum-core", "Cannot downgrade wallet"),
+QT_TRANSLATE_NOOP("valideum-core", "Cannot resolve -bind address: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Cannot resolve -externalip address: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Cannot resolve -whitebind address: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Cannot write default address"),
+QT_TRANSLATE_NOOP("valideum-core", "CoinSpend: Accumulator witness does not verify"),
+QT_TRANSLATE_NOOP("valideum-core", "Collateral not valid."),
+QT_TRANSLATE_NOOP("valideum-core", "Connect only to the specified node(s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Connect through SOCKS5 proxy"),
+QT_TRANSLATE_NOOP("valideum-core", "Connect to a node to retrieve peer addresses, and disconnect"),
+QT_TRANSLATE_NOOP("valideum-core", "Connection options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
+QT_TRANSLATE_NOOP("valideum-core", "Copyright (C) 2014-%i The Dash Core Developers"),
+QT_TRANSLATE_NOOP("valideum-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
+QT_TRANSLATE_NOOP("valideum-core", "Corrupted block database detected"),
+QT_TRANSLATE_NOOP("valideum-core", "Could not parse masternode.conf"),
+QT_TRANSLATE_NOOP("valideum-core", "Debugging/Testing options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Delete blockchain folders and resync from scratch"),
+QT_TRANSLATE_NOOP("valideum-core", "Disable OS notifications for incoming transactions (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Disable safemode, override a real safe mode event (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
+QT_TRANSLATE_NOOP("valideum-core", "Display the stake modifier calculations in the debug.log file."),
+QT_TRANSLATE_NOOP("valideum-core", "Display verbose coin stake messages in the debug.log file."),
+QT_TRANSLATE_NOOP("valideum-core", "Do not load the wallet and disable wallet RPC calls"),
+QT_TRANSLATE_NOOP("valideum-core", "Do you want to rebuild the block database now?"),
+QT_TRANSLATE_NOOP("valideum-core", "Done loading"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable automatic Zerocoin minting (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable publish hash block in <address>"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable publish hash transaction in <address>"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable publish raw block in <address>"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable publish raw transaction (locked via SwiftX) in <address>"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable publish raw transaction in <address>"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable staking functionality (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Enable the client to act as a masternode (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Entries are full."),
+QT_TRANSLATE_NOOP("valideum-core", "Error connecting to Masternode."),
+QT_TRANSLATE_NOOP("valideum-core", "Error initializing block database"),
+QT_TRANSLATE_NOOP("valideum-core", "Error initializing wallet database environment %s!"),
+QT_TRANSLATE_NOOP("valideum-core", "Error loading block database"),
+QT_TRANSLATE_NOOP("valideum-core", "Error loading wallet.dat"),
+QT_TRANSLATE_NOOP("valideum-core", "Error loading wallet.dat: Wallet corrupted"),
+QT_TRANSLATE_NOOP("valideum-core", "Error loading wallet.dat: Wallet requires newer version of VALIDEUM Core"),
+QT_TRANSLATE_NOOP("valideum-core", "Error opening block database"),
+QT_TRANSLATE_NOOP("valideum-core", "Error reading from database, shutting down."),
+QT_TRANSLATE_NOOP("valideum-core", "Error recovering public key."),
+QT_TRANSLATE_NOOP("valideum-core", "Error writing zerocoinDB to disk"),
+QT_TRANSLATE_NOOP("valideum-core", "Error"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: A fatal internal error occured, see debug.log for details"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: A fatal internal error occurred, see debug.log for details"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: Can't select current denominated inputs"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: Disk space is low!"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: No valid utxo!"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: Unsupported argument -tor found, use -onion."),
+QT_TRANSLATE_NOOP("valideum-core", "Error: Wallet locked, unable to create transaction!"),
+QT_TRANSLATE_NOOP("valideum-core", "Error: You already have pending entries in the Obfuscation pool"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to calculate accumulator checkpoint"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to create mint"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to deserialize"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to find Zerocoins in wallet.dat"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to listen on any port. Use -listen=0 if you want this."),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to parse host:port string"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to read block"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to select a zerocoin"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to wipe zerocoinDB"),
+QT_TRANSLATE_NOOP("valideum-core", "Failed to write coin serial number into wallet"),
+QT_TRANSLATE_NOOP("valideum-core", "Fee (in TF/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Finalizing transaction."),
+QT_TRANSLATE_NOOP("valideum-core", "Force safe mode (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Found enough users, signing ( waiting %s )"),
+QT_TRANSLATE_NOOP("valideum-core", "Found enough users, signing ..."),
+QT_TRANSLATE_NOOP("valideum-core", "Generate coins (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "How many blocks to check at startup (default: %u, 0 = all)"),
+QT_TRANSLATE_NOOP("valideum-core", "If <category> is not supplied, output all debugging information."),
+QT_TRANSLATE_NOOP("valideum-core", "Importing..."),
+QT_TRANSLATE_NOOP("valideum-core", "Imports blocks from external blk000??.dat file"),
+QT_TRANSLATE_NOOP("valideum-core", "Include IP addresses in debug output (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Incompatible mode."),
+QT_TRANSLATE_NOOP("valideum-core", "Incompatible version."),
+QT_TRANSLATE_NOOP("valideum-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
+QT_TRANSLATE_NOOP("valideum-core", "Information"),
+QT_TRANSLATE_NOOP("valideum-core", "Initialization sanity check failed. VALIDEUM Core is shutting down."),
+QT_TRANSLATE_NOOP("valideum-core", "Input is not valid."),
+QT_TRANSLATE_NOOP("valideum-core", "Insufficient funds"),
+QT_TRANSLATE_NOOP("valideum-core", "Insufficient funds."),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid -onion address or hostname: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount for -maxtxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount for -minrelaytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount for -mintxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount for -reservebalance=<amount>"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid amount"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid masternodeprivkey. Please see documenation."),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid netmask specified in -whitelist: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid port detected in masternode.conf"),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid private key."),
+QT_TRANSLATE_NOOP("valideum-core", "Invalid script detected."),
+QT_TRANSLATE_NOOP("valideum-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Last Obfuscation was too recent."),
+QT_TRANSLATE_NOOP("valideum-core", "Last successful Obfuscation action was too recent."),
+QT_TRANSLATE_NOOP("valideum-core", "Limit size of signature cache to <n> entries (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Line: %d"),
+QT_TRANSLATE_NOOP("valideum-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Loading addresses..."),
+QT_TRANSLATE_NOOP("valideum-core", "Loading block index..."),
+QT_TRANSLATE_NOOP("valideum-core", "Loading budget cache..."),
+QT_TRANSLATE_NOOP("valideum-core", "Loading masternode cache..."),
+QT_TRANSLATE_NOOP("valideum-core", "Loading masternode payment cache..."),
+QT_TRANSLATE_NOOP("valideum-core", "Loading sporks..."),
+QT_TRANSLATE_NOOP("valideum-core", "Loading wallet... (%3.2f %%)"),
+QT_TRANSLATE_NOOP("valideum-core", "Loading wallet..."),
+QT_TRANSLATE_NOOP("valideum-core", "Location of the auth cookie (default: data dir)"),
+QT_TRANSLATE_NOOP("valideum-core", "Lock is already in place."),
+QT_TRANSLATE_NOOP("valideum-core", "Lock masternodes from masternode configuration file (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Lookup(): Invalid -proxy address or hostname: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Maintain at most <n> connections to peers (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Masternode options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Masternode queue is full."),
+QT_TRANSLATE_NOOP("valideum-core", "Masternode:"),
+QT_TRANSLATE_NOOP("valideum-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Mint did not make it into blockchain"),
+QT_TRANSLATE_NOOP("valideum-core", "Missing input transaction information."),
+QT_TRANSLATE_NOOP("valideum-core", "Mixing in progress..."),
+QT_TRANSLATE_NOOP("valideum-core", "Need address because change is not exact"),
+QT_TRANSLATE_NOOP("valideum-core", "Need to specify a port with -whitebind: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "No Masternodes detected."),
+QT_TRANSLATE_NOOP("valideum-core", "No compatible Masternode found."),
+QT_TRANSLATE_NOOP("valideum-core", "No funds detected in need of denominating."),
+QT_TRANSLATE_NOOP("valideum-core", "No matching denominations found for mixing."),
+QT_TRANSLATE_NOOP("valideum-core", "Node relay options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Non-standard public key detected."),
+QT_TRANSLATE_NOOP("valideum-core", "Not compatible with existing transactions."),
+QT_TRANSLATE_NOOP("valideum-core", "Not enough file descriptors available."),
+QT_TRANSLATE_NOOP("valideum-core", "Not in the Masternode list."),
+QT_TRANSLATE_NOOP("valideum-core", "Number of automatic wallet backups (default: 10)"),
+QT_TRANSLATE_NOOP("valideum-core", "Number of custom location backups to retain (default: %d)"),
+QT_TRANSLATE_NOOP("valideum-core", "Obfuscation is idle."),
+QT_TRANSLATE_NOOP("valideum-core", "Obfuscation request complete:"),
+QT_TRANSLATE_NOOP("valideum-core", "Obfuscation request incomplete:"),
+QT_TRANSLATE_NOOP("valideum-core", "Only accept block chain matching built-in checkpoints (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
+QT_TRANSLATE_NOOP("valideum-core", "Options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Password for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("valideum-core", "Percentage of automatically minted Zerocoin  (1-100, default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Preparing for resync..."),
+QT_TRANSLATE_NOOP("valideum-core", "Prepend debug output with timestamp (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Print version and exit"),
+QT_TRANSLATE_NOOP("valideum-core", "RPC server options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Randomly drop 1 of every <n> network messages"),
+QT_TRANSLATE_NOOP("valideum-core", "Randomly fuzz 1 of every <n> network messages"),
+QT_TRANSLATE_NOOP("valideum-core", "Rebuild block chain index from current blk000??.dat files"),
+QT_TRANSLATE_NOOP("valideum-core", "Receive and display P2P network alerts (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Reindex the TF and zTF money supply statistics"),
+QT_TRANSLATE_NOOP("valideum-core", "Reindex the accumulator database"),
+QT_TRANSLATE_NOOP("valideum-core", "Reindexing zerocoin database..."),
+QT_TRANSLATE_NOOP("valideum-core", "Reindexing zerocoin failed"),
+QT_TRANSLATE_NOOP("valideum-core", "Relay and mine data carrier transactions (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Relay non-P2SH multisig (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Rescan the block chain for missing wallet transactions"),
+QT_TRANSLATE_NOOP("valideum-core", "Rescanning..."),
+QT_TRANSLATE_NOOP("valideum-core", "ResetMintZerocoin finished: "),
+QT_TRANSLATE_NOOP("valideum-core", "ResetSpentZerocoin finished: "),
+QT_TRANSLATE_NOOP("valideum-core", "Run a thread to flush wallet periodically (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Run in the background as a daemon and accept commands"),
+QT_TRANSLATE_NOOP("valideum-core", "Selected coins value is less than payment target"),
+QT_TRANSLATE_NOOP("valideum-core", "Send transactions as zero-fee transactions if possible (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Session not complete!"),
+QT_TRANSLATE_NOOP("valideum-core", "Session timed out."),
+QT_TRANSLATE_NOOP("valideum-core", "Set database cache size in megabytes (%d to %d, default: %d)"),
+QT_TRANSLATE_NOOP("valideum-core", "Set external address:port to get to this masternode (example: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Set key pool size to <n> (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Set maximum block size in bytes (default: %d)"),
+QT_TRANSLATE_NOOP("valideum-core", "Set minimum block size in bytes (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Set the Maximum reorg depth (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Set the masternode private key"),
+QT_TRANSLATE_NOOP("valideum-core", "Set the number of threads to service RPC calls (default: %d)"),
+QT_TRANSLATE_NOOP("valideum-core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Show all debugging options (usage: --help -help-debug)"),
+QT_TRANSLATE_NOOP("valideum-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
+QT_TRANSLATE_NOOP("valideum-core", "Signing failed."),
+QT_TRANSLATE_NOOP("valideum-core", "Signing timed out."),
+QT_TRANSLATE_NOOP("valideum-core", "Signing transaction failed"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify configuration file (default: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify connection timeout in milliseconds (minimum: 1, default: %d)"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify data directory"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify masternode configuration file (default: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify pid file (default: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify wallet file (within data directory)"),
+QT_TRANSLATE_NOOP("valideum-core", "Specify your own public address"),
+QT_TRANSLATE_NOOP("valideum-core", "Spend Valid"),
+QT_TRANSLATE_NOOP("valideum-core", "Spend unconfirmed change when sending transactions (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Staking options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Stop running after importing blocks from disk (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Submitted following entries to masternode: %u / %d"),
+QT_TRANSLATE_NOOP("valideum-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
+QT_TRANSLATE_NOOP("valideum-core", "Submitted to masternode, waiting in queue %s"),
+QT_TRANSLATE_NOOP("valideum-core", "SwiftX options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronization failed"),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronization finished"),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronization pending..."),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronizing budgets..."),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronizing masternode winners..."),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronizing masternodes..."),
+QT_TRANSLATE_NOOP("valideum-core", "Synchronizing sporks..."),
+QT_TRANSLATE_NOOP("valideum-core", "Syncing zTF wallet..."),
+QT_TRANSLATE_NOOP("valideum-core", "The coin spend has been used"),
+QT_TRANSLATE_NOOP("valideum-core", "The new spend coin transaction did not verify"),
+QT_TRANSLATE_NOOP("valideum-core", "The selected mint coin is an invalid coin"),
+QT_TRANSLATE_NOOP("valideum-core", "The transaction did not verify"),
+QT_TRANSLATE_NOOP("valideum-core", "This help message"),
+QT_TRANSLATE_NOOP("valideum-core", "This is experimental software."),
+QT_TRANSLATE_NOOP("valideum-core", "This is intended for regression testing tools and app development."),
+QT_TRANSLATE_NOOP("valideum-core", "This is not a Masternode."),
+QT_TRANSLATE_NOOP("valideum-core", "Threshold for disconnecting misbehaving peers (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Too many spends needed"),
+QT_TRANSLATE_NOOP("valideum-core", "Tor control port password (default: empty)"),
+QT_TRANSLATE_NOOP("valideum-core", "Tor control port to use if onion listening enabled (default: %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction Created"),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction Mint Started"),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction amount too small"),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction amounts must be positive"),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction created successfully."),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction fees are too high."),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction not valid."),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction too large for fee policy"),
+QT_TRANSLATE_NOOP("valideum-core", "Transaction too large"),
+QT_TRANSLATE_NOOP("valideum-core", "Transmitting final transaction."),
+QT_TRANSLATE_NOOP("valideum-core", "Try to spend with a higher security level to include more coins"),
+QT_TRANSLATE_NOOP("valideum-core", "Trying to spend an already spent serial #, try again."),
+QT_TRANSLATE_NOOP("valideum-core", "Unable to bind to %s on this computer (bind returned error %s)"),
+QT_TRANSLATE_NOOP("valideum-core", "Unable to find transaction containing mint"),
+QT_TRANSLATE_NOOP("valideum-core", "Unable to sign spork message, wrong key?"),
+QT_TRANSLATE_NOOP("valideum-core", "Unable to start HTTP server. See debug log for details."),
+QT_TRANSLATE_NOOP("valideum-core", "Unknown network specified in -onlynet: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "Unknown state: id = %u"),
+QT_TRANSLATE_NOOP("valideum-core", "Upgrade wallet to latest format"),
+QT_TRANSLATE_NOOP("valideum-core", "Use UPnP to map the listening port (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Use UPnP to map the listening port (default: 1 when listening)"),
+QT_TRANSLATE_NOOP("valideum-core", "Use a custom max chain reorganization depth (default: %u)"),
+QT_TRANSLATE_NOOP("valideum-core", "Use the test network"),
+QT_TRANSLATE_NOOP("valideum-core", "User Agent comment (%s) contains unsafe characters."),
+QT_TRANSLATE_NOOP("valideum-core", "Username for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("valideum-core", "Value is below the smallest available denomination (= 1) of zTF"),
+QT_TRANSLATE_NOOP("valideum-core", "Value more than Obfuscation pool maximum allows."),
+QT_TRANSLATE_NOOP("valideum-core", "Verifying blocks..."),
+QT_TRANSLATE_NOOP("valideum-core", "Verifying wallet..."),
+QT_TRANSLATE_NOOP("valideum-core", "Version 1 zTF require a security level of 100 to successfully spend."),
+QT_TRANSLATE_NOOP("valideum-core", "Wallet %s resides outside data directory %s"),
+QT_TRANSLATE_NOOP("valideum-core", "Wallet is locked."),
+QT_TRANSLATE_NOOP("valideum-core", "Wallet needed to be rewritten: restart VALIDEUM Core to complete"),
+QT_TRANSLATE_NOOP("valideum-core", "Wallet options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Wallet window title"),
+QT_TRANSLATE_NOOP("valideum-core", "Warning"),
+QT_TRANSLATE_NOOP("valideum-core", "Warning: This version is obsolete, upgrade required!"),
+QT_TRANSLATE_NOOP("valideum-core", "Warning: Unsupported argument -benchmark ignored, use -debug=bench."),
+QT_TRANSLATE_NOOP("valideum-core", "Warning: Unsupported argument -debugnet ignored, use -debug=net."),
+QT_TRANSLATE_NOOP("valideum-core", "Will retry..."),
+QT_TRANSLATE_NOOP("valideum-core", "You don't have enough Zerocoins in your wallet"),
+QT_TRANSLATE_NOOP("valideum-core", "You need to rebuild the database using -reindex to change -txindex"),
+QT_TRANSLATE_NOOP("valideum-core", "Your entries added successfully."),
+QT_TRANSLATE_NOOP("valideum-core", "Your transaction was accepted into the pool!"),
+QT_TRANSLATE_NOOP("valideum-core", "Zapping all transactions from wallet..."),
+QT_TRANSLATE_NOOP("valideum-core", "ZeroMQ notification options:"),
+QT_TRANSLATE_NOOP("valideum-core", "Zerocoin options:"),
+QT_TRANSLATE_NOOP("valideum-core", "isValid(): Invalid -proxy address or hostname: '%s'"),
+QT_TRANSLATE_NOOP("valideum-core", "on startup"),
+QT_TRANSLATE_NOOP("valideum-core", "wallet.dat corrupt, salvage failed"),
 };

@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZTWINSCONTROLDIALOG_H
-#define ZTWINSCONTROLDIALOG_H
+#ifndef ZTFCONTROLDIALOG_H
+#define ZTFCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -15,26 +15,26 @@ class CZerocoinMint;
 class WalletModel;
 
 namespace Ui {
-class ZTWINSControlDialog;
+class ZTFControlDialog;
 }
 
-class CZTWINSControlWidgetItem : public QTreeWidgetItem
+class CZTFControlWidgetItem : public QTreeWidgetItem
 {
 public:
-    explicit CZTWINSControlWidgetItem(QTreeWidget *parent, int type = Type) : QTreeWidgetItem(parent, type) {}
-    explicit CZTWINSControlWidgetItem(int type = Type) : QTreeWidgetItem(type) {}
-    explicit CZTWINSControlWidgetItem(QTreeWidgetItem *parent, int type = Type) : QTreeWidgetItem(parent, type) {}
+    explicit CZTFControlWidgetItem(QTreeWidget *parent, int type = Type) : QTreeWidgetItem(parent, type) {}
+    explicit CZTFControlWidgetItem(int type = Type) : QTreeWidgetItem(type) {}
+    explicit CZTFControlWidgetItem(QTreeWidgetItem *parent, int type = Type) : QTreeWidgetItem(parent, type) {}
 
     bool operator<(const QTreeWidgetItem &other) const;
 };
 
-class ZTWINSControlDialog : public QDialog
+class ZTFControlDialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit ZTWINSControlDialog(QWidget *parent);
-    ~ZTWINSControlDialog();
+    explicit ZTFControlDialog(QWidget *parent);
+    ~ZTFControlDialog();
 
     void setModel(WalletModel* model);
 
@@ -43,7 +43,7 @@ public:
     static std::vector<CMintMeta> GetSelectedMints();
 
 private:
-    Ui::ZTWINSControlDialog *ui;
+    Ui::ZTFControlDialog *ui;
     WalletModel* model;
     PrivacyDialog* privacyDialog;
 
@@ -58,11 +58,11 @@ private:
         COLUMN_CONFIRMATIONS,
         COLUMN_ISSPENDABLE
     };
-    friend class CZTWINSControlWidgetItem;
+    friend class CZTFControlWidgetItem;
 
 private slots:
     void updateSelection(QTreeWidgetItem* item, int column);
     void ButtonAllClicked();
 };
 
-#endif // ZTWINSCONTROLDIALOG_H
+#endif // ZTFCONTROLDIALOG_H

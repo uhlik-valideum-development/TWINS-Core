@@ -1,6 +1,6 @@
 // Copyright (c) 2014 The Bitcoin developers
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,8 +11,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between twins-cli and twinsd)
- * of a given instance of the TWINS system.
+ * CBaseChainParams defines the base parameters (shared between valideum-cli and valideumd)
+ * of a given instance of the TF system.
  */
 class CBaseChainParams
 {

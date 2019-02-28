@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -176,16 +176,16 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE TWINS&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE TF&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>Enter a TWINS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast en TWINS-adresse, som du gerne vil kryptere ved hjælp af BIP 38. Indtast en adgangskode i mellemkassen. Tryk på krypteringen for at beregne den krypterede private nøgle.</translation>
+        <source>Enter a TF Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Indtast en VALIDEUM-adresse, som du gerne vil kryptere ved hjælp af BIP 38. Indtast en adgangskode i mellemkassen. Tryk på krypteringen for at beregne den krypterede private nøgle.</translation>
     </message>
     <message>
-        <source>The TWINS address to encrypt</source>
-        <translation>TWINS-adressen for at kryptere</translation>
+        <source>The TF address to encrypt</source>
+        <translation>VALIDEUM-adressen for at kryptere</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TWINS address</source>
-        <translation>Krypter den private nøgle for denne TWINS-adresse</translation>
+        <source>Encrypt the private key for this TF address</source>
+        <translation>Krypter den private nøgle for denne VALIDEUM-adresse</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Vis transaktionshistorik</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTWINS</source>
-        <translation>Beskyttelse af personlige oplysninger for zTWINS</translation>
+        <source>Privacy Actions for zTF</source>
+        <translation>Beskyttelse af personlige oplysninger for zTF</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS kerne</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF kerne</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Send mønter til en TWINS adresse</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Send mønter til en TF adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og TWINS URL)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Anmod om betaling (genrerer QR kode og TF URL)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>&amp;Om TWINS kerne</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>&amp;Om TF kerne</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Vis information om TWINS kerne</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Vis information om TF kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Ret konfigurationsindstillinger for TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Ret konfigurationsindstillinger for TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres TWINS adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres TF adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne TWINS adresse</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne TF adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Åbn en TWINS URl eller betalingsanmodning</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Åbn en TF URl eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Vis hjelpetekster fra TWINS kernen for at få en liste med mulige TWINS kommandolinie-startparametre</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Vis hjelpetekster fra TF kernen for at få en liste med mulige TF kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINS kerneklient</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>TF kerneklient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to TWINS network</source>
-        <translation><numerusform>%n aktiv forbindelse til TWINS-netværk</numerusform><numerusform>%n aktiv forbindelse(s) til TWINS netværk</numerusform></translation>
+        <source>%n active connection(s) to TF network</source>
+        <translation><numerusform>%n aktiv forbindelse til VALIDEUM-netværk</numerusform><numerusform>%n aktiv forbindelse(s) til TF netværk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (twins.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (twins.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valideum.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (valideum.conf).</translation>
     </message>
 </context>
 <context>
@@ -1130,8 +1130,8 @@ Adresse: %4
         <translation>Denne tekstmarkør bliver rød, hvis en modtageradresse modtager et beløb mindre end %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 utwins per input.</source>
-        <translation>Kan variere +/- %1 otwins pr input.</translation>
+        <source>Can vary +/- %1 uvalideum per input.</source>
+        <translation>Kan variere +/- %1 ovalideum pr input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1185,8 +1185,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TWINS address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig TWINS adresse</translation>
+        <source>The entered address "%1" is not a valid TF address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig TF adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1231,16 +1231,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS kerne</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TWINS Core</source>
-        <translation>om TWINS kerne</translation>
+        <source>About VALIDEUM Core</source>
+        <translation>om TF kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1286,16 +1286,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to TWINS Core.</source>
-        <translation>Velkommen til TWINS kerne</translation>
+        <source>Welcome to VALIDEUM Core.</source>
+        <translation>Velkommen til TF kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TWINS Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor TWINS kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where VALIDEUM Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor TF kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>TWINS Core will download and store a copy of the TWINS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TWINS kernen vil nu hente og gemme en kopi af TWINS blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>VALIDEUM Core will download and store a copy of the TF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TF kernen vil nu hente og gemme en kopi af TF blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1306,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS kerne</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,12 +1448,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TWINS addresses after it matures.
-To Add: enter percentage to give and TWINS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TF addresses after it matures.
+To Add: enter percentage to give and TF address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre TWINS adressater når den er tilstrækkelig stor.
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den TWINS adresse som skal modtage via Multisendsystemet.
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre TF adressater når den er tilstrækkelig stor.
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den TF adresse som skal modtage via Multisendsystemet.
 For at fjerne: Indtast adressen som skal slettes og klik på slet.
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1681,8 +1681,8 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Adresse / Beløb:</translation>
     </message>
     <message>
-        <source>Add destinations to send TWINS to</source>
-        <translation>Tilføj destinationer for at sende TWINS til</translation>
+        <source>Add destinations to send TF to</source>
+        <translation>Tilføj destinationer for at sende TF til</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1780,48 +1780,48 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 TWINS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 TF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 TWINS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 TF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Brug 16 separate masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 TWINS to anonymize 10000 TWINS</source>
-        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 TWINS for at anonymiser 10000 TWINS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TF to anonymize 10000 TF</source>
+        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 TF for at anonymiser 10000 TF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 TWINS to anonymize 10000 TWINS</source>
-        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 TWINS for at anonymiser 10000 TWINS</translation>
+        <source>This option is moderately fast and will cost about 0.05 TF to anonymize 10000 TF</source>
+        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 TF for at anonymiser 10000 TF</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Denne mulighed er den langsomste og det mest sikre valg. Valg af maksimal tilsløring vil koste</translation>
     </message>
     <message>
-        <source>0.1 TWINS per 10000 TWINS you anonymize.</source>
-        <translation>0.1 pr 10000 TWINS for at tilsløre.</translation>
+        <source>0.1 TF per 10000 TF you anonymize.</source>
+        <translation>0.1 pr 10000 TF for at tilsløre.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Tilsløringskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne TWINS konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne TF konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne TWINS konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne TF konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne TWINS konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne TF konfigurationsbillede.</translation>
     </message>
 </context>
 <context>
@@ -1882,8 +1882,8 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the TWINS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn TWINS klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the TF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn TF klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1902,12 +1902,12 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start TWINS after logging in to the system.</source>
-        <translation>Start TWINS automatisk, når der logges på systemet</translation>
+        <source>Automatically start TF after logging in to the system.</source>
+        <translation>Start TF automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start TWINS on system login</source>
-        <translation>&amp;start TWINS når der logges på systemet</translation>
+        <source>&amp;Start TF on system login</source>
+        <translation>&amp;start TF når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1934,50 +1934,50 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TWINS.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang TWINS klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TF.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang TF klienten startes</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/twins-project/twins-project-translations</source>
+https://www.transifex.com/valideum-project/valideum-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/twins-project/twins-project-translations</translation>
+https://www.transifex.com/valideum-project/valideum-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of TWINS units to zTWINS</source>
-        <translation>Aktivér automatisk mintning af TWINS-enheder til zTWINS</translation>
+        <source>Enable automatic minting of TF units to zTF</source>
+        <translation>Aktivér automatisk mintning af VALIDEUM-enheder til zTF</translation>
     </message>
     <message>
-        <source>Enable zTWINS Automint</source>
-        <translation>Aktivér zTWINS Automint</translation>
+        <source>Enable zTF Automint</source>
+        <translation>Aktivér zTF Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming TWINS which get automatically converted to zTWINS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentdelen af indkommende TWINS, som automatisk konverteres til zTWINS via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming TF which get automatically converted to zTF via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentdelen af indkommende TF, som automatisk konverteres til zTF via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTWINS</source>
-        <translation>Procentdel af automatiseret zTWINS</translation>
+        <source>Percentage of autominted zTF</source>
+        <translation>Procentdel af automatiseret zTF</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TWINS for this denomination is available</source>
-        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok TWINS til denne betegnelse er tilgængelig</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough TF for this denomination is available</source>
+        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok TF til denne betegnelse er tilgængelig</translation>
     </message>
     <message>
-        <source>Preferred Automint zTWINS Denomination</source>
-        <translation>Foretrukket Automint zTWINS Denomination</translation>
+        <source>Preferred Automint zTF Denomination</source>
+        <translation>Foretrukket Automint zTF Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Indtastningsgrænse for indsats:</translation>
     </message>
     <message>
-        <source>Connect to the TWINS network through a SOCKS5 proxy.</source>
-        <translation>Tilslut TWINS netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the TF network through a SOCKS5 proxy.</source>
+        <translation>Tilslut TF netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
         <translation>Samlet saldo, inklusive alle utilgængelige mønter.</translation>
     </message>
     <message>
-        <source>TWINS Balance</source>
-        <translation>TWINS Balance</translation>
+        <source>TF Balance</source>
+        <translation>TF Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2155,18 +2155,18 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
         <translation>Nuværende låst balance i kun-adresser</translation>
     </message>
     <message>
-        <source>Your current TWINS balance, unconfirmed and immature transactions included</source>
-        <translation>Din nuværende TWINS-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
+        <source>Your current TF balance, unconfirmed and immature transactions included</source>
+        <translation>Din nuværende VALIDEUM-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
     </message>
     <message>
-        <source>zTWINS Balance</source>
-        <translation>zTWINS-saldo</translation>
+        <source>zTF Balance</source>
+        <translation>zTF-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTWINS are spendable.</source>
+These zTF are spendable.</source>
         <translation>Ældre: mere end 20 bekræftelser og mere end 1 minutter med samme betegnelse, efter at den blev minted
-Disse zTWINS kan bruges.</translation>
+Disse zTF kan bruges.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2175,8 +2175,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at den blev mønnet</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med TWINS netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med TF netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2219,8 +2219,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Brugbare:</translation>
     </message>
     <message>
-        <source>Locked TWINS or Masternode collaterals. These are excluded from zTWINS minting.</source>
-        <translation>Låste TWINS eller Masternode collaterals. Disse er udelukket fra zTWINS-mintning.</translation>
+        <source>Locked TF or Masternode collaterals. These are excluded from zTF minting.</source>
+        <translation>Låste TF eller Masternode collaterals. Disse er udelukket fra zTF-mintning.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ubekræftet:</translation>
     </message>
     <message>
-        <source>Your current zTWINS balance, unconfirmed and immature zTWINS included.</source>
-        <translation>Din nuværende zTWINS-saldo, ubekræftede og umodne zTWINS inkluderet.</translation>
+        <source>Your current zTF balance, unconfirmed and immature zTF included.</source>
+        <translation>Din nuværende zTF-saldo, ubekræftede og umodne zTF inkluderet.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ude af synk</translation>
     </message>
     <message>
-        <source>Current percentage of zTWINS.
+        <source>Current percentage of zTF.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuværende procentdel af zTWINS
+        <translation>Nuværende procentdel af zTF
 Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigurerede AutoMint-procent (default = 10%)</translation>
     </message>
     <message>
@@ -2254,14 +2254,14 @@ Hvis AutoMint er aktiveret, vil denne procentdel sætte sig omkring den konfigur
         <translation>AutoMint er i øjeblikket aktiveret og indstillet til</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in twins.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in twins.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in valideum.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in valideum.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in valideum.conf</source>
         <translation>AutoMint er for øjeblikket deaktiveret
-For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i twins.conf</translation>
+For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' i valideum.conf</translation>
     </message>
 </context>
 <context>
@@ -2287,11 +2287,11 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start twins: click-to-pay handler</source>
-        <translation>Kan ikke starte TWINS "klik for at betale" systemet</translation>
+        <source>Cannot start valideum: click-to-pay handler</source>
+        <translation>Kan ikke starte TF "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TWINS address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid TF address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -2377,8 +2377,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Zerocoin Aktioner:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med TWINS netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med TF netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2389,8 +2389,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2401,8 +2401,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Til rådighed til Minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 TWINS</source>
-        <translation>0.000 000 00 TWINS</translation>
+        <source>0.000 000 00 TF</source>
+        <translation>0.000 000 00 TF</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2441,16 +2441,16 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>PRIVATLIV</translation>
     </message>
     <message>
-        <source>Enter an amount of TWINS to convert to zTWINS</source>
-        <translation>Indtast en mængde TWINS for at konvertere til zTWINS</translation>
+        <source>Enter an amount of TF to convert to zTF</source>
+        <translation>Indtast en mængde TF for at konvertere til zTF</translation>
     </message>
     <message>
-        <source>zTWINS Control</source>
-        <translation>zTWINS Control</translation>
+        <source>zTF Control</source>
+        <translation>zTF Control</translation>
     </message>
     <message>
-        <source>zTWINS Selected:</source>
-        <translation>zTWINS Selected:</translation>
+        <source>zTF Selected:</source>
+        <translation>zTF Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2465,24 +2465,24 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Tilbring Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending</source>
-        <translation>Tilgængelig (moden og brugt) zTWINS for udgifter</translation>
+        <source>Available (mature and spendable) zTF for spending</source>
+        <translation>Tilgængelig (moden og brugt) zTF for udgifter</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Disponibel saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending
+        <source>Available (mature and spendable) zTF for spending
 
-zTWINS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tilgængelig (moden og brugt) zTWINS for spending
+zTF are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tilgængelig (moden og brugt) zTF for spending
 
-zTWINS er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
+zTF er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
     </message>
     <message>
-        <source>0 zTWINS</source>
-        <translation>0 zTWINS</translation>
+        <source>0 zTF</source>
+        <translation>0 zTF</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2501,8 +2501,8 @@ zTWINS er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter me
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>TWINS-adressen for at sende betalingen til. Opretter lokal betaling til dig selv, når du er tom.</translation>
+        <source>The TF address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>VALIDEUM-adressen for at sende betalingen til. Opretter lokal betaling til dig selv, når du er tom.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2553,8 +2553,8 @@ zTWINS er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter me
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTWINS</source>
-        <translation>Samlet saldo inklusive ubekræftede og umodne zTWINS</translation>
+        <source>Total Balance including unconfirmed and immature zTF</source>
+        <translation>Samlet saldo inklusive ubekræftede og umodne zTF</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2575,24 +2575,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at den blev mønnet</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTWINS minting.
+        <source>Show the current status of automatic zTF minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to twins.conf
-- disable: add 'enablezeromint=0' to twins.conf
+- enable: add 'enablezeromint=1' to valideum.conf
+- disable: add 'enablezeromint=0' to valideum.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTWINS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zTF
 
 </source>
-        <translation>Vis den aktuelle status for automatisk zTWINS minting.øj
+        <translation>Vis den aktuelle status for automatisk zTF minting.øj
 
 For at ændre status (genstart kræves):.
-- aktiver: tilføj 'enablezeromint = 1' til twins.conf
-- deaktiver: tilføj 'enablezeromint = 0' til twins.conf
+- aktiver: tilføj 'enablezeromint = 1' til valideum.conf
+- deaktiver: tilføj 'enablezeromint = 0' til valideum.conf
 
 For at ændre procentdelen (ingen genstart kræves):.
-- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zTWINS
+- menu Indstillinger-&gt; Indstillinger-&gt; Procentdel af automatiseret zTF
 </translation>
     </message>
     <message>
@@ -2788,12 +2788,12 @@ Maximum allowed: </source>
 Maksimum tilladt:</translation>
     </message>
     <message>
-        <source>zTWINS Spend #: </source>
-        <translation>zTWINS Spend #: </translation>
+        <source>zTF Spend #: </source>
+        <translation>zTF Spend #: </translation>
     </message>
     <message>
-        <source>zTWINS Mint</source>
-        <translation>zTWINS Mint</translation>
+        <source>zTF Mint</source>
+        <translation>zTF Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2808,12 +2808,12 @@ Maksimum tilladt:</translation>
         <translation>Konfigureret målprocent:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zTWINS is currently disabled due to maintenance.</source>
-        <translation>zTWINS er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
+        <source>zTF is currently disabled due to maintenance.</source>
+        <translation>zTF er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
     </message>
     <message>
-        <source>zTWINS is currently undergoing maintenance.</source>
-        <translation>zTWINS er i øjeblikket under opretholdelse.</translation>
+        <source>zTF is currently undergoing maintenance.</source>
+        <translation>zTF er i øjeblikket under opretholdelse.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2900,8 +2900,8 @@ Maksimum tilladt:</translation>
         <translation>Mynt succesfuldt</translation>
     </message>
     <message>
-        <source> zTWINS in </source>
-        <translation> zTWINS i</translation>
+        <source> zTF in </source>
+        <translation> zTF i</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2928,8 +2928,8 @@ Maksimum tilladt:</translation>
         <translation>Ingen 'Betal til' adresse, der er oprettet, skaber lokal betaling</translation>
     </message>
     <message>
-        <source>Invalid TWINS Address</source>
-        <translation> Ugyldig TWINS adresse</translation>
+        <source>Invalid TF Address</source>
+        <translation> Ugyldig TF adresse</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2960,12 +2960,12 @@ Maksimum tilladt:</translation>
         <translation>Bekræft at De vil sende mønter</translation>
     </message>
     <message>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zTWINS kræver et sikkerhedsniveau på 100 til succes.</translation>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zTF kræver et sikkerhedsniveau på 100 til succes.</translation>
     </message>
     <message>
-        <source>Failed to spend zTWINS</source>
-        <translation>Kunne ikke bruge zTWINS</translation>
+        <source>Failed to spend zTF</source>
+        <translation>Kunne ikke bruge zTF</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2987,7 +2987,7 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of TWINS to convert to zTWINS</comment>
+        <comment>Enter an amount of TF to convert to zTF</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3030,8 +3030,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a TWINS address (e.g. %1)</source>
-        <translation>Indtast en TWINS adresse (F.eks. %1)</translation>
+        <source>Enter a TF address (e.g. %1)</source>
+        <translation>Indtast en TF adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3168,8 +3168,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the TWINS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn TWINS debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the TF debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn TF debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3304,8 +3304,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Brugerdefineret Backup-sti:</translation>
     </message>
     <message>
-        <source>Custom zTWINS Backup Path:</source>
-        <translation>Brugerdefineret zTWINS Backup-sti:</translation>
+        <source>Custom zTF Backup Path:</source>
+        <translation>Brugerdefineret zTF Backup-sti:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3384,8 +3384,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the TWINS RPC console.</source>
-        <translation>Velkommen til TWINS RPC konsollet</translation>
+        <source>Welcome to the TF RPC console.</source>
+        <translation>Velkommen til TF RPC konsollet</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3511,16 +3511,16 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på TWINS netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på TF netværket.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>MODTAGE</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på TWINS netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på TF netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3748,8 +3748,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 TWINS</source>
-        <translation>0 TWINS</translation>
+        <source>0 TF</source>
+        <translation>0 TF</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3804,15 +3804,15 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Mønter vælges automatisk</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTWINS in fee,&lt;br /&gt;while "at least" pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uTWINS og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uTWINS i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uTWINS. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTF in fee,&lt;br /&gt;while "at least" pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uTF og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uTF i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uTF. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTWINS in fee,&lt;br /&gt;while "total at least" pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uTWINS og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uTWINS i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uTWINS. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTF in fee,&lt;br /&gt;while "total at least" pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uTF og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uTF i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uTF. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TWINS transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TF transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -3860,8 +3860,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Tilføj &amp;Modtager</translation>
     </message>
     <message>
-        <source>Anonymized TWINS</source>
-        <translation>Tilsløret TWINS</translation>
+        <source>Anonymized TF</source>
+        <translation>Tilsløret TF</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3908,8 +3908,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Split blok værktøjet virker ikke med flere adresser. Prøv igen</translation>
     </message>
     <message>
-        <source>Warning: Invalid TWINS address</source>
-        <translation>Advarsel! Ugyldig TWINS adresse</translation>
+        <source>Warning: Invalid TF address</source>
+        <translation>Advarsel! Ugyldig TF adresse</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4011,8 +4011,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to</source>
-        <translation>TWINS adressen, som betalingen skal sendes til</translation>
+        <source>The TF address to send the payment to</source>
+        <translation>TF adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4051,8 +4051,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the TWINS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TWINS network.</source>
-        <translation>En besked, der var vedhæftet til TWINS: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the TF: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TF network.</source>
+        <translation>En besked, der var vedhæftet til TF: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4078,8 +4078,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TWINS Core is shutting down...</source>
-        <translation>TWINS kernen lukker ned</translation>
+        <source>VALIDEUM Core is shutting down...</source>
+        <translation>TF kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4101,8 +4101,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>Den TWINS adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>Den TF adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4133,16 +4133,16 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne TWINS adresse.</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne TF adresse.</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne TWINS adresse</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne TF adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige TWINS adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige TF adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4228,8 +4228,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS kerne</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4244,8 +4244,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The TWINS Core developers</source>
-        <translation>TWINS "core" udviklerne</translation>
+        <source>The VALIDEUM Core developers</source>
+        <translation>TF "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4524,12 +4524,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Modtaget via tilsløring</translation>
     </message>
     <message>
-        <source>TWINS Stake</source>
-        <translation>TWINS Stake</translation>
+        <source>TF Stake</source>
+        <translation>TF Stake</translation>
     </message>
     <message>
-        <source>zTWINS Stake</source>
-        <translation>zTWINS Stake</translation>
+        <source>zTF Stake</source>
+        <translation>zTF Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4548,32 +4548,32 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Opret tilsløret designering</translation>
     </message>
     <message>
-        <source>Converted TWINS to zTWINS</source>
-        <translation>Konverteret TWINS til zTWINS</translation>
+        <source>Converted TF to zTF</source>
+        <translation>Konverteret TF til zTF</translation>
     </message>
     <message>
-        <source>Spent zTWINS</source>
-        <translation>Brugt zTWINS</translation>
+        <source>Spent zTF</source>
+        <translation>Brugt zTF</translation>
     </message>
     <message>
-        <source>Received TWINS from zTWINS</source>
-        <translation>Modtaget TWINS fra zTWINS</translation>
+        <source>Received TF from zTF</source>
+        <translation>Modtaget TF fra zTF</translation>
     </message>
     <message>
-        <source>Minted Change as zTWINS from zTWINS Spend</source>
-        <translation>Minted Change som zTWINS fra zTWINS Spend</translation>
+        <source>Minted Change as zTF from zTF Spend</source>
+        <translation>Minted Change som zTF fra zTF Spend</translation>
     </message>
     <message>
-        <source>Converted zTWINS to TWINS</source>
-        <translation>Konverteret TWINS til zTWINS</translation>
+        <source>Converted zTF to TF</source>
+        <translation>Konverteret TF til zTF</translation>
     </message>
     <message>
-        <source>Anonymous (zTWINS Transaction)</source>
-        <translation>Anonym (zTWINS Transaction)</translation>
+        <source>Anonymous (zTF Transaction)</source>
+        <translation>Anonym (zTF Transaction)</translation>
     </message>
     <message>
-        <source>Anonymous (zTWINS Stake)</source>
-        <translation>Anonym (zTWINS Stake)</translation>
+        <source>Anonymous (zTF Stake)</source>
+        <translation>Anonym (zTF Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4783,12 +4783,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Eksporteret!</translation>
     </message>
     <message>
-        <source>Received TWINS from zTWINS</source>
-        <translation>Modtaget TWINS fra zTWINS</translation>
+        <source>Received TF from zTF</source>
+        <translation>Modtaget TF fra zTF</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zTWINS</source>
-        <translation>Zerocoin Spend, Ændring i zTWINS</translation>
+        <source>Zerocoin Spend, Change in zTF</source>
+        <translation>Zerocoin Spend, Ændring i zTF</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4824,8 +4824,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TWINS.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1TWINS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TF.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1TF.</translation>
     </message>
 </context>
 <context>
@@ -4856,10 +4856,10 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
 </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
-        <source>Select zTWINS to Spend</source>
-        <translation>Vælg zTWINS for at bruge</translation>
+        <source>Select zTF to Spend</source>
+        <translation>Vælg zTF for at bruge</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4870,8 +4870,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4883,7 +4883,7 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
 </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -4909,8 +4909,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Beregnet akkumulator kontrolpunkt er ikke det, der er registreret af blok indeks</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TWINS Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. TWINS core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. VALIDEUM Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. VALIDEUM core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4938,16 +4938,16 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
 &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zTWINS minting (0-1, default: %u)</source>
-        <translation>Aktivér automatiske wallet-sikkerhedskopier udløst efter hver zTWINS-mintning (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zTF minting (0-1, default: %u)</source>
+        <translation>Aktivér automatiske wallet-sikkerhedskopier udløst efter hver zTF-mintning (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for TWINS inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for TWINS-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for TF inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for VALIDEUM-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zTWINS inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for zTWINS-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zTF inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for zTF-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4982,12 +4982,12 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in TWINS/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in TF/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in TWINS/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in TF/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5039,7 +5039,7 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere TWINS</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere TF</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -5086,20 +5086,20 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TWINS Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. TWINS kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. VALIDEUM Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. TF kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TWINS.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 TWINS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TF.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 TF.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TWINS.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 TWINS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 TF.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 TF.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5114,8 +5114,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TWINS Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil TWINS core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong VALIDEUM Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil VALIDEUM core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5270,8 +5270,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
 	<message>
-        <source>Copyright (C) 2018-%i The TWINS Core Developers</source>
-        <translation>Copyright (C) 2018-%i The TWINS Core Developers</translation>
+        <source>Copyright (C) 2018-%i The VALIDEUM Core Developers</source>
+        <translation>Copyright (C) 2018-%i The VALIDEUM Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5358,8 +5358,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TWINS Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af TWINS core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of VALIDEUM Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af VALIDEUM core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5414,8 +5414,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in TWINS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i TWINS/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in TF/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i TF/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5474,8 +5474,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TWINS Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. TWINS core lukker ned. </translation>
+        <source>Initialization sanity check failed. VALIDEUM Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. VALIDEUM core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5546,8 +5546,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Procentdel af automatisk mintede Zerocoin (10-100, standard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the TWINS and zTWINS money supply statistics</source>
-        <translation>Reindex TWINS og zTWINS pengemængde statistikker</translation>
+        <source>Reindex the TF and zTF money supply statistics</source>
+        <translation>Reindex TF og zTF pengemængde statistikker</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5586,8 +5586,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
 </translation>
     </message>
     <message>
-        <source>Disable all TWINS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle TWINS funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all TF specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle TF funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5622,8 +5622,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Foretrukken Betegnelse for automatisk mintede Zerocoin (1/5/10/50/100/500/1000/5000), 0 uden præference. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zTWINS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zTWINS-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
+        <source>Specify custom backup path to add a copy of any automatic zTF backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zTF-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6122,8 +6122,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Synkroniserer sporks...</translation>
     </message>
     <message>
-        <source>Syncing zTWINS wallet...</source>
-        <translation>Syncing zTWINS wallet ..</translation>
+        <source>Syncing zTF wallet...</source>
+        <translation>Syncing zTF wallet ..</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6270,8 +6270,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Brugernavn til JSON-RPC forbindelser</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zTWINS</source>
-        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zTWINS</translation>
+        <source>Value is below the smallest available denomination (= 1) of zTF</source>
+        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zTF</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6286,8 +6286,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Verificerer  tegnebog</translation>
     </message>
     <message>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zTWINS kræver et sikkerhedsniveau på 100 til succes.</translation>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zTF kræver et sikkerhedsniveau på 100 til succes.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -6298,8 +6298,8 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TWINS Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart TWINS core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart VALIDEUM Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart VALIDEUM core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

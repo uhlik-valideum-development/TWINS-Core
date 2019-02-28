@@ -1,10 +1,10 @@
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_DETERMINISTICMINT_H
-#define TWINS_DETERMINISTICMINT_H
+#ifndef VALIDEUM_DETERMINISTICMINT_H
+#define VALIDEUM_DETERMINISTICMINT_H
 
 #include <libzerocoin/Denominations.h>
 #include <uint256.h>
@@ -65,4 +65,4 @@ public:
     };
 };
 
-#endif //TWINS_DETERMINISTICMINT_H
+#endif //VALIDEUM_DETERMINISTICMINT_H

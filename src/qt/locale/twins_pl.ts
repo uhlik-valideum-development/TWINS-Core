@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE TWINS!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE TF!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -509,16 +509,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>&amp;Rdzeń TWINS</translation>
+        <source>VALIDEUM Core</source>
+        <translation>&amp;Rdzeń TF</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Wyślij monety do adresu TWINS</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Wyślij monety do adresu TF</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i twins:URI)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i valideum:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -529,24 +529,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
+        <source>&amp;About VALIDEUM Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
+        <source>Show information about VALIDEUM Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Modyfikuj opcje konfiguracji TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Modyfikuj opcje konfiguracji TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami TWINS, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami TF, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu TWINS</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu TF</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -573,8 +573,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Otwórz TWINS: URI i żądanie zapłaty</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Otwórz TF: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -585,12 +585,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia TWINS, aby dostać listę możliwych opcji TWINS command-line</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia TF, aby dostać listę możliwych opcji TF command-line</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>Rdzeń TWINS klient</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>Rdzeń TF klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -899,8 +899,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>&amp;Rdzeń TWINS</translation>
+        <source>VALIDEUM Core</source>
+        <translation>&amp;Rdzeń TF</translation>
     </message>
     </context>
 <context>
@@ -914,8 +914,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>&amp;Rdzeń TWINS</translation>
+        <source>VALIDEUM Core</source>
+        <translation>&amp;Rdzeń TF</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1190,12 +1190,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start TWINS after logging in to the system.</source>
-        <translation>Automatycznie uruchom TWINS po zalogowaniu do systemu</translation>
+        <source>Automatically start TF after logging in to the system.</source>
+        <translation>Automatycznie uruchom TF po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start TWINS on system login</source>
-        <translation>&amp;Uruchom TWINS podczas logowania do systemu</translation>
+        <source>&amp;Start TF on system login</source>
+        <translation>&amp;Uruchom TF podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1214,18 +1214,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TWINS.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie TWINS</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TF.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie TF</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/twins-project/twins-project-translations</source>
+https://www.transifex.com/valideum-project/valideum-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/twins-project/twins-project-translations </translation>
+https://www.transifex.com/valideum-project/valideum-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the TWINS network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią TWINS poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the TF network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią TF poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1463,8 +1463,8 @@ https://www.transifex.com/twins-project/twins-project-translations </translation
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a TWINS address (e.g. %1)</source>
-        <translation>Wprowadź adres TWINS (np. %1)</translation>
+        <source>Enter a TF address (e.g. %1)</source>
+        <translation>Wprowadź adres TF (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1894,8 +1894,8 @@ https://www.transifex.com/twins-project/twins-project-translations </translation
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres TWINS jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres TF jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1929,8 +1929,8 @@ https://www.transifex.com/twins-project/twins-project-translations </translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>&amp;Rdzeń TWINS</translation>
+        <source>VALIDEUM Core</source>
+        <translation>&amp;Rdzeń TF</translation>
     </message>
     </context>
 <context>
@@ -2021,14 +2021,14 @@ https://www.transifex.com/twins-project/twins-project-translations </translation
     </message>
     </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

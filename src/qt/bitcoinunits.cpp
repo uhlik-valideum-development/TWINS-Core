@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(TWINS);
-    unitlist.append(mTWINS);
-    unitlist.append(uTWINS);
+    unitlist.append(TF);
+    unitlist.append(mTF);
+    unitlist.append(uTF);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case TWINS:
-    case mTWINS:
-    case uTWINS:
+    case TF:
+    case mTF:
+    case uTF:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case TWINS:
-        return QString("twins");
-    case mTWINS:
-        return QString("mtwins");
-    case uTWINS:
-        return QString::fromUtf8("utwins");
+    case TF:
+        return QString("valideum");
+    case mTF:
+        return QString("mvalideum");
+    case uTF:
+        return QString::fromUtf8("uvalideum");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case TWINS:
-            return QString("TWINS");
-        case mTWINS:
-            return QString("mTWINS");
-        case uTWINS:
-            return QString::fromUtf8("μTWINS");
+        case TF:
+            return QString("TF");
+        case mTF:
+            return QString("mTF");
+        case uTF:
+            return QString::fromUtf8("μTF");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case TWINS:
-            return QString("tTWINS");
-        case mTWINS:
-            return QString("mtTWINS");
-        case uTWINS:
-            return QString::fromUtf8("μtTWINS");
+        case TF:
+            return QString("tTF");
+        case mTF:
+            return QString("mtTF");
+        case uTF:
+            return QString::fromUtf8("μtTF");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case TWINS:
-            return QString("TWINS");
-        case mTWINS:
-            return QString("Milli-TWINS (1 / 1" THIN_SP_UTF8 "000)");
-        case uTWINS:
-            return QString("Micro-TWINS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TF:
+            return QString("TF");
+        case mTF:
+            return QString("Milli-TF (1 / 1" THIN_SP_UTF8 "000)");
+        case uTF:
+            return QString("Micro-TF (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case TWINS:
-            return QString("TestTWINS");
-        case mTWINS:
-            return QString("Milli-TestTWINS (1 / 1" THIN_SP_UTF8 "000)");
-        case uTWINS:
-            return QString("Micro-TestTWINS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TF:
+            return QString("TestTF");
+        case mTF:
+            return QString("Milli-TestTF (1 / 1" THIN_SP_UTF8 "000)");
+        case uTF:
+            return QString("Micro-TestTF (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case TWINS:
+    case TF:
         return 100000000;
-    case mTWINS:
+    case mTF:
         return 100000;
-    case uTWINS:
+    case uTF:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case TWINS:
+    case TF:
         return 8;
-    case mTWINS:
+    case mTF:
         return 5;
-    case uTWINS:
+    case uTF:
         return 2;
     default:
         return 0;

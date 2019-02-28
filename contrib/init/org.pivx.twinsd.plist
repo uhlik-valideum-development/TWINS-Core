@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.twins.twinsd</string>
+	<string>org.valideum.valideumd</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/twinsd</string>
+		<string>/usr/local/bin/valideumd</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>

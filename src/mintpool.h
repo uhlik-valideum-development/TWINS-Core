@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_MINTPOOL_H
-#define TWINS_MINTPOOL_H
+#ifndef VALIDEUM_MINTPOOL_H
+#define VALIDEUM_MINTPOOL_H
 
 #include <map>
 #include <list>
@@ -51,4 +51,4 @@ public:
 };
 
 
-#endif //TWINS_MINTPOOL_H
+#endif //VALIDEUM_MINTPOOL_H

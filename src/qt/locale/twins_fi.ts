@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun TWINS osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun TF osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun TWINS osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun TF osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella TWINSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella TFien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki TWINSisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki TFisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -565,16 +565,16 @@
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Ydin</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Lähetä kolikkoja TWINS osoitteeseen</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Lähetä kolikkoja TF osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja twins: URIja)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja valideum: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -585,24 +585,24 @@
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>TWINS Core &amp;ytimestä</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>VALIDEUM Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Näytä tietoja TWINS Ytimestä</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Näytä tietoja TF Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja TWINS:lle</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja TF:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
+        <source>Sign messages with your TF addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä TWINS osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä TF osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -633,8 +633,8 @@
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Avaa TWINS: URI tai pyydä maksua</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Avaa TF: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -645,12 +645,12 @@
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Näytä TWINS Ydin apuviesti saadaksesi lista mahdollisista TWINS komentolinja komennoista.</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Näytä TF Ydin apuviesti saadaksesi lista mahdollisista TF komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINS Ydin asiakasohjelma</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>TF Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -908,8 +908,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Ydin</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -927,12 +927,12 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to TWINS Core.</source>
-        <translation>Tervetuloa TWINS Ytimeen.</translation>
+        <source>Welcome to VALIDEUM Core.</source>
+        <translation>Tervetuloa TF Ytimeen.</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Ydin</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1128,32 +1128,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 TWINS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 TF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 TWINS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 TF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 TWINS to anonymize 10000 TWINS</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 TWINS anonymoidaksesi 10000 TWINS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TF to anonymize 10000 TF</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 TF anonymoidaksesi 10000 TF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 TWINS to anonymize 10000 TWINS</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 TWINS anonymoidaksesi 10000 TWINS</translation>
+        <source>This option is moderately fast and will cost about 0.05 TF to anonymize 10000 TF</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 TF anonymoidaksesi 10000 TF</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 TWINS per 10000 TWINS you anonymize.</source>
-        <translation>0.1 per 10000 TWINS, jotka anonymisoit.</translation>
+        <source>0.1 TF per 10000 TF you anonymize.</source>
+        <translation>0.1 per 10000 TF, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1202,12 +1202,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start TWINS after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä TWINS kun kirjaudut sisään.</translation>
+        <source>Automatically start TF after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä TF kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start TWINS on system login</source>
-        <translation>&amp;Aloita TWINS järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start TF on system login</source>
+        <translation>&amp;Aloita TF järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1226,12 +1226,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TWINS.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting TF.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the TWINS network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä TWINS verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the TF network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä TF verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1535,8 +1535,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the TWINS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa TWINS debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the TF debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa TF debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1647,8 +1647,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the TWINS RPC console.</source>
-        <translation>Tervetuloa TWINS RPC konsoliin.</translation>
+        <source>Welcome to the TF RPC console.</source>
+        <translation>Tervetuloa TF RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1686,12 +1686,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana TWINS verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana TF verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana TWINS  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana TF  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1887,8 +1887,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 TWINS</source>
-        <translation>0 TWINS</translation>
+        <source>0 TF</source>
+        <translation>0 TF</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1963,8 +1963,8 @@ Please check the address and try again.</source>
         <translation>Kopioi taksa</translation>
     </message>
     <message>
-        <source>Warning: Invalid TWINS address</source>
-        <translation>Varoitus: Virheellinen TWINS osoite</translation>
+        <source>Warning: Invalid TF address</source>
+        <translation>Varoitus: Virheellinen TF osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2014,8 +2014,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to</source>
-        <translation>TWINS osoite johon maksu lähetetään</translation>
+        <source>The TF address to send the payment to</source>
+        <translation>TF osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2057,8 +2057,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TWINS Core is shutting down...</source>
-        <translation>TWINS core sammuu...</translation>
+        <source>VALIDEUM Core is shutting down...</source>
+        <translation>VALIDEUM core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2076,8 +2076,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>TWINS osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>TF osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2108,16 +2108,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän TWINS osoitteen</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän TF osoitteen</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>TWINS osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>TF osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla TWINS osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla TF osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2199,8 +2199,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Ydin</translation>
+        <source>VALIDEUM Core</source>
+        <translation>TF Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2215,8 +2215,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The TWINS Core developers</source>
-        <translation>TWINS core kehittäjät</translation>
+        <source>The VALIDEUM Core developers</source>
+        <translation>VALIDEUM core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2511,14 +2511,14 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2568,8 +2568,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TWINS Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version TWINS Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of VALIDEUM Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version VALIDEUM Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "TWINS"
-            VALUE "FileDescription",    "TWINS-cli (OSS RPC client for TWINS)"
+            VALUE "CompanyName",        "TF"
+            VALUE "FileDescription",    "VALIDEUM-cli (OSS RPC client for TF)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "twins-cli"
+            VALUE "InternalName",       "valideum-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "twins-cli.exe"
-            VALUE "ProductName",        "TWINS-cli"
+            VALUE "OriginalFilename",   "valideum-cli.exe"
+            VALUE "ProductName",        "VALIDEUM-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::TWINS)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::TF)
     {
     }
 
@@ -148,7 +148,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sTWINSPercentage, QString& szTWINSPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sTFPercentage, QString& szTFPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -167,8 +167,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szTWINSPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sTWINSPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szTFPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sTFPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -193,16 +193,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // TWINS Balance
+    // TF Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount twinsAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount valideumAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // TWINS Watch-Only Balance
+    // TF Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zTWINS Balance
+    // zTF Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -210,11 +210,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     QString sPercentage = "";
     getPercentage(nUnlockedBalance, zerocoinBalance, sPercentage, szPercentage);
     // Combined balances
-    CAmount availableTotalBalance = twinsAvailableBalance + matureZerocoinBalance;
+    CAmount availableTotalBalance = valideumAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // TWINS labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, twinsAvailableBalance, false, BitcoinUnits::separatorAlways));
+    // TF labels
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, valideumAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -227,7 +227,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zTWINS labels
+    // zTF labels
  //   ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
  //   ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
  //   ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -238,19 +238,19 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelTWINSPercent->setText(sPercentage);
-    //ui->labelzTWINSPercent->setText(szPercentage);
+    ui->labelTFPercent->setText(sPercentage);
+    //ui->labelzTFPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zTWINS.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zTF.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", false);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
         automintHelp += tr("AutoMint is currently enabled and set to ") + QString::number(nZeromintPercentage) + "%.\n";
-        automintHelp += tr("To disable AutoMint add 'enablezeromint=0' in twins.conf.");
+        automintHelp += tr("To disable AutoMint add 'enablezeromint=0' in valideum.conf.");
     }
     else {
-        automintHelp += tr("AutoMint is currently disabled.\nTo enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf");
+        automintHelp += tr("AutoMint is currently disabled.\nTo enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in valideum.conf");
     }
 
     // Only show most balances if they are non-zero for the sake of simplicity
@@ -263,49 +263,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // TWINS Available
-    bool showTWINSAvailable = settingShowAllBalances || twinsAvailableBalance != nTotalBalance;
-    bool showWatchOnlyTWINSAvailable = showTWINSAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showTWINSAvailable || showWatchOnlyTWINSAvailable);
-    ui->labelBalance->setVisible(showTWINSAvailable || showWatchOnlyTWINSAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyTWINSAvailable && showWatchOnly);
+    // TF Available
+    bool showTFAvailable = settingShowAllBalances || valideumAvailableBalance != nTotalBalance;
+    bool showWatchOnlyTFAvailable = showTFAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showTFAvailable || showWatchOnlyTFAvailable);
+    ui->labelBalance->setVisible(showTFAvailable || showWatchOnlyTFAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlyTFAvailable && showWatchOnly);
 
-    // TWINS Pending
-    bool showTWINSPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyTWINSPending = showTWINSPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showTWINSPending || showWatchOnlyTWINSPending);
-    ui->labelUnconfirmed->setVisible(showTWINSPending || showWatchOnlyTWINSPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyTWINSPending && showWatchOnly);
+    // TF Pending
+    bool showTFPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyTFPending = showTFPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showTFPending || showWatchOnlyTFPending);
+    ui->labelUnconfirmed->setVisible(showTFPending || showWatchOnlyTFPending);
+    ui->labelWatchPending->setVisible(showWatchOnlyTFPending && showWatchOnly);
 
-    // TWINS Immature
-    bool showTWINSImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showTWINSImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showTWINSImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showTWINSImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // TF Immature
+    bool showTFImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showTFImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showTFImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showTFImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // TWINS Locked
-    bool showTWINSLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyTWINSLocked = showTWINSLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showTWINSLocked || showWatchOnlyTWINSLocked);
-    ui->labelLockedBalance->setVisible(showTWINSLocked || showWatchOnlyTWINSLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyTWINSLocked && showWatchOnly);
+    // TF Locked
+    bool showTFLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyTFLocked = showTFLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showTFLocked || showWatchOnlyTFLocked);
+    ui->labelLockedBalance->setVisible(showTFLocked || showWatchOnlyTFLocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlyTFLocked && showWatchOnly);
 
-    // zTWINS
-   /* bool showzTWINSAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzTWINSUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzTWINSImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzTWINSAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzTWINSAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzTWINSUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzTWINSUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzTWINSImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzTWINSImmature);
+    // zTF
+   /* bool showzTFAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzTFUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzTFImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzTFAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzTFAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzTFUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzTFUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzTFImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzTFImmature);
 */
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelTWINSPercent->setVisible(showPercentages);
-    //ui->labelzTWINSPercent->setVisible(showPercentages);
+    ui->labelTFPercent->setVisible(showPercentages);
+    //ui->labelzTFPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -377,7 +377,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("TWINS")
+    // update the display unit, to not use the default ("TF")
     updateDisplayUnit();
 
     // Hide orphans

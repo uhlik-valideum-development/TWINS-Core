@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include "stakeinput.h"
 #include "wallet.h"
 
-CZTWINSStake::CZTWINSStake(const libzerocoin::CoinSpend& spend)
+CZTFStake::CZTFStake(const libzerocoin::CoinSpend& spend)
 {
     this->nChecksum = spend.getAccumulatorChecksum();
     this->denom = spend.getDenomination();
@@ -20,7 +20,7 @@ CZTWINSStake::CZTWINSStake(const libzerocoin::CoinSpend& spend)
     fMint = false;
 }
 
-int CZTWINSStake::GetChecksumHeightFromMint()
+int CZTFStake::GetChecksumHeightFromMint()
 {
     int nHeightChecksum = chainActive.Height() - Params().Zerocoin_RequiredStakeDepth();
 
@@ -31,20 +31,20 @@ int CZTWINSStake::GetChecksumHeightFromMint()
     return GetChecksumHeight(nChecksum, denom);
 }
 
-int CZTWINSStake::GetChecksumHeightFromSpend()
+int CZTFStake::GetChecksumHeightFromSpend()
 {
     return GetChecksumHeight(nChecksum, denom);
 }
 
-uint32_t CZTWINSStake::GetChecksum()
+uint32_t CZTFStake::GetChecksum()
 {
     return nChecksum;
 }
 
-// The zTWINS block index is the first appearance of the accumulator checksum that was used in the spend
+// The zTF block index is the first appearance of the accumulator checksum that was used in the spend
 // note that this also means when staking that this checksum should be from a block that is beyond 60 minutes old and
 // 100 blocks deep.
-CBlockIndex* CZTWINSStake::GetIndexFrom()
+CBlockIndex* CZTFStake::GetIndexFrom()
 {
     if (pindexFrom)
         return pindexFrom;
@@ -66,13 +66,13 @@ CBlockIndex* CZTWINSStake::GetIndexFrom()
     return pindexFrom;
 }
 
-CAmount CZTWINSStake::GetValue()
+CAmount CZTFStake::GetValue()
 {
     return denom * COIN;
 }
 
 //Use the first accumulator checkpoint that occurs 60 minutes after the block being staked from
-bool CZTWINSStake::GetModifier(uint64_t& nStakeModifier)
+bool CZTFStake::GetModifier(uint64_t& nStakeModifier)
 {
     CBlockIndex* pindex = GetIndexFrom();
     if (!pindex)
@@ -92,15 +92,15 @@ bool CZTWINSStake::GetModifier(uint64_t& nStakeModifier)
     }
 }
 
-CDataStream CZTWINSStake::GetUniqueness()
+CDataStream CZTFStake::GetUniqueness()
 {
-    //The unique identifier for a zTWINS is a hash of the serial
+    //The unique identifier for a zTF is a hash of the serial
     CDataStream ss(SER_GETHASH, 0);
     ss << hashSerial;
     return ss;
 }
 
-bool CZTWINSStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CZTFStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     CBlockIndex* pindexCheckpoint = GetIndexFrom();
     if (!pindexCheckpoint)
@@ -121,25 +121,25 @@ bool CZTWINSStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
     return true;
 }
 
-bool CZTWINSStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
+bool CZTFStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
 {
-    //Create an output returning the zTWINS that was staked
+    //Create an output returning the zTF that was staked
     CTxOut outReward;
     libzerocoin::CoinDenomination denomStaked = libzerocoin::AmountToZerocoinDenomination(this->GetValue());
     CDeterministicMint dMint;
-    if (!pwallet->CreateZTWINSOutPut(denomStaked, outReward, dMint))
-        return error("%s: failed to create zTWINS output", __func__);
+    if (!pwallet->CreateZTFOutPut(denomStaked, outReward, dMint))
+        return error("%s: failed to create zTF output", __func__);
     vout.emplace_back(outReward);
 
     //Add new staked denom to our wallet
     if (!pwallet->DatabaseMint(dMint))
-        return error("%s: failed to database the staked zTWINS", __func__);
+        return error("%s: failed to database the staked zTF", __func__);
 
     for (unsigned int i = 0; i < 3; i++) {
         CTxOut out;
         CDeterministicMint dMintReward;
-        if (!pwallet->CreateZTWINSOutPut(libzerocoin::CoinDenomination::ZQ_ONE, out, dMintReward))
-            return error("%s: failed to create zTWINS output", __func__);
+        if (!pwallet->CreateZTFOutPut(libzerocoin::CoinDenomination::ZQ_ONE, out, dMintReward))
+            return error("%s: failed to create zTF output", __func__);
         vout.emplace_back(out);
 
         if (!pwallet->DatabaseMint(dMintReward))
@@ -149,48 +149,48 @@ bool CZTWINSStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount 
     return true;
 }
 
-bool CZTWINSStake::GetTxFrom(CTransaction& tx)
+bool CZTFStake::GetTxFrom(CTransaction& tx)
 {
     return false;
 }
 
-bool CZTWINSStake::MarkSpent(CWallet *pwallet, const uint256& txid)
+bool CZTFStake::MarkSpent(CWallet *pwallet, const uint256& txid)
 {
-    CzTWINSTracker* ztwinsTracker = pwallet->ztwinsTracker.get();
+    CzTFTracker* zvalideumTracker = pwallet->zvalideumTracker.get();
     CMintMeta meta;
-    if (!ztwinsTracker->GetMetaFromStakeHash(hashSerial, meta))
+    if (!zvalideumTracker->GetMetaFromStakeHash(hashSerial, meta))
         return error("%s: tracker does not have serialhash", __func__);
 
-    ztwinsTracker->SetPubcoinUsed(meta.hashPubcoin, txid);
+    zvalideumTracker->SetPubcoinUsed(meta.hashPubcoin, txid);
     return true;
 }
 
-//!TWINS Stake
-bool CTWINSStake::SetInput(CTransaction txPrev, unsigned int n)
+//!TF Stake
+bool CTFStake::SetInput(CTransaction txPrev, unsigned int n)
 {
     this->txFrom = txPrev;
     this->nPosition = n;
     return true;
 }
 
-bool CTWINSStake::GetTxFrom(CTransaction& tx)
+bool CTFStake::GetTxFrom(CTransaction& tx)
 {
     tx = txFrom;
     return true;
 }
 
-bool CTWINSStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CTFStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     txIn = CTxIn(txFrom.GetHash(), nPosition);
     return true;
 }
 
-CAmount CTWINSStake::GetValue()
+CAmount CTFStake::GetValue()
 {
     return txFrom.vout[nPosition].nValue;
 }
 
-bool CTWINSStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
+bool CTFStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
 {
     vector<valtype> vSolutions;
     txnouttype whichType;
@@ -225,7 +225,7 @@ bool CTWINSStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount n
     return true;
 }
 
-bool CTWINSStake::GetModifier(uint64_t& nStakeModifier)
+bool CTFStake::GetModifier(uint64_t& nStakeModifier)
 {
     int nStakeModifierHeight = 0;
     int64_t nStakeModifierTime = 0;
@@ -239,16 +239,16 @@ bool CTWINSStake::GetModifier(uint64_t& nStakeModifier)
     return true;
 }
 
-CDataStream CTWINSStake::GetUniqueness()
+CDataStream CTFStake::GetUniqueness()
 {
-    //The unique identifier for a TWINS stake is the outpoint
+    //The unique identifier for a TF stake is the outpoint
     CDataStream ss(SER_NETWORK, 0);
     ss << nPosition << txFrom.GetHash();
     return ss;
 }
 
 //The block that the UTXO was added to the chain
-CBlockIndex* CTWINSStake::GetIndexFrom()
+CBlockIndex* CTFStake::GetIndexFrom()
 {
     uint256 hashBlock = 0;
     CTransaction tx;

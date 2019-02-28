@@ -1,20 +1,20 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "ztwinswallet.h"
+#include "zvalideumwallet.h"
 #include "main.h"
 #include "txdb.h"
 #include "walletdb.h"
 #include "init.h"
 #include "wallet.h"
 #include "primitives/deterministicmint.h"
-#include "ztwinschain.h"
+#include "zvalideumchain.h"
 
 using namespace libzerocoin;
 
-CzTWINSWallet::CzTWINSWallet(std::string strWalletFile)
+CzTFWallet::CzTFWallet(std::string strWalletFile)
 {
     this->strWalletFile = strWalletFile;
     CWalletDB walletdb(strWalletFile);
@@ -22,19 +22,19 @@ CzTWINSWallet::CzTWINSWallet(std::string strWalletFile)
     uint256 hashSeed;
     bool fFirstRun = !walletdb.ReadCurrentSeedHash(hashSeed);
 
-    //Check for old db version of storing ztwins seed
+    //Check for old db version of storing zvalideum seed
     if (fFirstRun) {
         uint256 seed;
-        if (walletdb.ReadZTWINSSeed_deprecated(seed)) {
+        if (walletdb.ReadZTFSeed_deprecated(seed)) {
             //Update to new format, erase old
             seedMaster = seed;
             hashSeed = Hash(seed.begin(), seed.end());
             if (pwalletMain->AddDeterministicSeed(seed)) {
-                if (walletdb.EraseZTWINSSeed_deprecated()) {
-                    LogPrintf("%s: Updated zTWINS seed databasing\n", __func__);
+                if (walletdb.EraseZTFSeed_deprecated()) {
+                    LogPrintf("%s: Updated zTF seed databasing\n", __func__);
                     fFirstRun = false;
                 } else {
-                    LogPrintf("%s: failed to remove old ztwins seed\n", __func__);
+                    LogPrintf("%s: failed to remove old zvalideum seed\n", __func__);
                 }
             }
         }
@@ -56,7 +56,7 @@ CzTWINSWallet::CzTWINSWallet(std::string strWalletFile)
         key.MakeNewKey(true);
         seed = key.GetPrivKey_256();
         seedMaster = seed;
-        LogPrintf("%s: first run of ztwins wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
+        LogPrintf("%s: first run of zvalideum wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
     } else if (!pwalletMain->GetDeterministicSeed(hashSeed, seed)) {
         LogPrintf("%s: failed to get deterministic seed for hashseed %s\n", __func__, hashSeed.GetHex());
         return;
@@ -69,7 +69,7 @@ CzTWINSWallet::CzTWINSWallet(std::string strWalletFile)
     this->mintPool = CMintPool(nCountLastUsed);
 }
 
-bool CzTWINSWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
+bool CzTFWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
 {
 
     CWalletDB walletdb(strWalletFile);
@@ -85,8 +85,8 @@ bool CzTWINSWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
     nCountLastUsed = 0;
 
     if (fResetCount)
-        walletdb.WriteZTWINSCount(nCountLastUsed);
-    else if (!walletdb.ReadZTWINSCount(nCountLastUsed))
+        walletdb.WriteZTFCount(nCountLastUsed);
+    else if (!walletdb.ReadZTFCount(nCountLastUsed))
         nCountLastUsed = 0;
 
     mintPool.Reset();
@@ -94,18 +94,18 @@ bool CzTWINSWallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
     return true;
 }
 
-void CzTWINSWallet::Lock()
+void CzTFWallet::Lock()
 {
     seedMaster = 0;
 }
 
-void CzTWINSWallet::AddToMintPool(const std::pair<uint256, uint32_t>& pMint, bool fVerbose)
+void CzTFWallet::AddToMintPool(const std::pair<uint256, uint32_t>& pMint, bool fVerbose)
 {
     mintPool.Add(pMint, fVerbose);
 }
 
 //Add the next 20 mints to the mint pool
-void CzTWINSWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
+void CzTFWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
 {
 
     //Is locked
@@ -147,7 +147,7 @@ void CzTWINSWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
         CBigNum bnSerial;
         CBigNum bnRandomness;
         CKey key;
-        SeedToZTWINS(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
+        SeedToZTF(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
 
         mintPool.Add(bnValue, i);
         CWalletDB(strWalletFile).WriteMintPoolPair(hashSeed, GetPubCoinHash(bnValue), i);
@@ -156,7 +156,7 @@ void CzTWINSWallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
 }
 
 // pubcoin hashes are stored to db so that a full accounting of mints belonging to the seed can be tracked without regenerating
-bool CzTWINSWallet::LoadMintPoolFromDB()
+bool CzTFWallet::LoadMintPoolFromDB()
 {
     map<uint256, vector<pair<uint256, uint32_t> > > mapMintPool = CWalletDB(strWalletFile).MapMintPool();
 
@@ -167,20 +167,20 @@ bool CzTWINSWallet::LoadMintPoolFromDB()
     return true;
 }
 
-void CzTWINSWallet::RemoveMintsFromPool(const std::vector<uint256>& vPubcoinHashes)
+void CzTFWallet::RemoveMintsFromPool(const std::vector<uint256>& vPubcoinHashes)
 {
     for (const uint256& hash : vPubcoinHashes)
         mintPool.Remove(hash);
 }
 
-void CzTWINSWallet::GetState(int& nCount, int& nLastGenerated)
+void CzTFWallet::GetState(int& nCount, int& nLastGenerated)
 {
     nCount = this->nCountLastUsed + 1;
     nLastGenerated = mintPool.CountOfLastGenerated();
 }
 
 //Catch the counter up with the chain
-void CzTWINSWallet::SyncWithChain(bool fGenerateMintPool)
+void CzTFWallet::SyncWithChain(bool fGenerateMintPool)
 {
     uint32_t nLastCountUsed = 0;
     bool found = true;
@@ -204,7 +204,7 @@ void CzTWINSWallet::SyncWithChain(bool fGenerateMintPool)
             if (ShutdownRequested())
                 return;
 
-            if (pwalletMain->ztwinsTracker->HasPubcoinHash(pMint.first)) {
+            if (pwalletMain->zvalideumTracker->HasPubcoinHash(pMint.first)) {
                 mintPool.Remove(pMint.first);
                 continue;
             }
@@ -281,7 +281,7 @@ void CzTWINSWallet::SyncWithChain(bool fGenerateMintPool)
     }
 }
 
-bool CzTWINSWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const CoinDenomination& denom)
+bool CzTFWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const CoinDenomination& denom)
 {
     if (!mintPool.Has(bnValue))
         return error("%s: value not in pool", __func__);
@@ -293,7 +293,7 @@ bool CzTWINSWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, cons
     CBigNum bnSerial;
     CBigNum bnRandomness;
     CKey key;
-    SeedToZTWINS(seedZerocoin, bnValueGen, bnSerial, bnRandomness, key);
+    SeedToZTF(seedZerocoin, bnValueGen, bnSerial, bnRandomness, key);
 
     //Sanity check
     if (bnValueGen != bnValue)
@@ -327,14 +327,14 @@ bool CzTWINSWallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, cons
         pwalletMain->AddToWallet(wtx);
     }
 
-    // Add to ztwinsTracker which also adds to database
-    pwalletMain->ztwinsTracker->Add(dMint, true);
+    // Add to zvalideumTracker which also adds to database
+    pwalletMain->zvalideumTracker->Add(dMint, true);
     
     //Update the count if it is less than the mint's count
     if (nCountLastUsed < pMint.second) {
         CWalletDB walletdb(strWalletFile);
         nCountLastUsed = pMint.second;
-        walletdb.WriteZTWINSCount(nCountLastUsed);
+        walletdb.WriteZTFCount(nCountLastUsed);
     }
 
     //remove from the pool
@@ -351,7 +351,7 @@ bool IsValidCoinValue(const CBigNum& bnValue)
     bnValue.isPrime();
 }
 
-void CzTWINSWallet::SeedToZTWINS(const uint512& seedZerocoin, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key)
+void CzTFWallet::SeedToZTF(const uint512& seedZerocoin, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key)
 {
     ZerocoinParams* params = Params().Zerocoin_Params(false);
 
@@ -400,7 +400,7 @@ void CzTWINSWallet::SeedToZTWINS(const uint512& seedZerocoin, CBigNum& bnValue, 
     }
 }
 
-uint512 CzTWINSWallet::GetZerocoinSeed(uint32_t n)
+uint512 CzTFWallet::GetZerocoinSeed(uint32_t n)
 {
     CDataStream ss(SER_GETHASH, 0);
     ss << seedMaster << n;
@@ -408,14 +408,14 @@ uint512 CzTWINSWallet::GetZerocoinSeed(uint32_t n)
     return zerocoinSeed;
 }
 
-void CzTWINSWallet::UpdateCount()
+void CzTFWallet::UpdateCount()
 {
     nCountLastUsed++;
     CWalletDB walletdb(strWalletFile);
-    walletdb.WriteZTWINSCount(nCountLastUsed);
+    walletdb.WriteZTFCount(nCountLastUsed);
 }
 
-void CzTWINSWallet::GenerateDeterministicZTWINS(CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly)
+void CzTFWallet::GenerateDeterministicZTF(CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly)
 {
     GenerateMint(nCountLastUsed + 1, denom, coin, dMint);
     if (fGenerateOnly)
@@ -425,14 +425,14 @@ void CzTWINSWallet::GenerateDeterministicZTWINS(CoinDenomination denom, PrivateC
     //LogPrintf("%s : Generated new deterministic mint. Count=%d pubcoin=%s seed=%s\n", __func__, nCount, coin.getPublicCoin().getValue().GetHex().substr(0,6), seedZerocoin.GetHex().substr(0, 4));
 }
 
-void CzTWINSWallet::GenerateMint(const uint32_t& nCount, const CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint)
+void CzTFWallet::GenerateMint(const uint32_t& nCount, const CoinDenomination denom, PrivateCoin& coin, CDeterministicMint& dMint)
 {
     uint512 seedZerocoin = GetZerocoinSeed(nCount);
     CBigNum bnValue;
     CBigNum bnSerial;
     CBigNum bnRandomness;
     CKey key;
-    SeedToZTWINS(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
+    SeedToZTF(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
     coin = PrivateCoin(Params().Zerocoin_Params(false), denom, bnSerial, bnRandomness);
     coin.setPrivKey(key.GetPrivKey());
     coin.setVersion(PrivateCoin::CURRENT_VERSION);
@@ -446,14 +446,14 @@ void CzTWINSWallet::GenerateMint(const uint32_t& nCount, const CoinDenomination 
     dMint.SetDenomination(denom);
 }
 
-bool CzTWINSWallet::CheckSeed(const CDeterministicMint& dMint)
+bool CzTFWallet::CheckSeed(const CDeterministicMint& dMint)
 {
     //Check that the seed is correct    todo:handling of incorrect, or multiple seeds
     uint256 hashSeed = Hash(seedMaster.begin(), seedMaster.end());
     return hashSeed == dMint.GetSeedHash();
 }
 
-bool CzTWINSWallet::RegenerateMint(const CDeterministicMint& dMint, CZerocoinMint& mint)
+bool CzTFWallet::RegenerateMint(const CDeterministicMint& dMint, CZerocoinMint& mint)
 {
     if (!CheckSeed(dMint)) {
         uint256 hashSeed = Hash(seedMaster.begin(), seedMaster.end());

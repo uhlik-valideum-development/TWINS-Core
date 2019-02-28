@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2016-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +15,7 @@
 #include "primitives/zerocoin.h"
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Denominations.h"
-#include "ztwinstracker.h"
+#include "zvalideumtracker.h"
 
 #include <list>
 #include <stdint.h>
@@ -176,14 +176,14 @@ public:
     bool ReadZerocoinSpendSerialEntry(const CBigNum& bnSerial);
     bool WriteCurrentSeedHash(const uint256& hashSeed);
     bool ReadCurrentSeedHash(uint256& hashSeed);
-    bool WriteZTWINSSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
-    bool ReadZTWINSSeed(const uint256& hashSeed, vector<unsigned char>& seed);
-    bool ReadZTWINSSeed_deprecated(uint256& seed);
-    bool EraseZTWINSSeed();
-    bool EraseZTWINSSeed_deprecated();
+    bool WriteZTFSeed(const uint256& hashSeed, const vector<unsigned char>& seed);
+    bool ReadZTFSeed(const uint256& hashSeed, vector<unsigned char>& seed);
+    bool ReadZTFSeed_deprecated(uint256& seed);
+    bool EraseZTFSeed();
+    bool EraseZTFSeed_deprecated();
 
-    bool WriteZTWINSCount(const uint32_t& nCount);
-    bool ReadZTWINSCount(uint32_t& nCount);
+    bool WriteZTFCount(const uint32_t& nCount);
+    bool ReadZTFCount(uint32_t& nCount);
     std::map<uint256, std::vector<pair<uint256, uint32_t> > > MapMintPool();
     bool WriteMintPoolPair(const uint256& hashMasterSeed, const uint256& hashPubcoin, const uint32_t& nCount);
 

@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -267,11 +267,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop TWINS server.");
+            "\nStop TF server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "TWINS server stopping";
+    return "TF server stopping";
 }
 
 
@@ -355,37 +355,37 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* TWINS features */
-        {"twins", "masternode", &masternode, true, true, false},
-        {"twins", "listmasternodes", &listmasternodes, true, true, false},
-        {"twins", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"twins", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"twins", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"twins", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"twins", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"twins", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"twins", "masternodedebug", &masternodedebug, true, true, false},
-        {"twins", "startmasternode", &startmasternode, true, true, false},
-        {"twins", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"twins", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"twins", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"twins", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"twins", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"twins", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"twins", "mnbudget", &mnbudget, true, true, false},
-        {"twins", "preparebudget", &preparebudget, true, true, false},
-        {"twins", "submitbudget", &submitbudget, true, true, false},
-        {"twins", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"twins", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"twins", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"twins", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"twins", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"twins", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"twins", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"twins", "checkbudgets", &checkbudgets, true, true, false},
-        {"twins", "mnsync", &mnsync, true, true, false},
-        {"twins", "spork", &spork, true, true, false},
-        {"twins", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* TF features */
+        {"valideum", "masternode", &masternode, true, true, false},
+        {"valideum", "listmasternodes", &listmasternodes, true, true, false},
+        {"valideum", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"valideum", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"valideum", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"valideum", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"valideum", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"valideum", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"valideum", "masternodedebug", &masternodedebug, true, true, false},
+        {"valideum", "startmasternode", &startmasternode, true, true, false},
+        {"valideum", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"valideum", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"valideum", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"valideum", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"valideum", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"valideum", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"valideum", "mnbudget", &mnbudget, true, true, false},
+        {"valideum", "preparebudget", &preparebudget, true, true, false},
+        {"valideum", "submitbudget", &submitbudget, true, true, false},
+        {"valideum", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"valideum", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"valideum", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"valideum", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"valideum", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"valideum", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"valideum", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"valideum", "checkbudgets", &checkbudgets, true, true, false},
+        {"valideum", "mnsync", &mnsync, true, true, false},
+        {"valideum", "spork", &spork, true, true, false},
+        {"valideum", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -451,11 +451,11 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "exportzerocoins", &exportzerocoins, false, false, true},
         {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false, false, true},
         {"zerocoin", "getspentzerocoinamount", &getspentzerocoinamount, false, false, false},
-        {"zerocoin", "getztwinsseed", &getztwinsseed, false, false, true},
-        {"zerocoin", "setztwinsseed", &setztwinsseed, false, false, true},
+        {"zerocoin", "getzvalideumseed", &getzvalideumseed, false, false, true},
+        {"zerocoin", "setzvalideumseed", &setzvalideumseed, false, false, true},
         {"zerocoin", "generatemintlist", &generatemintlist, false, false, true},
-        {"zerocoin", "searchdztwins", &searchdztwins, false, false, true},
-        {"zerocoin", "dztwinsstate", &dztwinsstate, false, false, true}
+        {"zerocoin", "searchdzvalideum", &searchdzvalideum, false, false, true},
+        {"zerocoin", "dzvalideumstate", &dzvalideumstate, false, false, true}
 */
 
 #endif // ENABLE_WALLET
@@ -620,7 +620,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> twins-cli " + methodname + " " + args + "\n";
+    return "> valideum-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

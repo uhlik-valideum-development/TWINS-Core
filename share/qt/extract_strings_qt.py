@@ -10,7 +10,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/twinsstrings.cpp"
+OUT_CPP="qt/valideumstrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
@@ -74,10 +74,10 @@ f.write("""
 #define UNUSED
 #endif
 """)
-f.write('static const char UNUSED *twins_strings[] = {\n')
+f.write('static const char UNUSED *valideum_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("twins-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("valideum-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

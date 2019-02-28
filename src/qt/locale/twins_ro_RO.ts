@@ -189,9 +189,9 @@
     </message>
     </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     </context>
 </TS>

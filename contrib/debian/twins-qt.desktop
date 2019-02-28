@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=TWINS
-Comment=TWINS P2P Cryptocurrency
-Comment[fr]=TWINS, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=TWINS, eşten eşe kriptografik sanal para birimi
-Exec=twins-qt %u
+Name=TF
+Comment=TF P2P Cryptocurrency
+Comment[fr]=TF, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TF, eşten eşe kriptografik sanal para birimi
+Exec=valideum-qt %u
 Terminal=false
 Type=Application
-Icon=twins128
-MimeType=x-scheme-handler/twins;
+Icon=valideum128
+MimeType=x-scheme-handler/valideum;
 Categories=Office;Finance;

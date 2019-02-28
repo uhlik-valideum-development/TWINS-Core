@@ -2,26 +2,26 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/twins/.twins" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/twins/.twins"
+if [ -d "/var/lib/valideum/.valideum" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/valideum/.valideum"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/twinsd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/valideumd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/twins/twins.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/twinsd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/twinsd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/valideum/valideum.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/valideumd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/valideumd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-twins}
-BITCOIND_GROUP=${BITCOIND_GROUP:-twins}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/twinsd}
+BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-valideum}
+BITCOIND_GROUP=${BITCOIND_GROUP:-valideum}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/valideumd}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="TWINS Core Daemon"
-description="TWINS crypto-currency p2p network daemon"
+name="VALIDEUM Core Daemon"
+description="TF crypto-currency p2p network daemon"
 
-command="/usr/bin/twinsd"
+command="/usr/bin/valideumd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run twinsd."
+		eerror "ERROR: You must set a secure rpcpassword to run valideumd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"TWINS Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"TF Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

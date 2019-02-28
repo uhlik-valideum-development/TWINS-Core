@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_ZTWINSWALLET_H
-#define TWINS_ZTWINSWALLET_H
+#ifndef VALIDEUM_ZTFWALLET_H
+#define VALIDEUM_ZTFWALLET_H
 
 #include <map>
 #include "libzerocoin/Coin.h"
@@ -14,7 +14,7 @@
 
 class CDeterministicMint;
 
-class CzTWINSWallet
+class CzTFWallet
 {
 private:
     uint256 seedMaster;
@@ -23,13 +23,13 @@ private:
     CMintPool mintPool;
 
 public:
-    CzTWINSWallet(std::string strWalletFile);
+    CzTFWallet(std::string strWalletFile);
 
     void AddToMintPool(const std::pair<uint256, uint32_t>& pMint, bool fVerbose);
     bool SetMasterSeed(const uint256& seedMaster, bool fResetCount = false);
     uint256 GetMasterSeed() { return seedMaster; }
     void SyncWithChain(bool fGenerateMintPool = true);
-    void GenerateDeterministicZTWINS(libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly = false);
+    void GenerateDeterministicZTF(libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly = false);
     void GenerateMint(const uint32_t& nCount, const libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint);
     void GetState(int& nCount, int& nLastGenerated);
     bool RegenerateMint(const CDeterministicMint& dMint, CZerocoinMint& mint);
@@ -40,11 +40,11 @@ public:
     bool IsInMintPool(const CBigNum& bnValue) { return mintPool.Has(bnValue); }
     void UpdateCount();
     void Lock();
-    void SeedToZTWINS(const uint512& seed, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key);
+    void SeedToZTF(const uint512& seed, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key);
     bool CheckSeed(const CDeterministicMint& dMint);
 
 private:
     uint512 GetZerocoinSeed(uint32_t n);
 };
 
-#endif //TWINS_ZTWINSWALLET_H
+#endif //VALIDEUM_ZTFWALLET_H

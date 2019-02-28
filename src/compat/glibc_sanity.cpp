@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2017 The Bitcoin Core developers
 // Copyright (c) 2016-2017 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/twins-config.h"
+#include "config/valideum-config.h"
 #endif
 
 #include <cstddef>

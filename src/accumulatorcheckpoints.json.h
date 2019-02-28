@@ -1,10 +1,10 @@
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_ACCUMULATORCHECKPOINTS_JSON_H
-#define TWINS_ACCUMULATORCHECKPOINTS_JSON_H
+#ifndef VALIDEUM_ACCUMULATORCHECKPOINTS_JSON_H
+#define VALIDEUM_ACCUMULATORCHECKPOINTS_JSON_H
 
 #include <string>
 std::string GetMainCheckpoints() {
@@ -476,4 +476,4 @@ std::string GetRegTestCheckpoints() {
     return strRegTestCheckpoints;
 }
 
-#endif //TWINS_ACCUMULATORCHECKPOINTS_JSON_H
+#endif //VALIDEUM_ACCUMULATORCHECKPOINTS_JSON_H

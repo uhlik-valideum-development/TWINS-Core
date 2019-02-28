@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_KEY_H
-#define TWINS_KEY_H
+#ifndef VALIDEUM_KEY_H
+#define VALIDEUM_KEY_H
 
 #include "allocators.h"
 #include "serialize.h"
@@ -182,4 +182,4 @@ void ECC_Stop(void);
 /** Check that required EC support is available at runtime. */
 bool ECC_InitSanityCheck(void);
 
-#endif // TWINS_KEY_H
+#endif // VALIDEUM_KEY_H

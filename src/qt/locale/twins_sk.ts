@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše TWINS adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše TF adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše TWINS adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše TF adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše TWINS pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše TF pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY TWINS &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY TF &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -569,16 +569,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Odoslať mince na adresu TWINS</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Odoslať mince na adresu TF</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a twins: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a valideum: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -589,24 +589,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>O TWINS Core</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>O VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Zobraziť informácie o TWINS Core</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Zobraziť informácie o VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Zmeňte možnosti konfigurácie pre TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Zmeňte možnosti konfigurácie pre TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy TWINS, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy TF, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými TWINS adresami</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými TF adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -637,8 +637,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Otvorte TWINS: URI alebo žiadosť o platbu</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Otvorte TF: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -649,12 +649,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Zobraziť pomocnú správu programu TWINS Core a získajte zoznam možností príkazového riadka TWINS</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Zobraziť pomocnú správu programu VALIDEUM Core a získajte zoznam možností príkazového riadka TF</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINS Core klient</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>VALIDEUM Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -776,8 +776,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (twins.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (twins.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valideum.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (valideum.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -867,15 +867,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1114,8 +1114,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>Adresa TWINS, ktorou chcete správu podpísať</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>Adresa TF, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1138,16 +1138,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TWINS adresy</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TF adresy</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>TWINS adresa, ktorou bola správa podpísaná</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>TF adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TWINS adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TF adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1185,8 +1185,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
@@ -1281,10 +1281,10 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

@@ -40,12 +40,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_twins">res/icons/unit_twins.png</file>
-        <file alias="unit_mtwins">res/icons/unit_mtwins.png</file>
-        <file alias="unit_utwins">res/icons/unit_utwins.png</file>
-        <file alias="unit_ttwins">res/icons/unit_ttwins.png</file>
-        <file alias="unit_tmtwins">res/icons/unit_tmtwins.png</file>
-        <file alias="unit_tutwins">res/icons/unit_tutwins.png</file>
+        <file alias="unit_valideum">res/icons/unit_valideum.png</file>
+        <file alias="unit_mvalideum">res/icons/unit_mvalideum.png</file>
+        <file alias="unit_uvalideum">res/icons/unit_uvalideum.png</file>
+        <file alias="unit_tvalideum">res/icons/unit_tvalideum.png</file>
+        <file alias="unit_tmvalideum">res/icons/unit_tmvalideum.png</file>
+        <file alias="unit_tuvalideum">res/icons/unit_tuvalideum.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -65,7 +65,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="twins_logo_horizontal">res/images/twins_logo_horizontal.png</file>
+        <file alias="valideum_logo_horizontal">res/images/valideum_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow_dark.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
         <file alias="downArrow_small_white">res/images/downArrow_small.png</file>

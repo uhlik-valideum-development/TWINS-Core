@@ -62,12 +62,12 @@
         <translation>Adresa primatelja</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše TWINS adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše TF adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše TWINS adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše TF adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše TWINS od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše TF od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše TWINSove 1 !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše TFove 1 !</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>Enter a TWINS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Unesite TWINS adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
+        <source>Enter a TF Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Unesite TF adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
     </message>
     <message>
-        <source>The TWINS address to encrypt</source>
-        <translation>TWINS adresa za šifriranje</translation>
+        <source>The TF address to encrypt</source>
+        <translation>TF adresa za šifriranje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TWINS address</source>
-        <translation>Šifriranje privatnog ključa za ovu TWINS adresu</translation>
+        <source>Encrypt the private key for this TF address</source>
+        <translation>Šifriranje privatnog ključa za ovu TF adresu</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Pregled povijesti transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTWINS</source>
-        <translation>Postavke privatnosti za zTWINS</translation>
+        <source>Privacy Actions for zTF</source>
+        <translation>Postavke privatnosti za zTF</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Pošaljite kovanice na TWINS adresu</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Pošaljite kovanice na TF adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Zahtjev za plaćanje (generira QR kodove i twins: URI)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Zahtjev za plaćanje (generira QR kodove i valideum: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Pretraži masternodes</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>O TWINS Core</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>O VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Prikaz informacija o TWINS Core-u</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Prikaz informacija o VALIDEUM Core-u</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Izmijenite konfiguracijske opcije za TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Izmijenite konfiguracijske opcije za TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim TWINS adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim TF adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim TWINS adresama</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim TF adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Otvori Masternode konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Otvori TWINS: URI zahtjev za plačanje</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Otvori TF: URI zahtjev za plačanje</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Prozor Block preglednika</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Pokažite poruku TWINS Core pomoći da biste dobili popis s mogućim TWINS opcijama naredbenog retka</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Pokažite poruku VALIDEUM Core pomoći da biste dobili popis s mogućim TF opcijama naredbenog retka</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINSIX Core Klijent</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>TFIX Core Klijent</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to TWINS network</source>
-        <translation><numerusform>%n aktivne veze na TWINS mrežu</numerusform><numerusform>%n aktivne veze na TWINS mrežu</numerusform><numerusform>%n aktivne veze na TWINS mrežu</numerusform></translation>
+        <source>%n active connection(s) to TF network</source>
+        <translation><numerusform>%n aktivne veze na TF mrežu</numerusform><numerusform>%n aktivne veze na TF mrežu</numerusform><numerusform>%n aktivne veze na TF mrežu</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ Višestruko slanje: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (twins.conf).</source>
-        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (twins.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valideum.conf).</source>
+        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (valideum.conf).</translation>
     </message>
 </context>
 <context>
@@ -1130,8 +1130,8 @@ Višestruko slanje: %1</translation>
         <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 utwins per input.</source>
-        <translation>Može varirati +/- %1 utwins po unosu.</translation>
+        <source>Can vary +/- %1 uvalideum per input.</source>
+        <translation>Može varirati +/- %1 uvalideum po unosu.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1185,8 +1185,8 @@ Višestruko slanje: %1</translation>
         <translation>Uređivanje adrese slanja</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TWINS address.</source>
-        <translation>Unesena adresa "%1" nije važeća TWINS adresa.</translation>
+        <source>The entered address "%1" is not a valid TF address.</source>
+        <translation>Unesena adresa "%1" nije važeća TF adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1231,16 +1231,16 @@ Višestruko slanje: %1</translation>
         <translation>verzija</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TWINS Core</source>
-        <translation>O TWINS Core</translation>
+        <source>About VALIDEUM Core</source>
+        <translation>O VALIDEUM Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1286,16 +1286,16 @@ Višestruko slanje: %1</translation>
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to TWINS Core.</source>
-        <translation>Dobrodošli u TWINS Core.</translation>
+        <source>Welcome to VALIDEUM Core.</source>
+        <translation>Dobrodošli u VALIDEUM Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TWINS Core will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će TWINS Core pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where VALIDEUM Core will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će VALIDEUM Core pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>TWINS Core will download and store a copy of the TWINS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TWINS Core preuzima i pohranjuje kopiju TWINS blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>VALIDEUM Core will download and store a copy of the TF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VALIDEUM Core preuzima i pohranjuje kopiju TF blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1306,8 @@ Višestruko slanje: %1</translation>
         <translation>Koristite prilagođeni direktorij podataka:</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,12 +1448,12 @@ Višestruko slanje: %1</translation>
         <translation>Unesite adresu za slanje</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TWINS addresses after it matures.
-To Add: enter percentage to give and TWINS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TF addresses after it matures.
+To Add: enter percentage to give and TF address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih TWINS adresa nakon što sazrijete.
-Za Dodaj: unesite postotak za davanje i TWINS adresu za dodavanje MultiSend vektoru.
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih TF adresa nakon što sazrijete.
+Za Dodaj: unesite postotak za davanje i TF adresu za dodavanje MultiSend vektoru.
 Za brisanje: Unesite adresu za brisanje i pritisnite Delete.
 MultiSend neće biti aktiviran dok ne kliknete Aktiviraj</translation>
     </message>
@@ -1679,8 +1679,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Adresa / iznos:</translation>
     </message>
     <message>
-        <source>Add destinations to send TWINS to</source>
-        <translation>Dodajte odredišta za slanje TWINS
+        <source>Add destinations to send TF to</source>
+        <translation>Dodajte odredišta za slanje TF
 </translation>
     </message>
     <message>
@@ -1779,48 +1779,48 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Odaberi razinu privatnosti.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 10000 TWINS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 10000 TF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 10000 TWINS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 10000 TF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Koristite 16 zasebnih masternodova</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 TWINS to anonymize 10000 TWINS</source>
-        <translation>Ova je opcija najbrža i košta oko 0,025 TWINS da anonimizira 10000 TWINS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TF to anonymize 10000 TF</source>
+        <translation>Ova je opcija najbrža i košta oko 0,025 TF da anonimizira 10000 TF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 TWINS to anonymize 10000 TWINS</source>
-        <translation>Ova je opcija umjereno brza i košta oko 0,05 TWINS da anonimizira 10000 TWINS</translation>
+        <source>This option is moderately fast and will cost about 0.05 TF to anonymize 10000 TF</source>
+        <translation>Ova je opcija umjereno brza i košta oko 0,05 TF da anonimizira 10000 TF</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Ovo je najsporiji i najsigurniji izbor. Korištenje maksimalne anonimnosti košta</translation>
     </message>
     <message>
-        <source>0.1 TWINS per 10000 TWINS you anonymize.</source>
-        <translation>0,1 TWINS po 10000 TWINS za anonimizaciju.</translation>
+        <source>0.1 TF per 10000 TF you anonymize.</source>
+        <translation>0,1 TF po 10000 TF za anonimizaciju.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Konfiguracija</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na osnovne (%1 i 2 runde). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju TWINS-a.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Obfuscation je uspješno postavljen na osnovne (%1 i 2 runde). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju VALIDEUM-a.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na visoku razinu (%1 i 8 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju TWINS-a</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Obfuscation je uspješno postavljen na visoku razinu (%1 i 8 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju VALIDEUM-a</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na maksimalnu razinu (%1 i 16 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju TWINS-a.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Obfuscation je uspješno postavljen na maksimalnu razinu (%1 i 16 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju VALIDEUM-a.</translation>
     </message>
 </context>
 <context>
@@ -1881,8 +1881,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Ako onemogućite potrošnju nepotvrđenih promjena, promjena s transakcijskog kanala bit će upotrijebljena sve dok ta transakcija nema barem jednu potvrdu. To također utječe na izračun salda.</translation>
     </message>
     <message>
-        <source>Automatically open the TWINS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite TWINS klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
+        <source>Automatically open the TF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvorite TF klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1901,12 +1901,12 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Stručnjak</translation>
     </message>
     <message>
-        <source>Automatically start TWINS after logging in to the system.</source>
-        <translation>Automatski pokrenite TWINS nakon prijave u sustav.</translation>
+        <source>Automatically start TF after logging in to the system.</source>
+        <translation>Automatski pokrenite TF nakon prijave u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start TWINS on system login</source>
-        <translation>Pokrenite TWINS na prijavi u sustav</translation>
+        <source>&amp;Start TF on system login</source>
+        <translation>Pokrenite TF na prijavi u sustav</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1933,14 +1933,14 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TWINS.</source>
-        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja TWINS-a.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TF.</source>
+        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja VALIDEUM-a.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/twins-project/twins-project-translations</source>
+https://www.transifex.com/valideum-project/valideum-project-translations</source>
         <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodima ovdje:
-https://www.transifex.com/twins-project/twins-project-translations</translation>
+https://www.transifex.com/valideum-project/valideum-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1948,36 +1948,36 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of TWINS units to zTWINS</source>
-        <translation>Omogućite automint TWINS jedinica na zTWINS</translation>
+        <source>Enable automatic minting of TF units to zTF</source>
+        <translation>Omogućite automint TF jedinica na zTF</translation>
     </message>
     <message>
-        <source>Enable zTWINS Automint</source>
-        <translation>Omogući zTWINS Automint</translation>
+        <source>Enable zTF Automint</source>
+        <translation>Omogući zTF Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming TWINS which get automatically converted to zTWINS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih TWINS koji se automatski pretvara u zTWINS putem protokola Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming TF which get automatically converted to zTF via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih TF koji se automatski pretvara u zTF putem protokola Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTWINS</source>
-        <translation>Postotak automatiziranog zTWINS</translation>
+        <source>Percentage of autominted zTF</source>
+        <translation>Postotak automatiziranog zTF</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TWINS for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno TWINS za apoen</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough TF for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno TF za apoen</translation>
     </message>
     <message>
-        <source>Preferred Automint zTWINS Denomination</source>
-        <translation>Preferirana Automint zTWINS denominacijad</translation>
+        <source>Preferred Automint zTF Denomination</source>
+        <translation>Preferirana Automint zTF denominacijad</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Prag razdvajanja Stake-a:</translation>
     </message>
     <message>
-        <source>Connect to the TWINS network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s TWINS mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <source>Connect to the TF network through a SOCKS5 proxy.</source>
+        <translation>Povežite se s TF mrežom putem SOCKS5 proxy poslužitelja.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
         <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
     </message>
     <message>
-        <source>TWINS Balance</source>
-        <translation>TWINS Saldo</translation>
+        <source>TF Balance</source>
+        <translation>TF Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2155,18 +2155,18 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
         <translation>Trenutačno zaključana ravnoteža u adresama samo za gledanje</translation>
     </message>
     <message>
-        <source>Your current TWINS balance, unconfirmed and immature transactions included</source>
-        <translation>Uključena je vaša trenutna bilanca TWINS, nepotvrđene i nezrele transakcije</translation>
+        <source>Your current TF balance, unconfirmed and immature transactions included</source>
+        <translation>Uključena je vaša trenutna bilanca TF, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
-        <source>zTWINS Balance</source>
-        <translation>zTWINS Bilanca</translation>
+        <source>zTF Balance</source>
+        <translation>zTF Bilanca</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTWINS are spendable.</source>
+These zTF are spendable.</source>
         <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zTWINS se mogu potrošiti.</translation>
+Ti zTF se mogu potrošiti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2175,8 +2175,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s TWINS mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s TF mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2219,8 +2219,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked TWINS or Masternode collaterals. These are excluded from zTWINS minting.</source>
-        <translation>Zaključani TWINS ili Masternode kolateral. Oni su isključeni iz zTWINS kovanja.</translation>
+        <source>Locked TF or Masternode collaterals. These are excluded from zTF minting.</source>
+        <translation>Zaključani TF ili Masternode kolateral. Oni su isključeni iz zTF kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nepotvrđeno:</translation>
     </message>
     <message>
-        <source>Your current zTWINS balance, unconfirmed and immature zTWINS included.</source>
-        <translation>Vaša trenutačna zTWINS bilanca, nepotvrđena i nezrela zTWINS.</translation>
+        <source>Your current zTF balance, unconfirmed and immature zTF included.</source>
+        <translation>Vaša trenutačna zTF bilanca, nepotvrđena i nezrela zTF.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>nije sinkronizirano</translation>
     </message>
     <message>
-        <source>Current percentage of zTWINS.
+        <source>Current percentage of zTF.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zTWINS.
+        <translation>Trenutni postotak zTF.
 Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
 </translation>
     </message>
@@ -2255,14 +2255,14 @@ Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konf
         <translation>AutoMint je trenutno omogućen i podešen na</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in twins.conf.</source>
-        <translation>Da biste onemogućili AutoMint, dodajte 'enablezeromint=0' u twins.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in valideum.conf.</source>
+        <translation>Da biste onemogućili AutoMint, dodajte 'enablezeromint=0' u valideum.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in valideum.conf</source>
         <translation>AutoMint je trenutno onemogućen.
-Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablezeromint=1' u twins.conf</translation>
+Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablezeromint=1' u valideum.conf</translation>
     </message>
 </context>
 <context>
@@ -2288,12 +2288,12 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start twins: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti twins: clik-to-pay handler</translation>
+        <source>Cannot start valideum: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti valideum: clik-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TWINS address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom TWINS adresom ili nepravilnim URI parametrima.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid TF address or malformed URI parameters.</source>
+        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom TF adresom ili nepravilnim URI parametrima.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2378,8 +2378,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Zerocoin radnje:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s TWINS mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s TF mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2390,8 +2390,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2402,8 +2402,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Dostupno za Minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 TWINS</source>
-        <translation>0.000 000 00 TWINS</translation>
+        <source>0.000 000 00 TF</source>
+        <translation>0.000 000 00 TF</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2442,16 +2442,16 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>PRIVATNOST</translation>
     </message>
     <message>
-        <source>Enter an amount of TWINS to convert to zTWINS</source>
-        <translation>Unesite iznos TWINS za pretvorbu u zTWINS</translation>
+        <source>Enter an amount of TF to convert to zTF</source>
+        <translation>Unesite iznos TF za pretvorbu u zTF</translation>
     </message>
     <message>
-        <source>zTWINS Control</source>
-        <translation>Upravljanje zTWINS</translation>
+        <source>zTF Control</source>
+        <translation>Upravljanje zTF</translation>
     </message>
     <message>
-        <source>zTWINS Selected:</source>
-        <translation>zTWINS Odabrani:</translation>
+        <source>zTF Selected:</source>
+        <translation>zTF Odabrani:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2466,24 +2466,24 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending</source>
-        <translation>Dostupni (zreli) zTWINS za potrošnju</translation>
+        <source>Available (mature and spendable) zTF for spending</source>
+        <translation>Dostupni (zreli) zTF za potrošnju</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostupna Bilanca:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending
+        <source>Available (mature and spendable) zTF for spending
 
-zTWINS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zTWINS za potrošnju
+zTF are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostupni (zreli) zTF za potrošnju
 
-zTWINS su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zTF su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
     </message>
     <message>
-        <source>0 zTWINS</source>
-        <translation>0 zTWINS</translation>
+        <source>0 zTF</source>
+        <translation>0 zTF</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2502,8 +2502,8 @@ zTWINS su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denomin
         <translation>Platiti:</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>TWINS adresa za slanje uplate. Stvara lokalno plaćanje za sebe kada je prazno.</translation>
+        <source>The TF address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>TF adresa za slanje uplate. Stvara lokalno plaćanje za sebe kada je prazno.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2554,8 +2554,8 @@ zTWINS su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denomin
         <translation>Statistike Zerocoina:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTWINS</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zTWINS</translation>
+        <source>Total Balance including unconfirmed and immature zTF</source>
+        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zTF</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2576,24 +2576,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTWINS minting.
+        <source>Show the current status of automatic zTF minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to twins.conf
-- disable: add 'enablezeromint=0' to twins.conf
+- enable: add 'enablezeromint=1' to valideum.conf
+- disable: add 'enablezeromint=0' to valideum.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTWINS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zTF
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zTWINS mintanja.
+        <translation>Pokažite trenutačni status automatskog zTF mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
-- omogući: dodajte 'enablezeromint = 1' u twins.conf
-- onemogućiti: dodajte 'enablezeromint = 0' na twins.conf
+- omogući: dodajte 'enablezeromint = 1' u valideum.conf
+- onemogućiti: dodajte 'enablezeromint = 0' na valideum.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zTWINS</translation>
+- izbornik Postavke-&gt; Opcije-&gt; Postotak zTF</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2787,12 +2787,12 @@ Maximum allowed: </source>
 Maksimalno dopušteno:</translation>
     </message>
     <message>
-        <source>zTWINS Spend #: </source>
-        <translation>zTWINS utrošeno #: </translation>
+        <source>zTF Spend #: </source>
+        <translation>zTF utrošeno #: </translation>
     </message>
     <message>
-        <source>zTWINS Mint</source>
-        <translation>zTWINS Mint</translation>
+        <source>zTF Mint</source>
+        <translation>zTF Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2807,12 +2807,12 @@ Maksimalno dopušteno:</translation>
         <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zTWINS is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zTWINS je trenutačno onemogućen.</translation>
+        <source>zTF is currently disabled due to maintenance.</source>
+        <translation>Zbog održavanja zTF je trenutačno onemogućen.</translation>
     </message>
     <message>
-        <source>zTWINS is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zTWINS.</translation>
+        <source>zTF is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zTF.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2899,8 +2899,8 @@ Maksimalno dopušteno:</translation>
         <translation>Uspješno mintano</translation>
     </message>
     <message>
-        <source> zTWINS in </source>
-        <translation> ulazni zTWINS </translation>
+        <source> zTF in </source>
+        <translation> ulazni zTF </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2926,8 +2926,8 @@ Maksimalno dopušteno:</translation>
         <translation>Nije dodijeljena adresa "Plati", stvarajući lokalnu uplatu</translation>
     </message>
     <message>
-        <source>Invalid TWINS Address</source>
-        <translation>Nevažeća TWINS Adresa</translation>
+        <source>Invalid TF Address</source>
+        <translation>Nevažeća TF Adresa</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2958,12 +2958,12 @@ Maksimalno dopušteno:</translation>
         <translation>Potvrdite slanje novca</translation>
     </message>
     <message>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
-        <translation>Verzija 1 zTWINS zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
+        <translation>Verzija 1 zTF zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
     </message>
     <message>
-        <source>Failed to spend zTWINS</source>
-        <translation>Neuspjelo trošenje zTWINS</translation>
+        <source>Failed to spend zTF</source>
+        <translation>Neuspjelo trošenje zTF</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2984,7 +2984,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of TWINS to convert to zTWINS</comment>
+        <comment>Enter an amount of TF to convert to zTF</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3027,8 +3027,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter a TWINS address (e.g. %1)</source>
-        <translation>Unesite TWINS adresu (npr., %1)</translation>
+        <source>Enter a TF address (e.g. %1)</source>
+        <translation>Unesite TF adresu (npr., %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3166,8 +3166,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the TWINS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite TWINS debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <source>Open the TF debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorite TF debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3302,8 +3302,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zTWINS Backup Path:</source>
-        <translation>Prilagođeni put zTWINS sigurnosne kopije:</translation>
+        <source>Custom zTF Backup Path:</source>
+        <translation>Prilagođeni put zTF sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3382,8 +3382,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Iz:</translation>
     </message>
     <message>
-        <source>Welcome to the TWINS RPC console.</source>
-        <translation>Dobrodošli na TWINS RPC konzolu.</translation>
+        <source>Welcome to the TF RPC console.</source>
+        <translation>Dobrodošli na TF RPC konzolu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3509,16 +3509,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Dodatna oznaka za povezivanje s novom adresom primatelja.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem TWINS mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem TF mreže.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>PRIMI</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem TWINS mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem TF mreže.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3747,8 +3747,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Veličina UTXO:</translation>
     </message>
     <message>
-        <source>0 TWINS</source>
-        <translation>0 TWINS</translation>
+        <source>0 TF</source>
+        <translation>0 TF</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3805,16 +3805,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Kovanice se automatski odabiru</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTWINS in fee,&lt;br /&gt;while "at least" pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uTWINS-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uTWINS-a, dok se "barem" plaća 1000 uTWINS-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTF in fee,&lt;br /&gt;while "at least" pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uTF-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uTF-a, dok se "barem" plaća 1000 uTF-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTWINS in fee,&lt;br /&gt;while "total at least" pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uTWINS, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uTWINS-ova, a "ukupno barem" plaća 1000 uTWINS-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTF in fee,&lt;br /&gt;while "total at least" pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uTF, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uTF-ova, a "ukupno barem" plaća 1000 uTF-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TWINS transactions than the network can process.</source>
-        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za TWINS transakcijama nego što mreža može obraditi.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TF transactions than the network can process.</source>
+        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za TF transakcijama nego što mreža može obraditi.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3861,8 +3861,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Dodaj primatelja</translation>
     </message>
     <message>
-        <source>Anonymized TWINS</source>
-        <translation>Anonimiziran TWINS</translation>
+        <source>Anonymized TF</source>
+        <translation>Anonimiziran TF</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3909,8 +3909,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Alat za podjelu blocka ne funkcionira s više adresa. Pokušajte ponovo.</translation>
     </message>
     <message>
-        <source>Warning: Invalid TWINS address</source>
-        <translation>Upozorenje: Nevažeća TWINS adresa</translation>
+        <source>Warning: Invalid TF address</source>
+        <translation>Upozorenje: Nevažeća TF adresa</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4012,8 +4012,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Platiti:</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to</source>
-        <translation>TWINS adresa za slanje uplate</translation>
+        <source>The TF address to send the payment to</source>
+        <translation>TF adresa za slanje uplate</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4052,8 +4052,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Poruka:</translation>
     </message>
     <message>
-        <source>A message that was attached to the TWINS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TWINS network.</source>
-        <translation>Poruka koja je bila povezana s TWINS: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko TWINS mreže.</translation>
+        <source>A message that was attached to the TF: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TF network.</source>
+        <translation>Poruka koja je bila povezana s TF: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko TF mreže.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4079,8 +4079,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TWINS Core is shutting down...</source>
-        <translation>TWINS Core se zatvara ...</translation>
+        <source>VALIDEUM Core is shutting down...</source>
+        <translation>VALIDEUM Core se zatvara ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4102,8 +4102,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Možete potpisati poruke s vašim adresama kako biste dokazali da ih posjedujete. Pazite da ne potpišete ništa nejasno, jer napadi za krađu identiteta mogu Vas pokušati uvjeriti da vam potpišu identitet. Potpišite samo detalje oko kojih se slažete.</translation>
     </message>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>TWINS adresa za potpisivanje poruke</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>TF adresa za potpisivanje poruke</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4134,16 +4134,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove TWINS adrese</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove TF adrese</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>TWINS adresa s kojom je potpisana poruka</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>TF adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom TWINS adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom TF adresom</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4229,8 +4229,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4245,8 +4245,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Dash Core programeri</translation>
     </message>
     <message>
-        <source>The TWINS Core developers</source>
-        <translation>TWINS Core programeri</translation>
+        <source>The VALIDEUM Core developers</source>
+        <translation>VALIDEUM Core programeri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4526,12 +4526,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Zaprimljeno preko Zametanja</translation>
     </message>
     <message>
-        <source>TWINS Stake</source>
-        <translation>TWINS Stake</translation>
+        <source>TF Stake</source>
+        <translation>TF Stake</translation>
     </message>
     <message>
-        <source>zTWINS Stake</source>
-        <translation>zTWINS Stake</translation>
+        <source>zTF Stake</source>
+        <translation>zTF Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4550,32 +4550,32 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Prikrivanje Stvara Denominacije</translation>
     </message>
     <message>
-        <source>Converted TWINS to zTWINS</source>
-        <translation>Pretvoreni TWINS u zTWINS</translation>
+        <source>Converted TF to zTF</source>
+        <translation>Pretvoreni TF u zTF</translation>
     </message>
     <message>
-        <source>Spent zTWINS</source>
-        <translation>Utrošeni zTWINS</translation>
+        <source>Spent zTF</source>
+        <translation>Utrošeni zTF</translation>
     </message>
     <message>
-        <source>Received TWINS from zTWINS</source>
-        <translation>Primljeni TWINS od zTWINS</translation>
+        <source>Received TF from zTF</source>
+        <translation>Primljeni TF od zTF</translation>
     </message>
     <message>
-        <source>Minted Change as zTWINS from zTWINS Spend</source>
-        <translation>Mintana razlika zTWINS od zTWINS Utroška</translation>
+        <source>Minted Change as zTF from zTF Spend</source>
+        <translation>Mintana razlika zTF od zTF Utroška</translation>
     </message>
     <message>
-        <source>Converted zTWINS to TWINS</source>
-        <translation>Pretvoreni zTWINS u TWINS</translation>
+        <source>Converted zTF to TF</source>
+        <translation>Pretvoreni zTF u TF</translation>
     </message>
     <message>
-        <source>Anonymous (zTWINS Transaction)</source>
-        <translation>Anonimno (zTWINS Transakcija)</translation>
+        <source>Anonymous (zTF Transaction)</source>
+        <translation>Anonimno (zTF Transakcija)</translation>
     </message>
     <message>
-        <source>Anonymous (zTWINS Stake)</source>
-        <translation>Anonimno (zTWINS Stake)</translation>
+        <source>Anonymous (zTF Stake)</source>
+        <translation>Anonimno (zTF Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4785,12 +4785,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Izvoz uspješan</translation>
     </message>
     <message>
-        <source>Received TWINS from zTWINS</source>
-        <translation>Primljeni TWINS od zTWINS</translation>
+        <source>Received TF from zTF</source>
+        <translation>Primljeni TF od zTF</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zTWINS</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zTWINS</translation>
+        <source>Zerocoin Spend, Change in zTF</source>
+        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zTF</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4826,8 +4826,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Salji novac</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TWINS.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 TWINS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TF.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 TF.</translation>
     </message>
 </context>
 <context>
@@ -4858,10 +4858,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
-        <source>Select zTWINS to Spend</source>
-        <translation>Odabrani zTWINS za utrošiti</translation>
+        <source>Select zTF to Spend</source>
+        <translation>Odabrani zTF za utrošiti</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4872,8 +4872,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4885,7 +4885,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = zadržite metapodatke tx, npr. Vlasnika računa i podatke o zahtjevu za plaćanje, 2 = odbaci meta podataka tx)</translation>
@@ -4911,8 +4911,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Izračunata kontrolna točka akumulatora nije ono što se bilježi indeksom blokova</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TWINS Core is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. TWINS Core vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. VALIDEUM Core is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. VALIDEUM Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4939,16 +4939,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zTWINS minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zTWINS mintanja (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zTF minting (0-1, default: %u)</source>
+        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zTF mintanja (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for TWINS inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za TWINS unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for TF inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za TF unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zTWINS inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zTWINS unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zTF inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zTF unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4983,12 +4983,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u TWINS / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u TF / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u TWINS / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u TF / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5087,20 +5087,20 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Ovaj proizvod uključuje softver razvijen od strane OpenSSL projekta za uporabu u OpenSSL Toolkitu i kriptografskom softveru kojeg je napisao Eric Young i UPnP softver koji je napisao Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TWINS Core is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. TWINS Core vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. VALIDEUM Core is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. VALIDEUM Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TWINS.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 TWINS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TF.</source>
+        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 TF.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TWINS.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 TWINS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 TF.</source>
+        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 TF.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5115,8 +5115,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TWINS Core will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, TWINS Core neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong VALIDEUM Core will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, VALIDEUM Core neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5356,8 +5356,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Pogreška pri učitavanju wallet.dat: novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TWINS Core</source>
-        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju TWINS jezgre</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of VALIDEUM Core</source>
+        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju TF jezgre</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5412,8 +5412,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in TWINS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u TWINS / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in TF/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u TF / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5472,8 +5472,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TWINS Core is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. TWINS Core se zatvara.</translation>
+        <source>Initialization sanity check failed. VALIDEUM Core is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. VALIDEUM Core se zatvara.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5544,8 +5544,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
     </message>
     <message>
-        <source>Reindex the TWINS and zTWINS money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku TWINS i zTWINS ponude novca</translation>
+        <source>Reindex the TF and zTF money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku TF i zTF ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5583,8 +5583,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>uklonjene nepotvrđene transakcije</translation>
     </message>
     <message>
-        <source>Disable all TWINS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije TWINS (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
+        <source>Disable all TF specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Onemogući sve specifične funkcije TF (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5619,8 +5619,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zTWINS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zTWINS sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <source>Specify custom backup path to add a copy of any automatic zTF backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zTF sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6119,8 +6119,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zTWINS wallet...</source>
-        <translation>Sinkronizacija zTWINS novčanika...</translation>
+        <source>Syncing zTF wallet...</source>
+        <translation>Sinkronizacija zTF novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6267,8 +6267,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zTWINS</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zTWINS-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zTF</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zTF-a</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6283,8 +6283,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Provjera novčanika...</translation>
     </message>
     <message>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
-        <translation>Verzija 1 zTWINS zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
+        <translation>Verzija 1 zTF zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -6295,8 +6295,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Novčanik zaključan.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TWINS Core to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite TWINS Core</translation>
+        <source>Wallet needed to be rewritten: restart VALIDEUM Core to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite VALIDEUM Core</translation>
     </message>
     <message>
         <source>Wallet options:</source>

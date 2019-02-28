@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "TWINS"
-            VALUE "FileDescription",    "twinsd (OSS daemon/client for TWINS)"
+            VALUE "CompanyName",        "TF"
+            VALUE "FileDescription",    "valideumd (OSS daemon/client for TF)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "twinsd"
+            VALUE "InternalName",       "valideumd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "twinsd.exe"
-            VALUE "ProductName",        "twinsd"
+            VALUE "OriginalFilename",   "valideumd.exe"
+            VALUE "ProductName",        "valideumd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

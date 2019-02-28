@@ -111,7 +111,7 @@ color:rgb(211, 215, 207);</string>
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TWINSSupply">
+    <widget class="QLabel" name="TFSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -127,7 +127,7 @@ color:rgb(211, 215, 207);</string>
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="TWINSDemand">
+    <widget class="QLabel" name="VALIDEUMDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -251,7 +251,7 @@ color:rgb(211, 215, 207);</string>
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyTWINS">
+    <widget class="QPushButton" name="BuyTF">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -261,10 +261,10 @@ color:rgb(211, 215, 207);</string>
       </rect>
      </property>
      <property name="text">
-      <string>Buy TWINS</string>
+      <string>Buy TF</string>
      </property>
      <property name="icon">
-      <iconset resource="../twins.qrc">
+      <iconset resource="../valideum.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -331,7 +331,7 @@ color:rgb(211, 215, 207);</string>
       </rect>
      </property>
      <property name="text">
-      <string>TWINS</string>
+      <string>TF</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1577,10 +1577,10 @@ color:rgb(211, 215, 207);</string>
       </rect>
      </property>
      <property name="text">
-      <string>TWINS</string>
+      <string>TF</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputTWINS">
+    <widget class="QLineEdit" name="UnitsInputTF">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1614,7 +1614,7 @@ color:rgb(211, 215, 207);</string>
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellTWINSBTN">
+    <widget class="QPushButton" name="SellTFBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1624,10 +1624,10 @@ color:rgb(211, 215, 207);</string>
       </rect>
      </property>
      <property name="text">
-      <string>Sell TWINS</string>
+      <string>Sell TF</string>
      </property>
      <property name="icon">
-      <iconset resource="../twins.qrc">
+      <iconset resource="../valideum.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1650,12 +1650,12 @@ color:rgb(211, 215, 207);</string>
          </font>
         </property>
         <property name="text">
-         <string>TWINS Available:</string>
+         <string>TF Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="TWINSAvailableLabel">
+       <widget class="QLabel" name="TFAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2113,7 +2113,7 @@ color:rgb(211, 215, 207);</string>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelTWINS">
+       <widget class="QLabel" name="labelTF">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2121,7 +2121,7 @@ color:rgb(211, 215, 207);</string>
          </font>
         </property>
         <property name="text">
-         <string>TWINS</string>
+         <string>TF</string>
         </property>
        </widget>
       </item>
@@ -2660,7 +2660,7 @@ color:rgb(211, 215, 207);</string>
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TWINSBalanceLabel">
+    <widget class="QLabel" name="TFBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2689,7 +2689,7 @@ color:rgb(211, 215, 207);</string>
       </font>
      </property>
      <property name="text">
-      <string>TWINS Balance:</string>
+      <string>TF Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2711,7 +2711,7 @@ color:rgb(211, 215, 207);</string>
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TWINSAvailableLabel_2">
+    <widget class="QLabel" name="TFAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2740,7 +2740,7 @@ color:rgb(211, 215, 207);</string>
       </font>
      </property>
      <property name="text">
-      <string>TWINS Available:</string>
+      <string>TF Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2759,10 +2759,10 @@ color:rgb(211, 215, 207);</string>
       </font>
      </property>
      <property name="text">
-      <string>TWINS Pending:</string>
+      <string>TF Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TWINSPendingLabel">
+    <widget class="QLabel" name="TFPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2855,7 +2855,7 @@ color:rgb(211, 215, 207);</string>
       </font>
      </property>
      <property name="text">
-      <string>Bittrex TWINS Deposit Address:</string>
+      <string>Bittrex TF Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2868,10 +2868,10 @@ color:rgb(211, 215, 207);</string>
       </rect>
      </property>
      <property name="text">
-      <string>Generate TWINS Deposit Address</string>
+      <string>Generate TF Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../twins.qrc">
+      <iconset resource="../valideum.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3214,7 +3214,7 @@ color:rgb(211, 215, 207);</string>
        </size>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertTWINS">
+     <widget class="QPushButton" name="btnConvertTF">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3265,7 +3265,7 @@ color:rgb(211, 215, 207);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../twins.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../valideum.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3312,7 +3312,7 @@ color:rgb(211, 215, 207);</string>
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../twins.qrc">
+      <iconset resource="../valideum.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3467,7 +3467,7 @@ color:rgb(211, 215, 207);</string>
   </widget>
  </widget>
  <resources>
-  <include location="../twins.qrc"/>
+  <include location="../valideum.qrc"/>
  </resources>
  <connections/>
 </ui>

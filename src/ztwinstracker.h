@@ -1,18 +1,18 @@
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_ZTWINSTRACKER_H
-#define TWINS_ZTWINSTRACKER_H
+#ifndef VALIDEUM_ZTFTRACKER_H
+#define VALIDEUM_ZTFTRACKER_H
 
 #include "primitives/zerocoin.h"
 #include <list>
 
 class CDeterministicMint;
-class CzTWINSWallet;
+class CzTFWallet;
 
-class CzTWINSTracker
+class CzTFTracker
 {
 private:
     bool fInitialized;
@@ -21,9 +21,9 @@ private:
     std::map<uint256, uint256> mapPendingSpends; //serialhash, txid of spend
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzTWINSTracker(std::string strWalletFile);
-    ~CzTWINSTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzTWINSWallet* zTWINSWallet = NULL);
+    CzTFTracker(std::string strWalletFile);
+    ~CzTFTracker();
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzTFWallet* zTFWallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;
@@ -50,4 +50,4 @@ public:
     void Clear();
 };
 
-#endif //TWINS_ZTWINSTRACKER_H
+#endif //VALIDEUM_ZTFTRACKER_H

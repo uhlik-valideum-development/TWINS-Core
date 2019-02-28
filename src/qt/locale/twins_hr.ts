@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše TWINS adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše TF adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše TWINS adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše TF adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše TWINS od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše TF od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ TWINS1!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ TF1!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTWINS</source>
-        <translation>Aktivnosti na privatnost za zTWINS</translation>
+        <source>Privacy Actions for zTF</source>
+        <translation>Aktivnosti na privatnost za zTF</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,16 +601,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Pošaljite kovanice na TWINS adresu</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Pošaljite kovanice na TF adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i twins: URI)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i valideum: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>&amp; O TWINS Coreu</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>&amp; O VALIDEUM Coreu</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Prikaz informacija o TWINS Coreu</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Prikaz informacija o VALIDEUM Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Izmijenite opcije konfiguracije za TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Izmijenite opcije konfiguracije za TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim TWINS adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim TF adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim TWINS adresama</translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim TF adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@
         <translation>Šifriranje i dešifriranje privatnih ključeva pomoću zaporke</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>TWINS Core klijent</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>VALIDEUM Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -751,15 +751,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1045,8 +1045,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 TWINS</source>
-        <translation>0 TWINS</translation>
+        <source>0 TF</source>
+        <translation>0 TF</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1111,15 +1111,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TWINS Core is shutting down...</source>
-        <translation>TWINS Core se gasi...</translation>
+        <source>VALIDEUM Core is shutting down...</source>
+        <translation>VALIDEUM Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>TWINS adresa za potpisivanje poruke s</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>TF adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1142,16 +1142,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove TWINS adrese</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove TF adrese</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>TWINS adresa s kojom je potpisana poruka</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>TF adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom TWINS adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom TF adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1197,8 +1197,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1345,14 +1345,14 @@
     </message>
     </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

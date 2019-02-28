@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши TWINS-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your TF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши VALIDEUM-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your TWINS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши TWINS-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your TF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши VALIDEUM-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>TWINS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TWINS from being stolen by malware infecting your computer.</source>
-        <translation>TWINS сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши TWINS от кражи с использованием вредоносного ПО.</translation>
+        <source>TF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TF from being stolen by malware infecting your computer.</source>
+        <translation>TF сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши TF от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TWINS&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ TWINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TF&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ TF&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>Enter a TWINS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите TWINS адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a TF Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите TF адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
-        <source>The TWINS address to encrypt</source>
-        <translation>Адрес TWINS для зашифровки</translation>
+        <source>The TF address to encrypt</source>
+        <translation>Адрес TF для зашифровки</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this TWINS address</source>
-        <translation>Зашифровать личные ключи для этого TWINS адреса </translation>
+        <source>Encrypt the private key for this TF address</source>
+        <translation>Зашифровать личные ключи для этого TF адреса </translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,7 +433,7 @@
         <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
-        <source>Privacy Actions for zTWINS</source>
+        <source>Privacy Actions for zTF</source>
         <translation>Действия конфиденциальности для зпив</translation>
     </message>
     <message>
@@ -645,16 +645,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Send coins to a TWINS address</source>
-        <translation>Отправить монеты на TWINS адрес</translation>
+        <source>Send coins to a TF address</source>
+        <translation>Отправить монеты на TF адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and twins: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и TWINS: URI)</translation>
+        <source>Request payments (generates QR codes and valideum: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и TF: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About TWINS Core</source>
-        <translation>&amp;О TWINS Core</translation>
+        <source>&amp;About VALIDEUM Core</source>
+        <translation>&amp;О VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Show information about TWINS Core</source>
-        <translation>Показать информацию о TWINS Core</translation>
+        <source>Show information about VALIDEUM Core</source>
+        <translation>Показать информацию о VALIDEUM Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for TWINS</source>
-        <translation>Изменение параметров конфигурации TWINS</translation>
+        <source>Modify configuration options for TF</source>
+        <translation>Изменение параметров конфигурации TF</translation>
     </message>
     <message>
-        <source>Sign messages with your TWINS addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими TWINS адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your TF addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими TF адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TWINS addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным TWINS адресом </translation>
+        <source>Verify messages to ensure they were signed with specified TF addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным TF адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a TWINS: URI or payment request</source>
-        <translation>Открыть TWINS: URI или запрос платежа</translation>
+        <source>Open a TF: URI or payment request</source>
+        <translation>Открыть TF: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the TWINS Core help message to get a list with possible TWINS command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды TWINS</translation>
+        <source>Show the VALIDEUM Core help message to get a list with possible TF command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды TF</translation>
     </message>
     <message>
-        <source>TWINS Core client</source>
-        <translation>Клиент TWINS Core</translation>
+        <source>VALIDEUM Core client</source>
+        <translation>Клиент VALIDEUM Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to TWINS network</source>
-        <translation><numerusform>%n активных подключений к сети TWINS</numerusform><numerusform>%n активных подключений к сети TWINS</numerusform><numerusform>%n активных подключений к сети TWINS</numerusform><numerusform>%n активных подключений к сети TWINS</numerusform></translation>
+        <source>%n active connection(s) to TF network</source>
+        <translation><numerusform>%n активных подключений к сети TF</numerusform><numerusform>%n активных подключений к сети TF</numerusform><numerusform>%n активных подключений к сети TF</numerusform><numerusform>%n активных подключений к сети TF</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (twins.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (twins.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valideum.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (valideum.conf).</translation>
     </message>
 </context>
 <context>
@@ -1130,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Этот маркер становится красным если получаемая адресатом сумма меньше, чем %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 utwins per input.</source>
-        <translation>Может вариироваться +/- %1 utwins при вводе</translation>
+        <source>Can vary +/- %1 uvalideum per input.</source>
+        <translation>Может вариироваться +/- %1 uvalideum при вводе</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1185,8 +1185,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TWINS address.</source>
-        <translation>Введенный адрес "%1" не является TWINS адресом.</translation>
+        <source>The entered address "%1" is not a valid TF address.</source>
+        <translation>Введенный адрес "%1" не является TF адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1231,16 +1231,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About TWINS Core</source>
-        <translation>О TWINS Core</translation>
+        <source>About VALIDEUM Core</source>
+        <translation>О VALIDEUM Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1286,16 +1286,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to TWINS Core.</source>
-        <translation>Добро пожаловать в TWINS Core.</translation>
+        <source>Welcome to VALIDEUM Core.</source>
+        <translation>Добро пожаловать в VALIDEUM Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TWINS Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные TWINS Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where VALIDEUM Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные VALIDEUM Core.</translation>
     </message>
     <message>
-        <source>TWINS Core will download and store a copy of the TWINS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TWINS Core загрузит и сохранит копию цепочки блоков TWINS. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>VALIDEUM Core will download and store a copy of the TF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>VALIDEUM Core загрузит и сохранит копию цепочки блоков TF. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1306,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,12 +1448,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TWINS addresses after it matures.
-To Add: enter percentage to give and TWINS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TF addresses after it matures.
+To Add: enter percentage to give and TF address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие TWINS адреса.
-Для добавления: введите передаваемый процент и TWINS адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие TF адреса.
+Для добавления: введите передаваемый процент и TF адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1681,8 +1681,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес/ Сумма:</translation>
     </message>
     <message>
-        <source>Add destinations to send TWINS to</source>
-        <translation>Добавить назначение куда отправить TWINS</translation>
+        <source>Add destinations to send TF to</source>
+        <translation>Добавить назначение куда отправить TF</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1780,48 +1780,48 @@ Please be patient after clicking import.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 TWINS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 TF</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TWINS</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 TWINS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TF</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 TF</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 TWINS to anonymize 10000 TWINS</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 TWINS для анонимизации 10000 TWINS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TF to anonymize 10000 TF</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 TF для анонимизации 10000 TF</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 TWINS to anonymize 10000 TWINS</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 TWINS для анонимизации 10000 TWINS</translation>
+        <source>This option is moderately fast and will cost about 0.05 TF to anonymize 10000 TF</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 TF для анонимизации 10000 TF</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 TWINS per 10000 TWINS you anonymize.</source>
-        <translation>0.1 TWINS за 10000 TWINS которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 TF per 10000 TF you anonymize.</source>
+        <translation>0.1 TF за 10000 TF которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки TWINS.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки TF.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки TWINS.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки TF.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TWINS's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки TWINS.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TF's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки TF.</translation>
     </message>
 </context>
 <context>
@@ -1882,8 +1882,8 @@ Please be patient after clicking import.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the TWINS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт TWINS через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the TF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт TF через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1902,12 +1902,12 @@ Please be patient after clicking import.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start TWINS after logging in to the system.</source>
-        <translation>Автоматически запускать TWINS после входа в систему.</translation>
+        <source>Automatically start TF after logging in to the system.</source>
+        <translation>Автоматически запускать TF после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start TWINS on system login</source>
-        <translation>&amp;Запускать TWINS при входе в систему</translation>
+        <source>&amp;Start TF on system login</source>
+        <translation>&amp;Запускать TF при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1934,50 +1934,50 @@ Please be patient after clicking import.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TWINS.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска TWINS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TF.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска TF.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/twins-project/twins-project-translations</source>
+https://www.transifex.com/valideum-project/valideum-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/twins-project/twins-project-translations</translation>
+https://www.transifex.com/valideum-project/valideum-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of TWINS units to zTWINS</source>
-        <translation>Невозможно автоматически отчеканить единицы TWINS для zTWINS</translation>
+        <source>Enable automatic minting of TF units to zTF</source>
+        <translation>Невозможно автоматически отчеканить единицы TF для zTF</translation>
     </message>
     <message>
-        <source>Enable zTWINS Automint</source>
-        <translation>Невозможно авточеканка  zTWINS</translation>
+        <source>Enable zTF Automint</source>
+        <translation>Невозможно авточеканка  zTF</translation>
     </message>
     <message>
-        <source>Percentage of incoming TWINS which get automatically converted to zTWINS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих TWINS, которые автоматически конвертируются в zTWINS благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming TF which get automatically converted to zTF via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих TF, которые автоматически конвертируются в zTF благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTWINS</source>
-        <translation>Процент  авточеканненых zTWINS</translation>
+        <source>Percentage of autominted zTF</source>
+        <translation>Процент  авточеканненых zTF</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TWINS for this denomination is available</source>
-        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно TWINS для этой номинации.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough TF for this denomination is available</source>
+        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно TF для этой номинации.</translation>
     </message>
     <message>
-        <source>Preferred Automint zTWINS Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zTWINS</translation>
+        <source>Preferred Automint zTF Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zTF</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Порог разделения доли:</translation>
     </message>
     <message>
-        <source>Connect to the TWINS network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети TWINS через SOCKS5 прокси.</translation>
+        <source>Connect to the TF network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети TF через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
         <translation>Общий баланс включая все не доступные монеты</translation>
     </message>
     <message>
-        <source>TWINS Balance</source>
-        <translation>Баланс TWINS</translation>
+        <source>TF Balance</source>
+        <translation>Баланс TF</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2155,17 +2155,17 @@ https://www.transifex.com/twins-project/twins-project-translations</translation>
         <translation>Текущий заблокированый баланс всех наблюдаемых адресов</translation>
     </message>
     <message>
-        <source>Your current TWINS balance, unconfirmed and immature transactions included</source>
-        <translation>Ваш текущий TWINS  баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current TF balance, unconfirmed and immature transactions included</source>
+        <translation>Ваш текущий TF  баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
-        <source>zTWINS Balance</source>
-        <translation>Баланс zTWINS</translation>
+        <source>zTF Balance</source>
+        <translation>Баланс zTF</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zTWINS are spendable.</source>
-        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zTWINS можно потратить.</translation>
+These zTF are spendable.</source>
+        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zTF можно потратить.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2174,8 +2174,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Незрелый: подтвержден, но менее 1 чеканок того же наименования после того, как он был отчеканен</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TWINS после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TF после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2218,8 +2218,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>Locked TWINS or Masternode collaterals. These are excluded from zTWINS minting.</source>
-        <translation>Заблокированно дополнительное обеспечение TWINS или Masternode. Они исключены из чеканки zTWINS.</translation>
+        <source>Locked TF or Masternode collaterals. These are excluded from zTF minting.</source>
+        <translation>Заблокированно дополнительное обеспечение TF или Masternode. Они исключены из чеканки zTF.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2230,8 +2230,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Неподтвержденный:</translation>
     </message>
     <message>
-        <source>Your current zTWINS balance, unconfirmed and immature zTWINS included.</source>
-        <translation>Ваш текущий zTWINS баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current zTF balance, unconfirmed and immature zTF included.</source>
+        <translation>Ваш текущий zTF баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2242,10 +2242,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>несинронизировано</translation>
     </message>
     <message>
-        <source>Current percentage of zTWINS.
+        <source>Current percentage of zTF.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Текущий процент от zTWINS.
+        <translation>Текущий процент от zTF.
 Если АвтоЧеканка включена, этот процент будет располагаться на настроенном проценте АвтоЧеканка  (по умолчанию = 10%).
 </translation>
     </message>
@@ -2254,14 +2254,14 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>Авточеканка в данный момен включена и установлена в</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in twins.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in twins.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in valideum.conf.</source>
+        <translation>To disable AutoMint add 'enablezeromint=0' in valideum.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in valideum.conf</source>
         <translation>Авточеканка  в настоящее время отключена.
-Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле twins.conf</translation>
+Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле valideum.conf</translation>
     </message>
 </context>
 <context>
@@ -2287,12 +2287,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start twins: click-to-pay handler</source>
-        <translation>Не удалось запустить twins: обработчик click-to-pay </translation>
+        <source>Cannot start valideum: click-to-pay handler</source>
+        <translation>Не удалось запустить valideum: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TWINS address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный TWINS адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid TF address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный TF адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2377,8 +2377,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf
         <translation>Действия Zerocoin </translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TWINS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TWINS после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TF после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2389,8 +2389,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2401,8 +2401,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf
         <translation>Доступный для чеканки</translation>
     </message>
     <message>
-        <source>0.000 000 00 TWINS</source>
-        <translation>0.000 000 00 TWINS</translation>
+        <source>0.000 000 00 TF</source>
+        <translation>0.000 000 00 TF</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2441,16 +2441,16 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf
         <translation>КОНФИДЕНЦИАЛЬНОСТЬ</translation>
     </message>
     <message>
-        <source>Enter an amount of TWINS to convert to zTWINS</source>
-        <translation>Введите сумму в TWINS для  конвертации в zTWINS</translation>
+        <source>Enter an amount of TF to convert to zTF</source>
+        <translation>Введите сумму в TF для  конвертации в zTF</translation>
     </message>
     <message>
-        <source>zTWINS Control</source>
-        <translation>Контроль zTWINS</translation>
+        <source>zTF Control</source>
+        <translation>Контроль zTF</translation>
     </message>
     <message>
-        <source>zTWINS Selected:</source>
-        <translation>Выбрано zTWINS:</translation>
+        <source>zTF Selected:</source>
+        <translation>Выбрано zTF:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2465,24 +2465,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in twins.conf
         <translation>Потратить Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending</source>
-        <translation>Доступный (зрелый и расходуемый) zTWINS для расходов</translation>
+        <source>Available (mature and spendable) zTF for spending</source>
+        <translation>Доступный (зрелый и расходуемый) zTF для расходов</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Доступный Баланс :</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zTWINS for spending
+        <source>Available (mature and spendable) zTF for spending
 
-zTWINS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Доступный (зрелый и затратный) zTWINS для расходов
+zTF are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Доступный (зрелый и затратный) zTF для расходов
 
-zTWINS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zTF are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zTWINS</source>
-        <translation>0 zTWINS</translation>
+        <source>0 zTF</source>
+        <translation>0 zTF</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2501,8 +2501,8 @@ zTWINS are mature when they have more than 20 confirmations AND more than 2 mint
         <translation>Оплатить &amp;кому:</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Адрес TWINS для отправки платежа. Создает локальный платеж себе, когда он пуст.</translation>
+        <source>The TF address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Адрес TF для отправки платежа. Создает локальный платеж себе, когда он пуст.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2553,8 +2553,8 @@ zTWINS are mature when they have more than 20 confirmations AND more than 2 mint
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zTWINS</source>
-        <translation>Общий баланс, включая неподтвержденные и незрелые zTWINS</translation>
+        <source>Total Balance including unconfirmed and immature zTF</source>
+        <translation>Общий баланс, включая неподтвержденные и незрелые zTF</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2575,24 +2575,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Незрелый: подтвержден, но менее 1 чеканок того же наименования после того, как он был отчеканен</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zTWINS minting.
+        <source>Show the current status of automatic zTF minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to twins.conf
-- disable: add 'enablezeromint=0' to twins.conf
+- enable: add 'enablezeromint=1' to valideum.conf
+- disable: add 'enablezeromint=0' to valideum.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zTWINS
+- menu Settings-&gt;Options-&gt;Percentage of autominted zTF
 
 </source>
-        <translation>Показать текущий статус автоматической чеканки zTWINS.
+        <translation>Показать текущий статус автоматической чеканки zTF.
 
 Чтобы изменить статус (требуется перезагрузка):
-- включить: добавить 'enablezeromint = 1' в twins.conf
-- отключить: добавить 'enablezeromint = 0' в twins.conf
+- включить: добавить 'enablezeromint = 1' в valideum.conf
+- отключить: добавить 'enablezeromint = 0' в valideum.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
-- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zTWINS</translation>
+- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zTF</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2787,12 +2787,12 @@ Maximum allowed: </source>
 Максимально допустимое:</translation>
     </message>
     <message>
-        <source>zTWINS Spend #: </source>
-        <translation>zTWINS Тратить #: </translation>
+        <source>zTF Spend #: </source>
+        <translation>zTF Тратить #: </translation>
     </message>
     <message>
-        <source>zTWINS Mint</source>
-        <translation>чеканка zTWINS</translation>
+        <source>zTF Mint</source>
+        <translation>чеканка zTF</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2807,12 +2807,12 @@ Maximum allowed: </source>
         <translation> Настроенный целевой процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zTWINS is currently disabled due to maintenance.</source>
-        <translation>zTWINS в настоящее время отключен от обслуживания.</translation>
+        <source>zTF is currently disabled due to maintenance.</source>
+        <translation>zTF в настоящее время отключен от обслуживания.</translation>
     </message>
     <message>
-        <source>zTWINS is currently undergoing maintenance.</source>
-        <translation>В настоящее время zTWINS проходит техническое обслуживание.</translation>
+        <source>zTF is currently undergoing maintenance.</source>
+        <translation>В настоящее время zTF проходит техническое обслуживание.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2899,8 +2899,8 @@ Maximum allowed: </source>
         <translation>Создан успешно</translation>
     </message>
     <message>
-        <source> zTWINS in </source>
-        <translation> zTWINS в</translation>
+        <source> zTF in </source>
+        <translation> zTF в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2927,8 +2927,8 @@ Maximum allowed: </source>
         <translation>Не предоставляется адрес «Pay To», создающий местный платеж</translation>
     </message>
     <message>
-        <source>Invalid TWINS Address</source>
-        <translation>неправильный TWINS адрес</translation>
+        <source>Invalid TF Address</source>
+        <translation>неправильный TF адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2959,12 +2959,12 @@ Maximum allowed: </source>
         <translation>Подтвердить отправку монет</translation>
     </message>
     <message>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
-        <translation>Для версии 1 zTWINS требуется уровень безопасности 100, который можно успешно тратить.</translation>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
+        <translation>Для версии 1 zTF требуется уровень безопасности 100, который можно успешно тратить.</translation>
     </message>
     <message>
-        <source>Failed to spend zTWINS</source>
-        <translation>Не удалось провести zTWINS</translation>
+        <source>Failed to spend zTF</source>
+        <translation>Не удалось провести zTF</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2986,7 +2986,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of TWINS to convert to zTWINS</comment>
+        <comment>Enter an amount of TF to convert to zTF</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3029,8 +3029,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a TWINS address (e.g. %1)</source>
-        <translation>Введите адрес TWINS (например %1)</translation>
+        <source>Enter a TF address (e.g. %1)</source>
+        <translation>Введите адрес TF (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3167,8 +3167,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the TWINS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки TWINS. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the TF debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки TF. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3303,8 +3303,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Пользовательский путь резервного копирования:</translation>
     </message>
     <message>
-        <source>Custom zTWINS Backup Path:</source>
-        <translation>Пользовательский путь резервного копирования zTWINS:</translation>
+        <source>Custom zTF Backup Path:</source>
+        <translation>Пользовательский путь резервного копирования zTF:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3384,8 +3384,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the TWINS RPC console.</source>
-        <translation>Добро пожаловать в окружение TWINS RPC.</translation>
+        <source>Welcome to the TF RPC console.</source>
+        <translation>Добро пожаловать в окружение TF RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3511,16 +3511,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Дополнительный ярлык для связи с новым адресом приема.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. Примечание. Сообщение не будет отправлено с оплатой через сеть TWINS.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. Примечание. Сообщение не будет отправлено с оплатой через сеть TF.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ПОЛУЧАТЬ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TWINS network.</source>
-        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. &lt;br&gt;Примечание. Сообщение не будет отправлено с оплатой через сеть TWINS.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TF network.</source>
+        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. &lt;br&gt;Примечание. Сообщение не будет отправлено с оплатой через сеть TF.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3748,8 +3748,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>UTXO Размер:</translation>
     </message>
     <message>
-        <source>0 TWINS</source>
-        <translation>0 TWINS</translation>
+        <source>0 TF</source>
+        <translation>0 TF</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3804,16 +3804,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Монеты автоматически выбираются</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTWINS in fee,&lt;br /&gt;while "at least" pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uTWINS, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uTWINS,&lt;br /&gt;а «по крайней мере» платит 1000 uTWINS. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTF in fee,&lt;br /&gt;while "at least" pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uTF, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uTF,&lt;br /&gt;а «по крайней мере» платит 1000 uTF. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTWINS and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTWINS in fee,&lt;br /&gt;while "total at least" pays 1000 uTWINS. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uTWINS, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uTWINS,&lt;br /&gt;а «по крайней мере» платит 1000 uTWINS. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uTF and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTF in fee,&lt;br /&gt;while "total at least" pays 1000 uTF. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uTF, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uTF,&lt;br /&gt;а «по крайней мере» платит 1000 uTF. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TWINS transactions than the network can process.</source>
-        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции TWINS, чем сеть может обрабатывать.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TF transactions than the network can process.</source>
+        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции TF, чем сеть может обрабатывать.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3860,8 +3860,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Добавить &amp;Получателя</translation>
     </message>
     <message>
-        <source>Anonymized TWINS</source>
-        <translation>Анонимный TWINS</translation>
+        <source>Anonymized TF</source>
+        <translation>Анонимный TF</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3908,8 +3908,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Инструмент разделения блоков не работает с несколькими адресами. Попробуй еще раз.</translation>
     </message>
     <message>
-        <source>Warning: Invalid TWINS address</source>
-        <translation>Предупреждение: неправильный TWINS адрес</translation>
+        <source>Warning: Invalid TF address</source>
+        <translation>Предупреждение: неправильный TF адрес</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4011,8 +4011,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Оплатить &amp;кому:</translation>
     </message>
     <message>
-        <source>The TWINS address to send the payment to</source>
-        <translation>Адрес TWINS для отправки платежа</translation>
+        <source>The TF address to send the payment to</source>
+        <translation>Адрес TF для отправки платежа</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4051,8 +4051,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the TWINS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TWINS network.</source>
-        <translation>Сообщение, которое было прикреплено к URI TWINS: URI, который будет сохранен с транзакцией для вашей справки. Примечание. Это сообщение не будет отправлено через сеть TWINS.</translation>
+        <source>A message that was attached to the TF: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TF network.</source>
+        <translation>Сообщение, которое было прикреплено к URI TF: URI, который будет сохранен с транзакцией для вашей справки. Примечание. Это сообщение не будет отправлено через сеть TF.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4078,8 +4078,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TWINS Core is shutting down...</source>
-        <translation>TWINS Core выключается...</translation>
+        <source>VALIDEUM Core is shutting down...</source>
+        <translation>VALIDEUM Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4101,8 +4101,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Вы можете подписывать сообщения с вашими адресами, чтобы доказать, что вы ими владеете. Будьте осторожны, чтобы не подписывать ничего неопределенного, поскольку фишинг-атаки могут попытаться обмануть вас, подписав вашу личность на них. Подпишите только полные подробные заявления, с которыми вы согласны.</translation>
     </message>
     <message>
-        <source>The TWINS address to sign the message with</source>
-        <translation>Адрес TWINS для подписи сообщения с помощью</translation>
+        <source>The TF address to sign the message with</source>
+        <translation>Адрес TF для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4133,16 +4133,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TWINS address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес TWINS</translation>
+        <source>Sign the message to prove you own this TF address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес TF</translation>
     </message>
     <message>
-        <source>The TWINS address the message was signed with</source>
-        <translation>Адрес TWINS, которым подписано сообщение</translation>
+        <source>The TF address the message was signed with</source>
+        <translation>Адрес TF, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TWINS address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным TWINS адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified TF address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным TF адресом </translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4228,8 +4228,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TWINS Core</source>
-        <translation>TWINS Core</translation>
+        <source>VALIDEUM Core</source>
+        <translation>VALIDEUM Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4244,8 +4244,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The TWINS Core developers</source>
-        <translation>Разработчики TWINS Core</translation>
+        <source>The VALIDEUM Core developers</source>
+        <translation>Разработчики VALIDEUM Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4524,12 +4524,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Получено через обфускацию</translation>
     </message>
     <message>
-        <source>TWINS Stake</source>
-        <translation>Доля TWINS</translation>
+        <source>TF Stake</source>
+        <translation>Доля TF</translation>
     </message>
     <message>
-        <source>zTWINS Stake</source>
-        <translation>Доля zTWINS</translation>
+        <source>zTF Stake</source>
+        <translation>Доля zTF</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4548,32 +4548,32 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Обфускация Создание конфессий</translation>
     </message>
     <message>
-        <source>Converted TWINS to zTWINS</source>
-        <translation>Преобразованный TWINS в zTWINS</translation>
+        <source>Converted TF to zTF</source>
+        <translation>Преобразованный TF в zTF</translation>
     </message>
     <message>
-        <source>Spent zTWINS</source>
-        <translation>потраченный zTWINS</translation>
+        <source>Spent zTF</source>
+        <translation>потраченный zTF</translation>
     </message>
     <message>
-        <source>Received TWINS from zTWINS</source>
-        <translation>Полученный TWINS от zTWINS</translation>
+        <source>Received TF from zTF</source>
+        <translation>Полученный TF от zTF</translation>
     </message>
     <message>
-        <source>Minted Change as zTWINS from zTWINS Spend</source>
-        <translation>созданная  замена  zTWINS из потраенного zTWINS </translation>
+        <source>Minted Change as zTF from zTF Spend</source>
+        <translation>созданная  замена  zTF из потраенного zTF </translation>
     </message>
     <message>
-        <source>Converted zTWINS to TWINS</source>
-        <translation>Преобразованный zTWINS to TWINS</translation>
+        <source>Converted zTF to TF</source>
+        <translation>Преобразованный zTF to TF</translation>
     </message>
     <message>
-        <source>Anonymous (zTWINS Transaction)</source>
-        <translation>Анонимный (транзакция zTWINS)</translation>
+        <source>Anonymous (zTF Transaction)</source>
+        <translation>Анонимный (транзакция zTF)</translation>
     </message>
     <message>
-        <source>Anonymous (zTWINS Stake)</source>
-        <translation>Анонимный (ставка zTWINS)</translation>
+        <source>Anonymous (zTF Stake)</source>
+        <translation>Анонимный (ставка zTF)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4783,12 +4783,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Экспортирование произошло успешно</translation>
     </message>
     <message>
-        <source>Received TWINS from zTWINS</source>
-        <translation>Полученный TWINS от zTWINS</translation>
+        <source>Received TF from zTF</source>
+        <translation>Полученный TF от zTF</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zTWINS</source>
-        <translation>Потратить Zerocoin, Преобразовать в zTWINS</translation>
+        <source>Zerocoin Spend, Change in zTF</source>
+        <translation>Потратить Zerocoin, Преобразовать в zTF</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4824,8 +4824,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Отправить Монеты</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TWINS.</source>
-        <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 TWINS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 TF.</source>
+        <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 TF.</translation>
     </message>
 </context>
 <context>
@@ -4856,10 +4856,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZTWINSControlDialog</name>
+    <name>ZTFControlDialog</name>
     <message>
-        <source>Select zTWINS to Spend</source>
-        <translation>Выберите zTWINS чтобы потратить</translation>
+        <source>Select zTF to Spend</source>
+        <translation>Выберите zTF чтобы потратить</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4870,8 +4870,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>0</translation>
     </message>
     <message>
-        <source>zTWINS</source>
-        <translation>zTWINS</translation>
+        <source>zTF</source>
+        <translation>zTF</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4883,7 +4883,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>twins-core</name>
+    <name>valideum-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = сохранить tx метаданные, например, владельца учетной записи и информацию о запросе платежа, 2 = удалить tx метаданные)</translation>
@@ -4909,8 +4909,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Расчетная контрольная точка  не является тем, что регистрируется блочным индексом</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. TWINS Core is probably already running.</source>
-        <translation>Не удается получить блокировку в каталоге данных %s. TWINS Core, вероятно, уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. VALIDEUM Core is probably already running.</source>
+        <translation>Не удается получить блокировку в каталоге данных %s. VALIDEUM Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4937,16 +4937,16 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Распространяется по лицензии программного обеспечения MIT, см. Сопроводительный файл COPYING или &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zTWINS minting (0-1, default: %u)</source>
-        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zTWINS (0-1, по умолчанию: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zTF minting (0-1, default: %u)</source>
+        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zTF (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for TWINS inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов TWINS (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for TF inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов TF (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zTWINS inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов zTWINS (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for zTF inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов zTF (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4981,12 +4981,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Выполнить команду, когда лучший блок изменяется (%s в cmd заменяется блочным хэшем)</translation>
     </message>
     <message>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Тарифы (в TWINS / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Тарифы (в TF / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TWINS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Плата (в TWINS / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
+        <source>Fees (in TF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Плата (в TF / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5085,20 +5085,20 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Этот продукт включает программное обеспечение, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическом программном обеспечении, написанном Эриком Яном и программным обеспечением UPnP, написанным Томасом Бернардом.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. TWINS Core is probably already running.</source>
-        <translation>Не удалось привязать к %s на этом компьютере. TWINS Core, вероятно, уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. VALIDEUM Core is probably already running.</source>
+        <translation>Не удалось привязать к %s на этом компьютере. VALIDEUM Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Не удалось найти достаточное количество средств, предназначенных для обфускации, для этой транзакции.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TWINS.</source>
-        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 TWINS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 TF.</source>
+        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 TF.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TWINS.</source>
-        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 TWINS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 TF.</source>
+        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 TF.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5113,8 +5113,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Предупреждение: -paytxfee установлен очень высоко! Это комиссия за транзакцию, которую вы заплатите, если вы отправляете транзакцию.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong TWINS Core will not work properly.</source>
-        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, TWINS Core не будет работать должным образом.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong VALIDEUM Core will not work properly.</source>
+        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, VALIDEUM Core не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5265,8 +5265,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2018-%i The TWINS Core Developers</source>
-        <translation>Copyright (C) 2018-%i Разработчики TWINS Core</translation>
+        <source>Copyright (C) 2018-%i The VALIDEUM Core Developers</source>
+        <translation>Copyright (C) 2018-%i Разработчики VALIDEUM Core</translation>
     </message>
 	<message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
@@ -5357,8 +5357,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Ошибка при загрузке wallet.dat: Кошелек поврежден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of TWINS Core</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии TWINS Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of VALIDEUM Core</source>
+        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии VALIDEUM Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5413,8 +5413,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не удалось прочитать блок</translation>
     </message>
     <message>
-        <source>Fee (in TWINS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Плата (в TWINS / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
+        <source>Fee (in TF/kB) to add to transactions you send (default: %s)</source>
+        <translation>Плата (в TF / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5473,8 +5473,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. TWINS Core is shutting down.</source>
-        <translation>Инициализация проверки работоспособности не удалась. TWINS Core отключается.</translation>
+        <source>Initialization sanity check failed. VALIDEUM Core is shutting down.</source>
+        <translation>Инициализация проверки работоспособности не удалась. VALIDEUM Core отключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5545,8 +5545,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Процент автоматически отчеканенного Zerocoin (1-100, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Reindex the TWINS and zTWINS money supply statistics</source>
-        <translation>Reindex статистика денежной массы TWINS и zTWINS</translation>
+        <source>Reindex the TF and zTF money supply statistics</source>
+        <translation>Reindex статистика денежной массы TF и zTF</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5585,8 +5585,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 </translation>
     </message>
     <message>
-        <source>Disable all TWINS specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Отключите все специфические функции TWINS (Masternodes, Zerocoin, SwiftX, Бюджетирование) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all TF specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Отключите все специфические функции TF (Masternodes, Zerocoin, SwiftX, Бюджетирование) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5621,8 +5621,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Предпочтительный номинал для автоматически чеканившегося Zerocoin (1/5/10/50/100/500/1000/5000), 0 без предпочтений. default: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zTWINS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zTWINS. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
+        <source>Specify custom backup path to add a copy of any automatic zTF backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zTF. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6121,8 +6121,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Синхронизация спорков ...</translation>
     </message>
     <message>
-        <source>Syncing zTWINS wallet...</source>
-        <translation>Синхронизация zTWINS кошелька ...</translation>
+        <source>Syncing zTF wallet...</source>
+        <translation>Синхронизация zTF кошелька ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6269,8 +6269,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Имя пользователя для соединений JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zTWINS</source>
-        <translation>Значение ниже наименьшего доступного номинала (= 1) zTWINS</translation>
+        <source>Value is below the smallest available denomination (= 1) of zTF</source>
+        <translation>Значение ниже наименьшего доступного номинала (= 1) zTF</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6285,8 +6285,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Проверка кошелька ...</translation>
     </message>
     <message>
-        <source>Version 1 zTWINS require a security level of 100 to successfully spend.</source>
-        <translation>Для версии 1 zTWINS требуется уровень безопасности 100, который можно успешно тратить.</translation>
+        <source>Version 1 zTF require a security level of 100 to successfully spend.</source>
+        <translation>Для версии 1 zTF требуется уровень безопасности 100, который можно успешно тратить.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -6297,8 +6297,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Кошелек заблокирован.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TWINS Core to complete</source>
-        <translation>Кошелек необходимо переписать: перезапустите TWINS Core, чтобы завершить</translation>
+        <source>Wallet needed to be rewritten: restart VALIDEUM Core to complete</source>
+        <translation>Кошелек необходимо переписать: перезапустите VALIDEUM Core, чтобы завершить</translation>
     </message>
     <message>
         <source>Wallet options:</source>

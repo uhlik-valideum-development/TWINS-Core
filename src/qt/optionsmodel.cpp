@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/twins-config.h"
+#include "config/valideum-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -63,7 +63,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::TWINS);
+        settings.setValue("nDisplayUnit", BitcoinUnits::TF);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -103,10 +103,10 @@ void OptionsModel::Init()
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    if (!settings.contains("nAnonymizeTWINSAmount"))
-        settings.setValue("nAnonymizeTWINSAmount", 1000);
+    if (!settings.contains("nAnonymizeTFAmount"))
+        settings.setValue("nAnonymizeTFAmount", 1000);
 
-    nAnonymizeTWINSAmount = settings.value("nAnonymizeTWINSAmount").toLongLong();
+    nAnonymizeTFAmount = settings.value("nAnonymizeTFAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -180,8 +180,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeTWINSAmount"))
-        SoftSetArg("-anonymizetwinsamount", settings.value("nAnonymizeTWINSAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeTFAmount"))
+        SoftSetArg("-anonymizevalideumamount", settings.value("nAnonymizeTFAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -192,7 +192,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in twins.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in valideum.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - enabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -274,8 +274,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeTWINSAmount:
-            return QVariant(nAnonymizeTWINSAmount);
+        case AnonymizeTFAmount:
+            return QVariant(nAnonymizeTFAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -408,10 +408,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("fHideOrphans", fHideOrphans);
             emit hideOrphansChanged(fHideOrphans);
             break;
-        case AnonymizeTWINSAmount:
-            nAnonymizeTWINSAmount = value.toInt();
-            settings.setValue("nAnonymizeTWINSAmount", nAnonymizeTWINSAmount);
-            emit anonymizeTWINSAmountChanged(nAnonymizeTWINSAmount);
+        case AnonymizeTFAmount:
+            nAnonymizeTFAmount = value.toInt();
+            settings.setValue("nAnonymizeTFAmount", nAnonymizeTFAmount);
+            emit anonymizeTFAmountChanged(nAnonymizeTFAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

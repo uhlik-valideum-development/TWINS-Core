@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "ztwinscontroldialog.h"
-#include "ui_ztwinscontroldialog.h"
+#include "zvalideumcontroldialog.h"
+#include "ui_zvalideumcontroldialog.h"
 
 #include "accumulators.h"
 #include "main.h"
@@ -13,20 +13,20 @@
 using namespace std;
 using namespace libzerocoin;
 
-std::set<std::string> ZTWINSControlDialog::setSelectedMints;
-std::set<CMintMeta> ZTWINSControlDialog::setMints;
+std::set<std::string> ZTFControlDialog::setSelectedMints;
+std::set<CMintMeta> ZTFControlDialog::setMints;
 
-bool CZTWINSControlWidgetItem::operator<(const QTreeWidgetItem &other) const {
+bool CZTFControlWidgetItem::operator<(const QTreeWidgetItem &other) const {
     int column = treeWidget()->sortColumn();
-    if (column == ZTWINSControlDialog::COLUMN_DENOMINATION || column == ZTWINSControlDialog::COLUMN_VERSION || column == ZTWINSControlDialog::COLUMN_CONFIRMATIONS)
+    if (column == ZTFControlDialog::COLUMN_DENOMINATION || column == ZTFControlDialog::COLUMN_VERSION || column == ZTFControlDialog::COLUMN_CONFIRMATIONS)
         return data(column, Qt::UserRole).toLongLong() < other.data(column, Qt::UserRole).toLongLong();
     return QTreeWidgetItem::operator<(other);
 }
 
 
-ZTWINSControlDialog::ZTWINSControlDialog(QWidget *parent) :
+ZTFControlDialog::ZTFControlDialog(QWidget *parent) :
     QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
-    ui(new Ui::ZTWINSControlDialog),
+    ui(new Ui::ZTFControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -40,12 +40,12 @@ ZTWINSControlDialog::ZTWINSControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZTWINSControlDialog::~ZTWINSControlDialog()
+ZTFControlDialog::~ZTFControlDialog()
 {
     delete ui;
 }
 
-void ZTWINSControlDialog::setModel(WalletModel *model)
+void ZTFControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
@@ -53,7 +53,7 @@ void ZTWINSControlDialog::setModel(WalletModel *model)
 
 
 //Update the tree widget
-void ZTWINSControlDialog::updateList()
+void ZTFControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -63,7 +63,7 @@ void ZTWINSControlDialog::updateList()
     QFlags<Qt::ItemFlag> flgTristate = Qt::ItemIsEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsTristate;
     map<libzerocoin::CoinDenomination, int> mapDenomPosition;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        CZTWINSControlWidgetItem* itemDenom(new CZTWINSControlWidgetItem);
+        CZTFControlWidgetItem* itemDenom(new CZTFControlWidgetItem);
         ui->treeWidget->addTopLevelItem(itemDenom);
 
         //keep track of where this is positioned in tree widget
@@ -85,7 +85,7 @@ void ZTWINSControlDialog::updateList()
     for (const CMintMeta& mint : setMints) {
         // assign this mint to the correct denomination in the tree view
         libzerocoin::CoinDenomination denom = mint.denom;
-        CZTWINSControlWidgetItem *itemMint = new CZTWINSControlWidgetItem(ui->treeWidget->topLevelItem(mapDenomPosition.at(denom)));
+        CZTFControlWidgetItem *itemMint = new CZTFControlWidgetItem(ui->treeWidget->topLevelItem(mapDenomPosition.at(denom)));
 
         // if the mint is already selected, then it needs to have the checkbox checked
         std::string strPubCoinHash = mint.hashPubcoin.GetHex();
@@ -129,7 +129,7 @@ void ZTWINSControlDialog::updateList()
             if(nConfirmations < Params().Zerocoin_MintRequiredConfirmations())
                 strReason = strprintf("Needs %d more confirmations", Params().Zerocoin_MintRequiredConfirmations() - nConfirmations);
             else if (!mint.isSeedCorrect)
-                strReason = "The zTWINS seed used to mint this zTWINS is not the same as currently hold in the wallet";
+                strReason = "The zTF seed used to mint this zTF is not the same as currently hold in the wallet";
             else
                 strReason = strprintf("Needs %d more mints added to network", Params().Zerocoin_RequiredAccumulation());
 
@@ -144,7 +144,7 @@ void ZTWINSControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZTWINSControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZTFControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -166,7 +166,7 @@ void ZTWINSControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZTWINSControlDialog::updateLabels()
+void ZTFControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CMintMeta& mint : setMints) {
@@ -175,14 +175,14 @@ void ZTWINSControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZTWINS_int->setText(QString::number(nAmount));
+    ui->labelZVALIDEUM_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(setSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZTWINSControlLabels(nAmount, setSelectedMints.size());
+    privacyDialog->setZTFControlLabels(nAmount, setSelectedMints.size());
 }
 
-std::vector<CMintMeta> ZTWINSControlDialog::GetSelectedMints()
+std::vector<CMintMeta> ZTFControlDialog::GetSelectedMints()
 {
     std::vector<CMintMeta> listReturn;
     for (const CMintMeta& mint : setMints) {
@@ -194,7 +194,7 @@ std::vector<CMintMeta> ZTWINSControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZTWINSControlDialog::ButtonAllClicked()
+void ZTFControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

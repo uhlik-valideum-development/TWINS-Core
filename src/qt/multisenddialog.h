@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TWINS_QT_MULTISENDDIALOG_H
-#define TWINS_QT_MULTISENDDIALOG_H
+#ifndef VALIDEUM_QT_MULTISENDDIALOG_H
+#define VALIDEUM_QT_MULTISENDDIALOG_H
 
 #include <QDialog>
 
@@ -39,4 +39,4 @@ private:
     WalletModel* model;
 };
 
-#endif // TWINS_QT_MULTISENDDIALOG_H
+#endif // VALIDEUM_QT_MULTISENDDIALOG_H

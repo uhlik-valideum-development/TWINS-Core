@@ -165,7 +165,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../twins.qrc"/>
+  <include location="../valideum.qrc"/>
  </resources>
  <connections/>
 </ui>

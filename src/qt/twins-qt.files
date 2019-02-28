@@ -75,8 +75,8 @@ forms/ui_sendcoinsdialog.h
 forms/ui_sendcoinsentry.h
 forms/ui_signverifymessagedialog.h
 forms/ui_transactiondescdialog.h
-forms/ui_ztwinscontroldialog.h
-forms/ztwinscontroldialog.ui
+forms/ui_zvalideumcontroldialog.h
+forms/zvalideumcontroldialog.ui
 guiconstants.h
 guiutil.cpp
 guiutil.h
@@ -137,7 +137,7 @@ moc_utilitydialog.cpp
 moc_walletframe.cpp
 moc_walletmodel.cpp
 moc_walletview.cpp
-moc_ztwinscontroldialog.cpp
+moc_zvalideumcontroldialog.cpp
 multisenddialog.cpp
 multisenddialog.h
 multisigdialog.cpp
@@ -168,8 +168,8 @@ platformstyle.cpp
 platformstyle.h
 privacydialog.cpp
 privacydialog.h
-qrc_twins.cpp
-qrc_twins_locale.cpp
+qrc_valideum.cpp
+qrc_valideum_locale.cpp
 qvalidatedlineedit.cpp
 qvalidatedlineedit.h
 qvaluecombobox.cpp
@@ -212,8 +212,8 @@ transactiontablemodel.cpp
 transactiontablemodel.h
 transactionview.cpp
 transactionview.h
-twins.cpp
-twinsstrings.cpp
+valideum.cpp
+valideumstrings.cpp
 utilitydialog.cpp
 utilitydialog.h
 walletframe.cpp
@@ -226,5 +226,5 @@ walletview.cpp
 walletview.h
 winshutdownmonitor.cpp
 winshutdownmonitor.h
-ztwinscontroldialog.cpp
-ztwinscontroldialog.h
+zvalideumcontroldialog.cpp
+zvalideumcontroldialog.h

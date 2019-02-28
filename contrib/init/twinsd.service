@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/twins/twins.conf
+# /etc/valideum/valideum.conf
 
 [Unit]
-Description=TWINS daemon
+Description=VALIDEUM daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/twinsd -daemon -conf=/etc/twins/twins.conf -pid=/run/twinsd/twinsd.pid
-# Creates /run/twinsd owned by twins
-RuntimeDirectory=twinsd
-User=twins
+ExecStart=/usr/bin/valideumd -daemon -conf=/etc/valideum/valideum.conf -pid=/run/valideumd/valideumd.pid
+# Creates /run/valideumd owned by valideum
+RuntimeDirectory=valideumd
+User=valideum
 Type=forking
-PIDFile=/run/twinsd/twinsd.pid
+PIDFile=/run/valideumd/valideumd.pid
 Restart=on-failure
 
 # Hardening measures

@@ -354,7 +354,7 @@
        <item row="16" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the TWINS debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the TF debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -432,7 +432,7 @@ color:rgb(211, 215, 207);</string>
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../twins.qrc">
+            <iconset resource="../valideum.qrc">
              <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="shortcut">
@@ -1659,17 +1659,17 @@ color:rgb(211, 215, 207);</string>
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QLabel" name="wallet_customztwinsbackuppath_label">
+        <widget class="QLabel" name="wallet_customzvalideumbackuppath_label">
          <property name="visible">
           <bool>false</bool>
          </property>
          <property name="text">
-          <string>Custom zTWINS Backup Path:</string>
+          <string>Custom zTF Backup Path:</string>
          </property>
         </widget>
        </item>
        <item row="4" column="1" colspan="3">
-        <widget class="QLabel" name="wallet_customztwinsbackuppath">
+        <widget class="QLabel" name="wallet_customzvalideumbackuppath">
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
@@ -1970,7 +1970,7 @@ color:rgb(211, 215, 207);</string>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../twins.qrc"/>
+  <include location="../valideum.qrc"/>
  </resources>
  <connections/>
 </ui>

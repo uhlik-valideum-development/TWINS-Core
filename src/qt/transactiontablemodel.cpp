@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2016-2018 The PIVX developers
-// Copyright (c) 2018-2019 The TWINS developers
+// Copyright (c) 2018-2019 The VALIDEUM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -345,9 +345,9 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::SendToSelf:
         return tr("Payment to yourself");
     case TransactionRecord::StakeMint:
-        return tr("TWINS Stake");
-    case TransactionRecord::StakeZTWINS:
-        return tr("zTWINS Stake");
+        return tr("TF Stake");
+    case TransactionRecord::StakeZTF:
+        return tr("zTF Stake");
     case TransactionRecord::Generated:
         return tr("Mined");
     case TransactionRecord::ObfuscationDenominate:
@@ -361,15 +361,15 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::Obfuscated:
         return tr("Obfuscated");
     case TransactionRecord::ZerocoinMint:
-        return tr("Converted TWINS to zTWINS");
+        return tr("Converted TF to zTF");
     case TransactionRecord::ZerocoinSpend:
-        return tr("Spent zTWINS");
+        return tr("Spent zTF");
     case TransactionRecord::RecvFromZerocoinSpend:
-        return tr("Received TWINS from zTWINS");
-    case TransactionRecord::ZerocoinSpend_Change_zTWINS:
-        return tr("Minted Change as zTWINS from zTWINS Spend");
+        return tr("Received TF from zTF");
+    case TransactionRecord::ZerocoinSpend_Change_zTF:
+        return tr("Minted Change as zTF from zTF Spend");
     case TransactionRecord::ZerocoinSpend_FromMe:
-        return tr("Converted zTWINS to TWINS");
+        return tr("Converted zTF to TF");
 
     default:
         return QString();
@@ -381,7 +381,7 @@ QVariant TransactionTableModel::txAddressDecoration(const TransactionRecord* wtx
     switch (wtx->type) {
     case TransactionRecord::Generated:
     case TransactionRecord::StakeMint:
-    case TransactionRecord::StakeZTWINS:
+    case TransactionRecord::StakeZTF:
     case TransactionRecord::MNReward:
         return QIcon(":/icons/tx_mined");
     case TransactionRecord::RecvWithObfuscation:
@@ -424,10 +424,10 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord* wtx, b
     case TransactionRecord::SendToOther:
         return QString::fromStdString(wtx->address) + watchAddress;
     case TransactionRecord::ZerocoinMint:
-    case TransactionRecord::ZerocoinSpend_Change_zTWINS:
-        return tr("Anonymous (zTWINS Transaction)");
-    case TransactionRecord::StakeZTWINS:
-        return tr("Anonymous (zTWINS Stake)");
+    case TransactionRecord::ZerocoinSpend_Change_zTF:
+        return tr("Anonymous (zTF Transaction)");
+    case TransactionRecord::StakeZTF:
+        return tr("Anonymous (zTF Stake)");
     case TransactionRecord::SendToSelf:
     default:
         return tr("(n/a)") + watchAddress;
@@ -576,7 +576,7 @@ QVariant TransactionTableModel::data(const QModelIndex& index, int role) const
     case Qt::ForegroundRole:
         // Minted
         if (rec->type == TransactionRecord::Generated || rec->type == TransactionRecord::StakeMint ||
-                rec->type == TransactionRecord::StakeZTWINS || rec->type == TransactionRecord::MNReward) {
+                rec->type == TransactionRecord::StakeZTF || rec->type == TransactionRecord::MNReward) {
             if (rec->status.status == TransactionStatus::Conflicted || rec->status.status == TransactionStatus::NotAccepted)
                 return COLOR_ORPHAN;
             else

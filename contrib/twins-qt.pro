@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/twins-config.h \
+           src/valideum-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/twins-config.h \
+           src/config/valideum-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -332,7 +332,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/twins.moc \
+           src/qt/valideum.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -373,9 +373,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/twins-cli.cpp \
-           src/twins-tx.cpp \
-           src/twins.cpp \
+           src/valideum-cli.cpp \
+           src/valideum-tx.cpp \
+           src/valideum.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -470,8 +470,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/twins.cpp \
-           src/qt/twinsstrings.cpp \
+           src/qt/valideum.cpp \
+           src/qt/valideumstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -549,7 +549,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_twins.cpp \
+           src/test/test_valideum.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -640,20 +640,20 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/twins.qrc src/qt/twins_locale.qrc
-TRANSLATIONS += src/qt/locale/twins_bg.ts \
-                src/qt/locale/twins_de.ts \
-                src/qt/locale/twins_en.ts \
-                src/qt/locale/twins_es.ts \
-                src/qt/locale/twins_fi.ts \
-                src/qt/locale/twins_fr.ts \
-                src/qt/locale/twins_it.ts \
-                src/qt/locale/twins_ja.ts \
-                src/qt/locale/twins_pl.ts \
-                src/qt/locale/twins_pt.ts \
-                src/qt/locale/twins_ru.ts \
-                src/qt/locale/twins_sk.ts \
-                src/qt/locale/twins_sv.ts \
-                src/qt/locale/twins_vi.ts \
-                src/qt/locale/twins_zh_CN.ts \
-                src/qt/locale/twins_zh_TW.ts
+RESOURCES += src/qt/valideum.qrc src/qt/valideum_locale.qrc
+TRANSLATIONS += src/qt/locale/valideum_bg.ts \
+                src/qt/locale/valideum_de.ts \
+                src/qt/locale/valideum_en.ts \
+                src/qt/locale/valideum_es.ts \
+                src/qt/locale/valideum_fi.ts \
+                src/qt/locale/valideum_fr.ts \
+                src/qt/locale/valideum_it.ts \
+                src/qt/locale/valideum_ja.ts \
+                src/qt/locale/valideum_pl.ts \
+                src/qt/locale/valideum_pt.ts \
+                src/qt/locale/valideum_ru.ts \
+                src/qt/locale/valideum_sk.ts \
+                src/qt/locale/valideum_sv.ts \
+                src/qt/locale/valideum_vi.ts \
+                src/qt/locale/valideum_zh_CN.ts \
+                src/qt/locale/valideum_zh_TW.ts
