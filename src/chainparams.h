@@ -155,7 +155,7 @@ protected:
     int64_t nTargetSpacing;
     int64_t nBootTargetTimespan;   // Valideum custom
     int64_t nBootTargetSpacing;    //
-    int nLastBootBlock ;           //
+    int nLastBootBlock;            //
     int nLastPOWBlock;
     int nMasternodeCountDrift;
     int nMaturity;
