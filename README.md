@@ -1,4 +1,4 @@
-# The TF Cryptocurrency
+# The Valideum Cryptocurrency
 
 https://win.win
 
