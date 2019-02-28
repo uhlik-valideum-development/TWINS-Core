@@ -171,8 +171,8 @@ bool ComputeNextStakeModifier(const CBlockIndex* pindexPrev, uint64_t& nStakeMod
         nStakeTargetSpacing = 120;
     }
     */
-    nStakeTargetSpacing = (pindexPrev->nHeight >= Params.LastBootBlock())
-        ? Params.TargetSpacing() : Params.BootTargetSpacing();
+    nStakeTargetSpacing = (pindexPrev->nHeight >= Params().LastBootBlock())
+        ? Params().TargetSpacing() : Params().BootTargetSpacing();
    
 
     // First find current stake modifier and its generation block time

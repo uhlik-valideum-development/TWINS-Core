@@ -35,17 +35,14 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return Params().ProofOfWorkLimit().GetCompact();
     }
 
-(pindexPrev->nHeight >= Params.LastBootBlock())
-        ? Params.TargetSpacing() : Params.BootTargetSpacing();
-
     if (pindexLast->nHeight > Params().LAST_POW_BLOCK()) {
         uint256 bnTargetLimit = (~uint256(0) >> 24);
-        int64_t nTargetSpacing = Params.TargetSpacing(); //60 * 2;
-        int64_t nTargetTimespan = Params.TargetSpacing();
+        int64_t nTargetSpacing = Params().TargetSpacing(); //60 * 2;
+        int64_t nTargetTimespan = Params().TargetSpacing();
 
-        if (pindexLast->nHeight <= Params.LastBootBlock()) {
-            nTargetSpacing = Params.BootTargetSpacing();
-            nTargetTimespan = Params.BootTargetTimespan();
+        if (pindexLast->nHeight <= Params().LastBootBlock()) {
+            nTargetSpacing = Params().BootTargetSpacing();
+            nTargetTimespan = Params().BootTargetTimespan();
         }
 
         // For accepting blocks before TargetSpacing change (block 300)
@@ -107,7 +104,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 
     int64_t _nTargetTimespan = CountBlocks * Params().TargetSpacing();
 
-    if (pindexLast->nHeight < Params.LastBootBlock())
+    if (pindexLast->nHeight < Params().LastBootBlock())
         _nTargetTimespan = CountBlocks * Params().BootTargetSpacing();
 
     if (nActualTimespan < _nTargetTimespan / 3)
