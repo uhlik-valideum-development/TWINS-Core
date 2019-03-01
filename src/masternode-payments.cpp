@@ -345,7 +345,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
 
             //subtract mn payment from the stake reward
             if (!txNew.vout[1].IsZerocoinMint())
-                txNew.vout[i - 1].nValue -= masternodePayment + nDevReward;
+                txNew.vout[i - 1].nValue -= masternodePayment; //+ nDevReward;
         } else {
             txNew.vout.resize(2);
             txNew.vout[1].scriptPubKey = payee;
@@ -368,7 +368,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
             unsigned int i = txNew.vout.size();
 
             // <TF
-            CAmount nDevReward = blockValue * .1;
+            /*CAmount nDevReward = blockValue * .1;
             if (nDevReward > 0) {
                 CTxDestination destination = CBitcoinAddress(Params().DevAddress()).Get();
                 CScript DEV_SCRIPT = GetScriptForDestination(destination);
@@ -384,8 +384,8 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
             // TF>
 
             //subtract mn payment from the stake reward
-            if (!txNew.vout[1].IsZerocoinMint())
-                txNew.vout[i - 1].nValue -= nDevReward;
+            //if (!txNew.vout[1].IsZerocoinMint())
+            //    txNew.vout[i - 1].nValue -= nDevReward;
         }
     }
 }
