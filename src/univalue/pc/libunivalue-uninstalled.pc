@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/home/baggins/TWINS-Core/depends/x86_64-unknown-linux
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
