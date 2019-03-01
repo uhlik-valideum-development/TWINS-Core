@@ -325,12 +325,12 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
             txNew.vout.resize(i + 1);
 
             // <TF
-            CAmount nDevReward = blockValue * .1;
+            /*CAmount nDevReward = blockValue * .1;
             if (nDevReward > 0) {
                 CTxDestination destination = CBitcoinAddress(Params().DevAddress()).Get();
                 CScript DEV_SCRIPT = GetScriptForDestination(destination);
                 txNew.vout.push_back(CTxOut(nDevReward, CScript(DEV_SCRIPT.begin(), DEV_SCRIPT.end())));
-            }
+            }*/
 
            /* CAmount nGovReward = blockValue * .15;
             if (nGovReward > 0) {
