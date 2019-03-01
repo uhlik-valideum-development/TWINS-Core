@@ -128,6 +128,7 @@ public:
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 15000000 * COIN;
+        nLastPOSBootBlock = 600; 
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 300;
