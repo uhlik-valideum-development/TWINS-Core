@@ -256,7 +256,7 @@ public:
         nTargetSpacing = 2 * 60;  // TF: 2 minute
         nBootTargetTimespan = 10;   // Valideum custom
         nBootTargetSpacing = 20;    //
-        nLastBootBlock = 300;       //
+        nLastBootBlock = 600;       //
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
