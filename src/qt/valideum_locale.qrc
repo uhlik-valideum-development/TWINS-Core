@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/valideum_bg.qm</file>
+        <file alias="ca">locale/valideum_ca.qm</file>
+        <file alias="cs">locale/valideum_cs.qm</file>
+        <file alias="da">locale/valideum_da.qm</file>
+        <file alias="de">locale/valideum_de.qm</file>
+        <file alias="en">locale/valideum_en.qm</file>
+        <file alias="en_US">locale/valideum_en_US.qm</file>
+        <file alias="eo">locale/valideum_eo.qm</file>
+        <file alias="es">locale/valideum_es.qm</file>
+        <file alias="es_ES">locale/valideum_es_ES.qm</file>
+        <file alias="fi">locale/valideum_fi.qm</file>
+        <file alias="fr_FR">locale/valideum_fr_FR.qm</file>
+        <file alias="hi_IN">locale/valideum_hi_IN.qm</file>
+        <file alias="hr">locale/valideum_hr.qm</file>
+        <file alias="hr_HR">locale/valideum_hr_HR.qm</file>
+        <file alias="it">locale/valideum_it.qm</file>
+        <file alias="ja">locale/valideum_ja.qm</file>
+        <file alias="ko_KR">locale/valideum_ko_KR.qm</file>
+        <file alias="lt_LT">locale/valideum_lt_LT.qm</file>
+        <file alias="nl">locale/valideum_nl.qm</file>
+        <file alias="pl">locale/valideum_pl.qm</file>
+        <file alias="pt">locale/valideum_pt.qm</file>
+        <file alias="pt_BR">locale/valideum_pt_BR.qm</file>
+        <file alias="ro_RO">locale/valideum_ro_RO.qm</file>
+        <file alias="ru">locale/valideum_ru.qm</file>
+        <file alias="sk">locale/valideum_sk.qm</file>
+        <file alias="sv">locale/valideum_sv.qm</file>
+        <file alias="tr">locale/valideum_tr.qm</file>
+        <file alias="uk">locale/valideum_uk.qm</file>
+        <file alias="vi">locale/valideum_vi.qm</file>
+        <file alias="zh_CN">locale/valideum_zh_CN.qm</file>
+        <file alias="zh_TW">locale/valideum_zh_TW.qm</file>
+    </qresource>
+</RCC>

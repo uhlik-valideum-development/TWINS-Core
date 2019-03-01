@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TF
+Comment=TF P2P Cryptocurrency
+Comment[fr]=TF, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TF, eşten eşe kriptografik sanal para birimi
+Exec=valideum-qt %u
+Terminal=false
+Type=Application
+Icon=valideum128
+MimeType=x-scheme-handler/valideum;
+Categories=Office;Finance;
