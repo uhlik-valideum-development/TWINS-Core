@@ -1880,6 +1880,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
     ret = blockValue * .6;
 
+    if (nMasternodeCount == 0 || nHeight <= Params().LastBootBlock())
+        return blockValue;  // no need for mn payments till we have enough mns
+
     return ret;
 }
 
