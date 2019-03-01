@@ -128,7 +128,7 @@ public:
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 15000000 * COIN;
-        nLastPOSBootBlock = 600; 
+        nLastPOSBootBlock = 600;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 300;
@@ -181,7 +181,12 @@ public:
         vSeeds.push_back(CDNSSeedData("80.211.97.48", "80.211.97.48"));
         vSeeds.push_back(CDNSSeedData("35.228.223.14", "35.228.223.14"));
         vSeeds.push_back(CDNSSeedData("35.240.96.108", "35.240.96.108"));
-        devAddress = "";
+        vSeeds.push_back(CDNSSeedData("185.136.159.210", "185.136.159.210"));
+        vSeeds.push_back(CDNSSeedData("185.136.159.209", "185.136.159.209"));
+        vSeeds.push_back(CDNSSeedData("151.106.27.195", "151.106.27.195"));
+        vSeeds.push_back(CDNSSeedData("185.136.159.208", "185.136.159.208"));
+        vSeeds.push_back(CDNSSeedData("185.136.159.207 ", "185.136.159.207 "));
+        //devAddress = "";
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 83);
