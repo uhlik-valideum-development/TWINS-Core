@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("00000668c4e9890346718011ac0cbfe20094c1e20865be008f3d3fb26eac1e9e")); // genesis
+    (0, uint256("00000adcb47ef0dfbdf125e19494f6e1921792ab0d323d92c1857976818678c3")); // genesis
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -169,12 +169,12 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1551393153;
+        genesis.nTime = 1551549888;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 37804;
+        genesis.nNonce = 818663;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000668c4e9890346718011ac0cbfe20094c1e20865be008f3d3fb26eac1e9e"));
+        assert(hashGenesisBlock == uint256("0x00000adcb47ef0dfbdf125e19494f6e1921792ab0d323d92c1857976818678c3"));
         assert(genesis.hashMerkleRoot == uint256("0x50edf3fb7e86c96b6167d30af1ae150d409e8ddb8fad7fee026c5db25b8d8b25"));
 
         vSeeds.push_back(CDNSSeedData("80.211.97.48", "80.211.97.48"));
