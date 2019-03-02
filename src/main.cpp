@@ -1859,6 +1859,11 @@ double ConvertBitsToDouble(unsigned int nBits)
 int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
+    int halvings = nHeight / Params().SubsidyHalvingInterval();
+
+    // Force block reward to zero when right shift is undefined.
+    if (halvings >= 64)
+        return 0;
 
     // First block with initial pre-mine
     if (nHeight == 1) {
@@ -1866,6 +1871,7 @@ int64_t GetBlockValue(int nHeight)
 
     } else if (nHeight < 6569605)  {    // TODO: calculate when max supply reached
         nSubsidy = 13.9 * COIN;
+        nSubsidy >>= halvings;          // Subsidy is cut in half every x blocks
 
     } else {
         nSubsidy = 0;
