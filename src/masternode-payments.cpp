@@ -192,7 +192,7 @@ bool IsBlockValueValid(const CBlock& block, CAmount nExpectedValue, CAmount nMin
     }
 
     if (nHeight <= Params().LastPOSBootBlock()) {
-        LogPrint("masternode","IsBlockValueValid() : WARNING: Weird block value: %.2f\n", nExpectedValue);
+        LogPrint("masternode","IsBlockValueValid() : WARNING: Weird block value: %.2f\n", nMinted);
         return true;
     }
 
