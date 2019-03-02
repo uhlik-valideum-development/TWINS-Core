@@ -1864,7 +1864,10 @@ int64_t GetBlockValue(int nHeight)
     if (nHeight == 1) {
         nSubsidy = 100000 * COIN;
 
-    } else if (nHeight < 6569605)  {    // TODO: calculate when max supply reached
+    } else if (nHeight == 200) {
+        nSubsidy = 13.89 * COIN;
+
+    } else if (nHeight < 6569605) {    // TODO: calculate when max supply reached
         nSubsidy = 13.9 * COIN;
 
     } else {
