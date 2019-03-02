@@ -145,7 +145,6 @@ public:
         nEnforceNewSporkKey = 1547424000; //!> Sporks signed after (GMT): Monday, January 14, 2019 00:00:00 AM GMT must use the new spork key
         nRejectOldSporkKey = 1547510400; //!> Fully reject old spork key after (GMT): Tuesday, Janurary 15, 2019 00:00:00 AM GMT
 
-
         /** Valideum  extras **/
         nMasternodeCollateral = 1000 * COIN;
 
@@ -208,7 +207,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0496c1186ed9170fe353a6287c6f2b1ec768dcfc0fe71943067a0c21349dcf22af77a37f3202d540e85092ad4179f9b44806269450cd0982071ea7a9375ac7d949";
+        strSporkKey = "0425b51463218e9efc593161eefb3535710a4f2495a8159d43f02c0cf219aeafc37fbb459e9c432a7c7ec7e7b70627e1be17d8c01d1406315bdc1b6c5a58bc5c36";
         strSporkKeyOld = "04099a20766e8189e7427e5ae6c455fcde19c17fd35e61fa8e4b6aaf15c34bda62a0d3cede391a0f53cbe4736df8e5a58a1c05fbd8ec203a675ba50443e3841a32";
         strObfuscationPoolDummyAddress = "VBYmVfJcCTJv6evakKq2uWjX1sbadc6Ena";
         nStartMasternodePayments = 1537122249;
