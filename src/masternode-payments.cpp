@@ -191,6 +191,12 @@ bool IsBlockValueValid(const CBlock& block, CAmount nExpectedValue, CAmount nMin
         LogPrint("masternode","IsBlockValueValid() : WARNING: Couldn't find previous block\n");
     }
 
+    if (nHeight <= Params().LastPOSBootBlock()) {
+        LogPrint("masternode","IsBlockValueValid() : WARNING: Weird block value: %.2f\n", nExpectedValue);
+        return true;
+    }
+
+
     //LogPrintf("XX69----------> IsBlockValueValid(): nMinted: %d, nExpectedValue: %d\n", FormatMoney(nMinted), FormatMoney(nExpectedValue));
 
     if (!masternodeSync.IsSynced()) { //there is no budget data to use to check anything

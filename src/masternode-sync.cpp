@@ -27,6 +27,9 @@ CMasternodeSync::CMasternodeSync()
 
 bool CMasternodeSync::IsSynced()
 {
+     if (GetBoolArg("-nomnsync", false))
+        return true;
+
     return RequestedMasternodeAssets == MASTERNODE_SYNC_FINISHED;
 }
 
