@@ -80,7 +80,7 @@ bool CZTFStake::GetModifier(uint64_t& nStakeModifier)
 
     int64_t nTimeBlockFrom = pindex->GetBlockTime();
     while (true) {
-        if (pindex->GetBlockTime() - nTimeBlockFrom > 60*60) {
+        if (pindex->GetBlockTime() - nTimeBlockFrom > 10*60) {  //fix22
             nStakeModifier = pindex->nAccumulatorCheckpoint.Get64();
             return true;
         }
