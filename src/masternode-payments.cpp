@@ -328,30 +328,16 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
              */
 
             unsigned int i = txNew.vout.size();
-            txNew.vout.resize(i + 1);
 
-            // <TF
-            /*CAmount nDevReward = blockValue * .1;
-            if (nDevReward > 0) {
-                CTxDestination destination = CBitcoinAddress(Params().DevAddress()).Get();
-                CScript DEV_SCRIPT = GetScriptForDestination(destination);
-                txNew.vout.push_back(CTxOut(nDevReward, CScript(DEV_SCRIPT.begin(), DEV_SCRIPT.end())));
-            }*/
-
-           /* CAmount nGovReward = blockValue * .15;
-            if (nGovReward > 0) {
-                CTxDestination destination = CBitcoinAddress(Params().GovAddress()).Get();
-                CScript GOV_SCRIPT = GetScriptForDestination(destination);
-                txNew.vout.push_back(CTxOut(nGovReward, CScript(GOV_SCRIPT.begin(), GOV_SCRIPT.end())));
-            }*/
-            // TF>
-
-            txNew.vout[i].scriptPubKey = payee;
-            txNew.vout[i].nValue = masternodePayment;
+            CAmount mnReward = blockValue * .6;
+            if (mnReward > 0) {
+                txNew.vout.push_back(CTxOut(mnReward, CScript(payee.begin(), payee.end())));
+            }
 
             //subtract mn payment from the stake reward
             if (!txNew.vout[1].IsZerocoinMint())
-                txNew.vout[i - 1].nValue -= masternodePayment; //+ nDevReward;
+                txNew.vout[i - 1].nValue -= mnReward;
+
         } else {
             txNew.vout.resize(2);
             txNew.vout[1].scriptPubKey = payee;
@@ -364,35 +350,6 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
         CBitcoinAddress address2(address1);
 
         LogPrint("masternode","Masternode payment of %s to %s\n", FormatMoney(masternodePayment).c_str(), address2.ToString().c_str());
-    } else {
-        if (fProofOfStake) {
-            /**For Proof Of Stake vout[0] must be null
-             * Stake reward can be split into many different outputs, so we must
-             * use vout.size() to align with several different cases.
-             */
-
-            unsigned int i = txNew.vout.size();
-
-            // <TF
-            /*CAmount nDevReward = blockValue * .1;
-            if (nDevReward > 0) {
-                CTxDestination destination = CBitcoinAddress(Params().DevAddress()).Get();
-                CScript DEV_SCRIPT = GetScriptForDestination(destination);
-                txNew.vout.push_back(CTxOut(nDevReward, CScript(DEV_SCRIPT.begin(), DEV_SCRIPT.end())));
-            }
-
-            /*CAmount nGovReward = blockValue * .15;
-            if (nGovReward > 0) {
-                CTxDestination destination = CBitcoinAddress(Params().GovAddress()).Get();
-                CScript GOV_SCRIPT = GetScriptForDestination(destination);
-                txNew.vout.push_back(CTxOut(nGovReward, CScript(GOV_SCRIPT.begin(), GOV_SCRIPT.end())));
-            }*/
-            // TF>
-
-            //subtract mn payment from the stake reward
-            //if (!txNew.vout[1].IsZerocoinMint())
-            //    txNew.vout[i - 1].nValue -= nDevReward;
-        }
     }
 }
 
