@@ -8,8 +8,8 @@ reset-files.bash
 
 *.exe
 src/valideum
-src/valideumd
-src/valideum-cli
+#src/valideumd
+#src/valideum-cli
 src/valideum-tx
 src/test/test_valideum
 src/qt/test/test_valideum-qt
