@@ -123,15 +123,16 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60;
-        nTargetSpacing =  90;  // TF: 2 minute
+        nTargetTimespan = 90;
+        nTargetSpacing =  90;
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 15000000 * COIN;
-        nBootTargetTimespan = 10;   // Valideum custom
-        nBootTargetSpacing = 20;    //
-        nLastBootBlock = 0;         //
-        nLastPOSBootBlock = 0;      //
+        nLastBootBlock = 0;     // Valideum custom: no boost on mainnet
+        nLastPOSBootBlock = 0; 
+        nBootTargetTimespan = 90;
+        nBootTargetSpacing = 90;
+
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 300;
