@@ -128,11 +128,6 @@ public:
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 15000000 * COIN;
-        nLastBootBlock = 0;     // Valideum custom: no boost on mainnet
-        nLastPOSBootBlock = 0; 
-        nBootTargetTimespan = 90;
-        nBootTargetSpacing = 90;
-
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 300;
@@ -261,12 +256,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60;
-        nTargetSpacing = 2 * 60;  // TF: 2 minute
-        nBootTargetTimespan = 10;   // Valideum custom
-        nBootTargetSpacing = 20;    //
-        nLastBootBlock = 600;       //
-        nLastPOWBlock = 200;
+        nTargetTimespan = 90;
+        nTargetSpacing = 90;  // TF: 2 minute
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT

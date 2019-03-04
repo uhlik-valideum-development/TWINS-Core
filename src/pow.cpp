@@ -40,16 +40,6 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         int64_t nTargetSpacing = Params().TargetSpacing(); //60 * 2;
         int64_t nTargetTimespan = Params().TargetSpacing();
 
-        if (pindexLast->nHeight <= Params().LastBootBlock()) {
-            nTargetSpacing = Params().BootTargetSpacing();
-            nTargetTimespan = Params().BootTargetTimespan();
-        }
-
-        // For accepting blocks before TargetSpacing change (block 300)
-		 /*   if (BlockLastSolved->nHeight < 300) {
-			       nTargetSpacing = 90;
-		    } */
-
         int64_t nActualSpacing = 0;
         if (pindexLast->nHeight != 0)
             nActualSpacing = pindexLast->GetBlockTime() - pindexLast->pprev->GetBlockTime();
@@ -103,9 +93,6 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     uint256 bnNew(PastDifficultyAverage);
 
     int64_t _nTargetTimespan = CountBlocks * Params().TargetSpacing();
-
-    if (pindexLast->nHeight < Params().LastBootBlock())
-        _nTargetTimespan = CountBlocks * Params().BootTargetSpacing();
 
     if (nActualTimespan < _nTargetTimespan / 3)
         nActualTimespan = _nTargetTimespan / 3;

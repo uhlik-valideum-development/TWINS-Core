@@ -75,10 +75,6 @@ public:
     bool RequireStandard() const { return fRequireStandard; }
     int64_t TargetTimespan() const { return nTargetTimespan; }
     int64_t TargetSpacing() const { return nTargetSpacing; }
-    int64_t BootTargetTimespan() const { return nBootTargetTimespan; }  // Validium
-    int64_t BootTargetSpacing() const { return nBootTargetSpacing; }    //
-    int LastBootBlock() const { return nLastBootBlock; }                //
-    int LastPOSBootBlock() const { return nLastPOSBootBlock; }                //
     int64_t Interval() const { return nTargetTimespan / nTargetSpacing; }
     int COINBASE_MATURITY() const { return nMaturity; }
     CAmount MaxMoneyOut() const { return nMaxMoneyOut; }
@@ -154,10 +150,6 @@ protected:
     int nToCheckBlockUpgradeMajority;
     int64_t nTargetTimespan;
     int64_t nTargetSpacing;
-    int64_t nBootTargetTimespan;   // Valideum custom
-    int64_t nBootTargetSpacing;    //
-    int nLastBootBlock;            //
-    int nLastPOSBootBlock;          //
     int nLastPOWBlock;
     int nMasternodeCountDrift;
     int nMaturity;

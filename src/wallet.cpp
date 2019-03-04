@@ -2113,7 +2113,7 @@ bool CWallet::SelectStakeCoins(std::list<std::unique_ptr<CStakeInput> >& listInp
             }
 
             //check for min age
-            if (GetAdjustedTime() - nTxTime < ((chainActive.Tip()->nHeight <= Params().LastBootBlock()) ? nStakeMinAge / 10 : nStakeMinAge))
+            if (GetAdjustedTime() - nTxTime < nStakeMinAge)
                 continue;
 
             //check that it is matured
@@ -2186,7 +2186,7 @@ bool CWallet::MintableCoins()
                 nTxTime = mapBlockIndex.at(out.tx->hashBlock)->GetBlockTime();
             }
 
-            if (GetAdjustedTime() - nTxTime > ((chainActive.Tip()->nHeight <= Params().LastBootBlock()) ? nStakeMinAge / 10 : nStakeMinAge))
+            if (GetAdjustedTime() - nTxTime > nStakeMinAge)
                 return true;
         }
     }
