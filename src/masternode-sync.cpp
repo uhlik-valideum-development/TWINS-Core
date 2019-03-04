@@ -271,7 +271,7 @@ void CMasternodeSync::Process()
     BOOST_FOREACH (CNode* pnode, vNodes) {
         if (Params().NetworkID() == CBaseChainParams::REGTEST) {
             if (RequestedMasternodeAttempt <= 2) {
-                pnode->PushMessage("getsporks"); //get current network sporks
+                //pnode->PushMessage("getsporks"); //get current network sporks
             } else if (RequestedMasternodeAttempt < 4) {
                 mnodeman.DsegUpdate(pnode);
             } else if (RequestedMasternodeAttempt < 6) {
@@ -288,10 +288,10 @@ void CMasternodeSync::Process()
 
         //set to synced
         if (RequestedMasternodeAssets == MASTERNODE_SYNC_SPORKS) {
-            if (pnode->HasFulfilledRequest("getspork")) continue;
-            pnode->FulfilledRequest("getspork");
+            //if (pnode->HasFulfilledRequest("getspork")) continue;
+            //pnode->FulfilledRequest("getspork");
 
-            pnode->PushMessage("getsporks"); //get current network sporks
+            //pnode->PushMessage("getsporks"); //get current network sporks
             if (RequestedMasternodeAttempt >= 2) GetNextAsset();
             RequestedMasternodeAttempt++;
 

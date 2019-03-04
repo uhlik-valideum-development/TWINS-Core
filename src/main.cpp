@@ -80,7 +80,7 @@ bool fVerifyingBlocks = false;
 unsigned int nCoinCacheSize = 5000;
 bool fAlerts = DEFAULT_ALERTS;
 
-unsigned int nStakeMinAge = 30 * 60;
+unsigned int nStakeMinAge = 3 * 60 * 60;
 int64_t nReserveBalance = 0;
 
 /** Fees smaller than this (in uvalideum) are considered zero fee (for relaying and mining)
@@ -1886,8 +1886,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
     ret = blockValue * .6;
 
-    if (nMasternodeCount == 0 || nHeight <= Params().LastBootBlock())
-        return blockValue;  // no need for mn payments till we have enough mns
+    //if (nMasternodeCount == 0 || nHeight <= Params().LastBootBlock())
+    //    return blockValue;  // no need for mn payments till we have enough mns
 
     return ret;
 }
@@ -5618,7 +5618,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 
         if (fMissingSporks || !fRequestedSporksIDB){
             LogPrintf("asking peer for sporks\n");
-            pfrom->PushMessage("getsporks");
+            //pfrom->PushMessage("getsporks");
             fRequestedSporksIDB = true;
         }
 

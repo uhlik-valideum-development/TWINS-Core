@@ -292,8 +292,8 @@ bool stakeTargetHit(uint256 hashProofOfStake, int64_t nValueIn, uint256 bnTarget
     uint256 bnCoinDayWeight = uint256(nValueIn) / 100;
 
     // issue #23
-    if (chainActive.Tip()->nHeight < Params().LastBootBlock() + 100)
-        return true;
+    //if (chainActive.Tip()->nHeight < Params().LastBootBlock() + 100)
+    //    return true;
 
     // Now check if proof-of-stake hash meets target protocol
     return hashProofOfStake < (bnCoinDayWeight * bnTargetPerCoinDay);
