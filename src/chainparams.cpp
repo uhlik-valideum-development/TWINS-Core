@@ -123,8 +123,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 90;
-        nTargetSpacing =  90;
+        nTargetTimespan = 90 * 40;
+        nTargetSpacing = 90;
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 15000000 * COIN;
@@ -256,7 +256,7 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 90;
+        nTargetTimespan = 90 * 40;
         nTargetSpacing = 90;  // TF: 2 minute
         nMaturity = 15;
         nMasternodeCountDrift = 4;
